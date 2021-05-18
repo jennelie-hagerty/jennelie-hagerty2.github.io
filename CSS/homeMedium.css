@@ -1,0 +1,22 @@
+@media only screen and (min-width: 641px) {
+
+  #headerBlock {
+    width: 100%;
+  }
+
+  h2 {
+    margin-left: 50%;
+  }
+
+  #breakLine {
+    width: 500px;
+    margin-left: 35px;
+  }
+
+
+  footer {
+    width: 100%;
+  }
+
+  main {max-width: 100%;}
+}

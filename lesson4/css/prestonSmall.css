@@ -1,0 +1,131 @@
+#entirePage {
+    background-color: #e6e6fa;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+  
+  header {
+    width: auto;
+    height: 150px;
+    background-color: #140152;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f8f8f8;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Raleway", sans-serif;
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+  #logo1 {
+    float: left;
+    margin-left: 5px;
+    margin-top: -60px;
+  }
+  
+  #logo2 {
+    float: right;
+    margin-right: 5px;
+    margin-top: -60px;
+  }
+
+  .motto {
+      font-size: 15px;
+  }
+  
+  footer {
+    width: auto;
+    height: 100px;
+    background-color: #140152;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f8f8f8;
+    text-align: center;
+  }
+
+nav button {
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+}
+
+  nav {
+      width: 0 auto;
+      max-width: 760px;
+      background-color: #8a2be2;
+      border: #000 solid 2px;
+      border-radius: 25px;
+      color: #f8f8f8;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+  h2 {
+    font-family: "Raleway", sans-serif;
+    color: #564592;
+  }
+
+  .hero {
+      width: auto;
+      height: 50px;
+      background-color: #564592;
+  }
+
+  .fiveday {
+    width: auto;
+    height: 50px;
+    background-color: #8a2be2;
+  }
+
+  .article {
+    width: auto;
+    height: 50px;
+    background-color: #564592;
+  }
+
+  .map {
+    width: auto;
+    height: 50px;
+    background-color: #8a2be2;
+  }
+
+  .contact {
+    width: auto;
+    height: 50px;
+    background-color: #564592;
+  }
+
+
+
+
+
+
+  /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
