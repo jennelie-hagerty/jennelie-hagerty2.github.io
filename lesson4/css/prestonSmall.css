@@ -1,131 +1,135 @@
 #entirePage {
-    background-color: #e6e6fa;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    color: black;
-  }
-  
-  header {
-    width: auto;
-    height: 150px;
-    background-color: #140152;
-    border-radius: 25px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #f8f8f8;
-    text-align: center;
-  }
-  
-  h1 {
-    font-family: "Raleway", sans-serif;
-    padding-top: 40px;
-    font-size: 20px;
-  }
-  
-  #logo1 {
-    float: left;
-    margin-left: 5px;
-    margin-top: -60px;
-  }
-  
-  #logo2 {
-    float: right;
-    margin-right: 5px;
-    margin-top: -60px;
-  }
-
-  .motto {
-      font-size: 15px;
-  }
-  
-  footer {
-    width: auto;
-    height: 100px;
-    background-color: #140152;
-    border-radius: 25px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #f8f8f8;
-    text-align: center;
-  }
-
-nav button {
-    margin: 10px;
-    background-color: transparent;
-    border: none;
-    font-size: 50px;
+  background-color: #e6e6fa;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
 }
 
-  nav {
-      width: 0 auto;
-      max-width: 760px;
-      background-color: #8a2be2;
-      border: #000 solid 2px;
-      border-radius: 25px;
-      color: #f8f8f8;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-  }
-
-  nav ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 10px;
+header {
+  width: auto;
+  height: 150px;
+  background-color: #140152;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f8f8f8;
+  text-align: center;
 }
 
-.hide {
-    display: none;
+h1 {
+  font-family: "Raleway", sans-serif;
+  padding-top: 40px;
+  font-size: 20px;
 }
 
-  h2 {
-    font-family: "Raleway", sans-serif;
-    color: #564592;
-  }
+#logo1 {
+  float: left;
+  margin-left: 5px;
+  margin-top: -60px;
+}
 
-  .hero {
-      width: auto;
-      height: 50px;
-      background-color: #564592;
-  }
+#logo2 {
+  float: right;
+  margin-right: 5px;
+  margin-top: -60px;
+}
 
-  .fiveday {
-    width: auto;
-    height: 50px;
-    background-color: #8a2be2;
-  }
+.motto {
+  font-size: 15px;
+}
 
-  .article {
-    width: auto;
-    height: 50px;
-    background-color: #564592;
-  }
+footer {
+  width: auto;
+  height: 100px;
+  background-color: #140152;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f8f8f8;
+  text-align: center;
+}
 
-  .map {
-    width: auto;
-    height: 50px;
-    background-color: #8a2be2;
-  }
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: #8a2be2;
+  border: #000 solid 2px;
+  border-radius: 25px;
+  color: #f8f8f8;
+}
 
-  .contact {
-    width: auto;
-    height: 50px;
-    background-color: #564592;
-  }
+.navigation {
+  list-style: none;
+  padding: 0;
+}
 
+.navigation li:first-child {
+  display: block;
+}
 
+.navigation li {
+  display: none;
+}
 
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+}
 
+.navigation a:hover {
+  color: #f8f8f8;
+}
 
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
 
-  /*----- Clearfix: Force an Element not to collapse -----*/
+.responsive li {
+	display: block;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #564592;
+}
+
+.hero {
+  width: auto;
+  height: 50px;
+  background-color: #564592;
+}
+
+.fiveday {
+  width: auto;
+  height: 50px;
+  background-color: #8a2be2;
+}
+
+.article {
+  width: auto;
+  height: 50px;
+  background-color: #564592;
+}
+
+.map {
+  width: auto;
+  height: 50px;
+  background-color: #8a2be2;
+}
+
+.contact {
+  width: auto;
+  height: 50px;
+  background-color: #564592;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  content: "";
+  display: table;
+  clear: both;
+}
