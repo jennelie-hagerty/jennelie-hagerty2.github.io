@@ -1,0 +1,59 @@
+@media only screen and (min-width: 1008px) {
+
+    .topNav {
+        display: block;
+        margin: 0 auto;
+         max-width: 80%;
+       }
+
+       .navigation {
+           display: flex;
+           list-style: none;
+       }
+
+       .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+       .responsive li {
+        display: none;}
+    
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+.hero {
+    max-width: 80%;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.fiveday {
+    max-width: 80%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.article {
+    max-width: 80%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.map {
+    max-width: 80%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.contact {
+    max-width: 80%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+} /*end large */

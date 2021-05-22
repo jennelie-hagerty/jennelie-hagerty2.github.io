@@ -9,13 +9,13 @@
       content="Weather Site for Jennelie Hagerty in 
   WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
-    
+
     <title>Weather 2 Go|Preston</title>
 
-    <link rel="stylesheet" href="../lesson4/css/normalize.css" />
-    <link rel="stylesheet" href="../lesson4/css/prestonSmall.css" />
+    <link rel="stylesheet" href="css/normalize-p-5.css" />
+    <link rel="stylesheet" href="css/preston-5small.css" />
     <link rel="stylesheet" href="" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/preston-5large.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
@@ -46,9 +46,9 @@
       <p class="motto">Weather for those on the go!</p>
     </header>
     <main>
-      <nav class="clearfix">
+      <nav class="topNav">
         <ul class="navigation">
-          <li><a class="ham" href="#"> &#9776;Menu</a></li>
+          <li><a class="ham" href="#">Menu</a></li>
           <li><a href="../index.html">Home</a></li>
           <li><a href="">Preston</a></li>
           <li><a href="">Soda Springs</a></li>
@@ -58,10 +58,12 @@
         </ul>
       </nav>
 
-        <!--<button onclick="toggleMenu()">&#9776;hamburger</button>-->
-
       <h2>Preston</h2>
-      <div class="hero">Hero Image/Weather Summary</div>
+      <div class="hero">
+        <img href src="images/heroMed-Lar.jpg" width="519" />
+        <h3>Weather Summary</h3>
+      </div>
+
       <div class="fiveday">5 day forecast</div>
       <div class="article">Article</div>
       <div class="map">Map</div>
@@ -69,6 +71,7 @@
     </main>
 
     <footer>
+      <p class="fpara">
         &copy; 2021 | Jennelie Hagerty | North Carolina |<a
           href="https://www.byui.edu/online"
         >
@@ -76,8 +79,8 @@
         </a>
         <br /><br />
         Last Modified: <span id="currentdate"></span>
-        <script src="../lesson4/js/prestonJS.js"></script>
-      </footer>
-
+        <script src="js/assignmentPage.js"></script>
+      </p>
+    </footer>
   </body>
 </html>
