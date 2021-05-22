@@ -44,7 +44,7 @@ h1 {
 .topNav {
   /* margin: 0 auto;*/
   max-width: 25%;
-  height: 60px;
+  height: auto;
   background-color: #8a2be2;
   border: #000 solid 2px;
   border-radius: 25px;
@@ -54,6 +54,7 @@ h1 {
 .navigation {
   list-style: none;
   padding: 0;
+  background-color: #8a2be2;
 }
 
 .navigation li:first-child {
@@ -67,25 +68,40 @@ h1 {
 .navigation a {
   display: block;
   padding: 0.75rem;
-  text-align: left;
   text-decoration: none;
   color: #f8f8f8;
 }
 
-.navigation a:hover {
-  color: yellow;
+.navigation li {
+  display: block;
 }
-
-a:visited {
-  color: aqua;
-}
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-    <ul class="navigation responsive">
-  */
 
 .responsive li {
   display: block;
+  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
+  display block because the responsive class is added to the end of the class list like this in HTML.    
+  <ul class="navigation responsive">
+  */
+}
+
+/* unvisited link */
+a:link {
+  color: #f8f8f8;
+}
+
+/* visited link 
+a:visited {
+  color: aqua ;
+}*/
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: coral;
 }
 
 h2 {
@@ -94,8 +110,18 @@ h2 {
 }
 
 .hero {
-  width: 100%;
+  text-align: center;
+}
+
+.heroimg {
+  width: 80%;
   height: auto;
+  border-radius: 50px;
+}
+
+.summary {
+  text-align: left;
+  margin-left: 15px;
 }
 
 .fiveday {

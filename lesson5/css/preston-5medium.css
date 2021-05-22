@@ -1,13 +1,30 @@
-@media only screen and (min-width: 641px) {
-    nav button {
-        display: none;
-    }
+@media only screen and (min-width: 640px) {
 
-    nav ul.hide {
-        display: block;
-    }    
+.topNav {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
 
-    nav ul li {
-        float: left;
-    }
-}/* endn medium*/
+.navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+  }
+
+.responsive li {
+    display: none;
+}
+
+.navigation a {
+    display: flex;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  a.ham {
+      display: none;
+  }
+}
