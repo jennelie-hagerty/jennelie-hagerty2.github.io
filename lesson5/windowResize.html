@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Window resize example</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      div {
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        background-image: url(bgtile.png);
+        border: 10px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+
+    <script>
+      /*1*/ const div = document.querySelector("div");
+      let winWidth = window.innerWidth;
+      let winHeight = window.innerHeight;
+
+      /*2*/ div.style.width = winWidth + "px";
+      div.style.height = winHeight + "px";
+
+      /*3*/ window.onresize = function () {
+        winWidth = window.innerWidth;
+        winHeight = window.innerHeight;
+        div.style.width = winWidth + "px";
+        div.style.height = winHeight + "px";
+      };
+    </script>
+  </body>
+
+  <!--Active learning: Getting useful information from the Window object
+So far we've only really looked at using Node and Document features to manipulate documents, but there is no reason why you can't 
+get data from other sources and use it in your UI. You just have to make sure your data is in the right format; JavaScript makes it 
+easier than many other languages, being weakly typed — for example numbers will convert to strings automatically when you want to 
+print them to the screen.
+
+In this example we will solve a common problem — making sure your application is as big as the window it is viewed in, whatever size 
+it is. This is often useful in situations like games, where you want to use as much of the screen area as possible to play the game in.
+
+To start with, make a local copy of our window-resize-example.html and bgtile.png demo files. Open it and have a look — you'll see that 
+we've got a <div> element covering a small part of the screen, which has got a background tile applied to it. We'll use that to 
+represent our app UI area.
+
+First of all, let's grab a reference to the div, and then grab the width and height of the viewport (the inner window, where your 
+document is displayed) and store them in variables — these two values are handily contained in the Window.innerWidth and 
+Window.innerHeight properties. Add the following lines inside the existing <script> element:
+
+const div = document.querySelector('div');
+let winWidth = window.innerWidth;
+let winHeight = window.innerHeight;
+
+Next, we'll dynamically alter the width and height of the div to equal that of the viewport. Add the following two lines below your 
+first ones:
+
+div.style.width = winWidth + 'px';
+div.style.height = winHeight + 'px';
+
+Save and try refreshing your browser — you should now see the div become as big as your viewport, whatever size of screen your are 
+using. If you now try resizing your window to make it bigger, you'll see that the div stays the same size — we are only setting it once.
+How about we use an event so that the div resizes as we resize the window? The Window object has an event available on it called resize, 
+which is fired every time the window is resized — let's access that via the Window.onresize event handler and rerun our sizing code 
+each time it changes. Add the following to the bottom of your code:
+
+window.onresize = function() {
+  winWidth = window.innerWidth;
+  winHeight = window.innerHeight;
+  div.style.width = winWidth + 'px';
+  div.style.height = winHeight + 'px';
+}-->
+</html>
