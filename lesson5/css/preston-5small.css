@@ -107,6 +107,13 @@ a:active {
 h2 {
   font-family: "Raleway", sans-serif;
   color: #564592;
+  margin-left: 10px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #564592;
+  margin-left: 10px;
 }
 
 .hero {
@@ -122,35 +129,92 @@ h2 {
 .summary {
   text-align: left;
   margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.currentimg {
+  width: 90%;
+  display: block;
+  border: #564592 solid 3px;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 .fiveday {
-  width: auto;
-  height: 50px;
-  background-color: #564592;
-  color: #f8f8f8;
+  text-align: center;
+}
+
+.cast {
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.foreimg {
+  width: 90%;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: #564592 solid 3px;
+  border-radius: 20px;
 }
 
 .article {
-  width: auto;
-  height: 50px;
-  background-color: #564592;
-  color: #f8f8f8;
+  text-align: center;
+}
+
+.art {
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.artpara {
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 .map {
-  width: auto;
-  height: 50px;
-  background-color: #8a2be2;
-  color: #f8f8f8;
+  text-align: center;
+}
+
+.mapheading {
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.iframe {
+  width: 80%;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 20px;
 }
 
 .contact {
-  width: auto;
-  height: 50px;
-  color: #f8f8f8;
-  background-color: #564592;
+  text-align: center;
 }
+
+.cont {
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.contpara {
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+
 
 footer {
   width: 90%;
