@@ -11,7 +11,7 @@
 
     <title>WDD 230 Assigment Home Page</title>
 
-    <link rel="shortcut icon" href="homeImages/favicon.ico">
+    <link rel="shortcut icon" href="homeImages/favicon.ico" />
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/homeSmall.css" />
     <link rel="stylesheet" href="CSS/homeMedium.css" />
@@ -31,11 +31,13 @@
     <header>
       <div id="headerBlock">
         <h1>Jennelie Hagerty</h1>
-        <img src="homeImages/WDD230.jpg" alt="picture of developer" width="200" />
+        <img
+          src="homeImages/WDD230.jpg"
+          alt="picture of developer"
+          width="200"
+        />
       </div>
     </header>
-
-
 
     <main>
       <h2>WDD: 230 Assignment Portal</h2>
@@ -67,7 +69,20 @@
       </a>
       <br /><br />
       Last Modified: <span id="currentdate"></span>
-    <script src="js/assignmentPage.js"></script>
-  </footer>
+      <script src="js/assignmentPage.js"></script>
+    </footer>
+    <!--web font loader
+     "Web Font Loader gives you added control when using linked fonts via @font-face. It provides a common interface 
+     to loading fonts regardless of the source, then adds a standard set of events you may use to control the loading experience. 
+     The Web Font Loader is able to load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-hosted web fonts. 
+     It is co-developed by Google and Typekit."-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      webfont.load({
+        google: {
+          families: ["LobsterTwo"],
+        },
+      });
+    </script>
   </body>
 </html>
