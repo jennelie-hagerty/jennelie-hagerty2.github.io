@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Weather Site for Jennelie Hagerty in 
+  WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+
+  <title>Weather 2 Go|Preston</title>
+
+  <link rel="stylesheet" href="css/normalize-p-6.css" />
+  <link rel="stylesheet" href="css/preston-6small.css" />
+  <link rel="stylesheet" href="css/preston-6medium.css" />
+  <link rel="stylesheet" href="css/preston-6large.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" />
+  <!--para text-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" />
+  <!--headings text-->
+</head>
+
+<body id="entirePage">
+  <header>
+    <h1>Weather 2 Go</h1>
+    <img id="logo1" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+    <img id="logo2" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+    <p class="motto">Weather for those on the go!</p>
+  </header>
+  <main>
+    <nav class="topNav">
+      <ul class="navigation">
+        <li><a class="ham" href="#">Menu</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="">Storm Center</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <h2>Preston Idaho</h2>
+    <div class="hero">
+      <picture>
+        <source srcset="images/franklin800.jpeg" media="(min-width: 700px) and (max-width:999px)" />
+        <source srcset="images/franklin1100.jpeg" media="(min-width: 1000px)" />
+        <img class="heroimg" src="images/franklin400.jpeg" alt="landscape view of mountions with glaring sun above" />
+      </picture>
+
+      <div class="sumdiv">
+        <h3 class="summary">Currently</h3>
+        <p class="cur">Current: Sunny</p>
+        <p class="temp">Temperature: 76&#8457</p>
+        <p class="hum">Humidity: 69&#37</p>
+        <p class="wind">Wind Speed: 5 mph</p>
+        <p class="winC">Windchill:</p>
+      </div>
+    </div>
+
+    <div class="fiveday">
+      <h3 class="cast">Five Day Forecast</h3>
+      <img class="foreimg" src="images/fiveday.jpg" alt="image of 5 day forecast" width="400" />
+    </div>
+
+    <div class="article">
+
+      <picture>
+        <source srcset="images/rodeo800.jpg" media="(min-width: 700px) and (max-width:999px)" />
+        <source srcset="images/rodeo1100.jpg" media="(min-width:1000px)" />
+        <img class="rodeoimg" src="images/rodeo400.jpg" alt="man riding bucking horse">
+      </picture>
+
+      <h3 class="art">Remember the Rodeo</h3>
+      <p class="artpara">
+        Folks, bring the family and kids out for a night of fun this July. Returning this year is the long-time favorite "The Famous Preston Night Rodeo". 
+        This year's show will be held on July 29, 30, and 31. Tickets go on sale on May 20, 2021.<br>
+        As a special treat this year, Garth Brooks will be returning to take on the most sinister bull this side of the Mississippi, Lord Voldermort. 
+        Fred and George Weasley, our famously hilarious clowns, will also be returning. The Weasley Clowns cannot wait to provide hilarious entertainment, 
+        and of course, to assist the competitors if needed. Elvis Presley will be the opening night's headliner. <br>
+        <a href="https://www.prestonrodeo.com/">
+         continue story...
+        </a>
+      </p>
+    </div>
+
+    <div class="contact">
+      <h3 class="cont">Contact Information</h3>
+      <p class="contpara">
+        777 Deathly Hallows BLVD.<br />
+        Preston, ID 83263<br />
+        Phone: (208) 427-7677<br />
+        Email: info@seidweather.com
+      </p>
+
+      <div class="map">
+        <h3 class="mapheading">Map</h3>
+        <iframe class="iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621737562969!5m2!1sen!2sus"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p class="fpara">
+      &copy; 2021 | Jennelie Hagerty | North Carolina |<a href="https://www.byui.edu/online">
+        BYUI Online Learning
+      </a>
+      <br /><br />
+      Last Modified: <span id="currentdate"></span>
+      <script src="js/prestonJS.js"></script>
+    </p>
+  </footer>
+
+  <!--web font loader
+     "Web Font Loader gives you added control when using linked fonts via @font-face. It provides a common interface 
+     to loading fonts regardless of the source, then adds a standard set of events you may use to control the loading experience. 
+     The Web Font Loader is able to load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-hosted web fonts. 
+     It is co-developed by Google and Typekit."-->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    webfont.load({
+      google: {
+        families: ["Montserrat, Raleway"],
+      },
+    });
+  </script>
+</body>
+
+</html>

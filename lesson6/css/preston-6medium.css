@@ -1,0 +1,117 @@
+@media only screen and (min-width: 700px) {
+  #logo1 {
+    margin-top: -70px;
+  }
+
+  #logo2 {
+    margin-top: -70px;
+  }
+
+  .topNav {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .responsive li:first-child {
+    display: none;
+  }
+
+  .navigation a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  a.ham {
+    display: none;
+  }
+
+  .heroimg {
+    height: 300px;
+  }
+
+  .cur {
+    text-align: center;
+  }
+
+  .temp {
+    text-align: center;
+  }
+
+  .hum {
+    text-align: center;
+  }
+
+  .wind {
+    text-align: center;
+  }
+
+  .winC {
+    text-align: center;
+  }
+
+  .fiveday {
+    display: block;
+    text-align: center;
+  }
+
+  .cast {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .foreimg {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+
+  .art {
+    margin-top: 50px;
+  }
+
+  .artpara {
+    text-align: left;
+    width: 80%;
+    display: block;
+    margin-left: 10px;
+  }
+
+  .rodeoimg {
+    margin-top: 50px;
+    width: 50%;
+    float: right;
+    height: 300px;
+    padding: 15px;
+  }
+
+  .map {
+    display: block;
+  }
+
+  .mapheading {
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+
+  .iframe {
+    width: 80%;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+  }
+}

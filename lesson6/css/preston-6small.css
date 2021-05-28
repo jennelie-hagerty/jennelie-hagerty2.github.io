@@ -1,0 +1,238 @@
+#entirePage {
+  background-color: #e6e6fa;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+header {
+  width: 90%;
+  height: 120px;
+  background-color: #140152;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+#logo1 {
+  float: left;
+  margin-left: 5px;
+  margin-top: -60px;
+  max-width: 15%;
+}
+
+#logo2 {
+  float: right;
+  margin-right: 5px;
+  margin-top: -60px;
+  max-width: 15%;
+}
+
+.motto {
+  font-size: 15px;
+}
+
+.topNav {
+  margin: 0 auto;
+  max-width: 90%;
+  height: auto;
+  background-color: #8a2be2;
+  border: #000 solid 2px;
+  border-radius: 25px;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  background-color: #8a2be2;
+}
+
+.navigation li:first-child {
+  display: block;
+  text-align: center;
+}
+
+.navigation li {
+  display: none;
+  text-align: center;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.navigation li {
+  display: none;
+}
+
+.responsive li {
+  display: block;
+  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
+  display block because the responsive class is added to the end of the class list like this in HTML.    
+  <ul class="navigation responsive">
+  */
+}
+
+/* unvisited link */
+/*a:link {
+  color: #f8f8f8;
+}*/
+
+/*visited link*/ 
+/*a:visited {
+  color: aqua;
+}*/
+
+/* mouse over link */
+/*a:hover {
+  color: yellow;
+}
+*/
+
+/* selected link */
+/*a:active {
+  color: coral;
+}*/ 
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #564592;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #564592;
+  margin-left: 10px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.heroimg {
+  width: 90%;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.sumdiv {
+  width: 90%;
+  height: auto;
+  background-color: #8a2be2;
+  color: #f8f8f8;
+  border-radius: 25px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary {
+  text-decoration: underline;
+  color: #f8f8f8;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cur {
+  margin-left: 15px;
+}
+
+.temp {
+  margin-left: 15px;
+}
+
+.hum {
+  margin-left: 15px;
+}
+
+.wind {
+  margin-left: 15px;
+}
+
+.winC {
+  margin-left: 15px;
+  padding-bottom: 15px;
+}
+
+.fiveday {
+  display: none;
+}
+
+.article {
+  text-align: center;
+}
+
+.rodeoimg {
+  width: 90%;
+  height: 200;
+  border-radius: 25px;
+}
+
+.art {
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.artpara {
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.map {
+  display: none;
+}
+
+.contact {
+  background-color:#8a2be2;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.cont {
+  color: #f8f8f8;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.contpara {
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+footer {
+  width: 90%;
+  height: 90px;
+  background-color: #140152;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #f8f8f8;
+}
+
+.fpara {
+  font-size: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
