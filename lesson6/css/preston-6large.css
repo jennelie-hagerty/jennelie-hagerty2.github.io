@@ -46,52 +46,53 @@
   }
 
   .summary {
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
   }
 
   .cast {
-    text-align: left;
-    margin-left: 75px;
+    text-align: center;
   }
 
   .foreimg {
-    width: 40%;
-    height: 200px;
-    margin-left: 100px;
+    width: 90%;
+    height: 300px;
+  }
+
+  .rodeoimg {
+    width: 80%;
+    height: 500px;
+    float: none;
   }
 
   .art {
-    text-align: left;
-    margin-left: 75px;
+    margin-left: 20px;
   }
 
   .artpara {
-    text-align: left;
-    margin-left: 100px;
+    margin-left: 35px;
   }
 
-  .mapheading {
-    text-align: left;
-    margin-left: 75px;
-  }
-
-  .iframe {
+  .contact {
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .cont {
     text-align: center;
+    font-size: 30px;
+    margin-top: 170px;
   }
 
   .contpara {
     text-align: center;
-    margin-left: 160px;
+    margin-left: 70px;
+    font-size: 30px;
   }
-
+  
   footer {
-    width: 70%;
+    width: 90%;
     height: 120px;
     margin-left: auto;
     margin-right: auto;
@@ -99,10 +100,5 @@
 
   .fpara {
     font-size: 20px;
-  }
-
-  .rodeoimg {
-    width: 40%;
-    height: 400px;
   }
 } /*end large */

@@ -14,17 +14,17 @@
   <link rel="stylesheet" href="css/preston-6small.css" />
   <link rel="stylesheet" href="css/preston-6medium.css" />
   <link rel="stylesheet" href="css/preston-6large.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" />
+  <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" />-->
   <!--para text-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" />
+  <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" />-->
   <!--headings text-->
 </head>
 
 <body id="entirePage">
   <header>
     <h1>Weather 2 Go</h1>
-    <img id="logo1" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
-    <img id="logo2" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+    <img id="logo1" src="../lesson6/images/logo_white_large.png" alt="logo for weather site" width="100" />
+    <img id="logo2" src="../lesson6/images/logo_white_large.png" alt="logo for weather site" width="100" />
     <p class="motto">Weather for those on the go!</p>
   </header>
   <main>
@@ -43,43 +43,48 @@
     <h2>Preston Idaho</h2>
     <div class="hero">
       <picture>
-        <source srcset="images/franklin800.jpeg" media="(min-width: 700px) and (max-width:999px)" />
-        <source srcset="images/franklin1100.jpeg" media="(min-width: 1000px)" />
-        <img class="heroimg" src="images/franklin400.jpeg" alt="landscape view of mountions with glaring sun above" />
+        <source media="(max-width: 399px)" srcset="images/franklin400.jpeg">
+        <source media="(min-width: 400px) and (max-width: 899px)" srcset="images/franklin700.jpeg">
+        <source media="(min-width: 900px)" srcset="images/franklin1000.jpeg">
+        <img class="heroimg" src="../lesson6/images/franklinOriginal.jpeg" alt="blazing sun over mountains">
       </picture>
 
       <div class="sumdiv">
         <h3 class="summary">Currently</h3>
-        <p class="cur">Current: Sunny</p>
-        <p class="temp">Temperature: 76&#8457</p>
-        <p class="hum">Humidity: 69&#37</p>
-        <p class="wind">Wind Speed: 5 mph</p>
-        <p class="winC">Windchill:</p>
+        <p class="cur">Current: <span>Sunny</span></p>
+        <p class="temp">Temperature: <span class="t">30</span>&#8457;</p>
+        <p class="hum">Humidity: <span class="h">69</span>&#37;</p>
+        <p class="wind">Wind Speed: <span class="w">5</span>mph</p>
+        <p class="winC">Windchill: <span class="wC"></span> </p>
       </div>
     </div>
 
     <div class="fiveday">
       <h3 class="cast">Five Day Forecast</h3>
-      <img class="foreimg" src="images/fiveday.jpg" alt="image of 5 day forecast" width="400" />
+      <img class="foreimg" src="../lesson6/images/fiveday.jpg" alt="image of 5 day forecast" width="400" />
     </div>
 
     <div class="article">
 
       <picture>
-        <source srcset="images/rodeo800.jpg" media="(min-width: 700px) and (max-width:999px)" />
-        <source srcset="images/rodeo1100.jpg" media="(min-width:1000px)" />
-        <img class="rodeoimg" src="images/rodeo400.jpg" alt="man riding bucking horse">
+        <source media="(max-width: 399px)" srcset="images/rodeo400.jpg" />
+        <source media="(min-width: 400px) and (max-width: 899px)" srcset="images/rodeo800.jpg" />
+        <source media="(min-width: 900px)" srcset="images/rodeo1100.jpg" />
+        <img class="rodeoimg" src="../lesson6/images/rodeo.jpg" alt="man riding bucking horse">
       </picture>
-
+      
       <h3 class="art">Remember the Rodeo</h3>
       <p class="artpara">
-        Folks, bring the family and kids out for a night of fun this July. Returning this year is the long-time favorite "The Famous Preston Night Rodeo". 
+        Folks, bring the family and kids out for a night of fun this July. Returning this year is the long-time favorite
+        "The Famous Preston Night Rodeo".
         This year's show will be held on July 29, 30, and 31. Tickets go on sale on May 20, 2021.<br>
-        As a special treat this year, Garth Brooks will be returning to take on the most sinister bull this side of the Mississippi, Lord Voldermort. 
-        Fred and George Weasley, our famously hilarious clowns, will also be returning. The Weasley Clowns cannot wait to provide hilarious entertainment, 
+        As a special treat this year, Garth Brooks will be returning to take on the most sinister bull this side of the
+        Mississippi, Lord Voldermort.
+        Fred and George Weasley, our famously hilarious clowns, will also be returning. The Weasley Clowns cannot wait
+        to provide hilarious entertainment,
         and of course, to assist the competitors if needed. Elvis Presley will be the opening night's headliner. <br>
         <a href="https://www.prestonrodeo.com/">
-         continue story...
+          continue story...
         </a>
       </p>
     </div>
@@ -110,23 +115,15 @@
       </a>
       <br /><br />
       Last Modified: <span id="currentdate"></span>
-      <script src="js/prestonJS.js"></script>
+      <script src="../lesson6/js/prestonJS.js"></script>
     </p>
   </footer>
 
-  <!--web font loader
-     "Web Font Loader gives you added control when using linked fonts via @font-face. It provides a common interface 
-     to loading fonts regardless of the source, then adds a standard set of events you may use to control the loading experience. 
-     The Web Font Loader is able to load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-hosted web fonts. 
-     It is co-developed by Google and Typekit."-->
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  <script>
-    webfont.load({
-      google: {
-        families: ["Montserrat, Raleway"],
-      },
-    });
-  </script>
+  <script src="../lesson6/js/webfont.js"></script>
+  <script src="../lesson6/js/hamburger.js"></script>
+  <script src="../lesson6/js/windchill.js"></script>
+
 </body>
 
 </html>

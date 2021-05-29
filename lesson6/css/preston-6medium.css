@@ -68,7 +68,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   .foreimg {
     width: 90%;
     display: block;
@@ -97,21 +97,39 @@
     padding: 15px;
   }
 
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 25px;
+  }
+  .cont {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 60px;
+    text-decoration: underline;
+  }
+  
+  .contpara {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 60px;
+  }
+
   .map {
     display: block;
   }
 
   .mapheading {
-    text-align: left;
-    margin-left: 15px;
-    margin-bottom: 5px;
+    color: #f8f8f8;
   }
 
   .iframe {
-    width: 80%;
-    display: block;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    border-radius: 20px;
-  }
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
 }
