@@ -45,6 +45,12 @@
     height: 400px;
   }
 
+  .sumdiv {
+    width: 30%;
+    top: 20px;
+    left: 60px;
+  }
+
   .summary {
     text-align: center;
     text-decoration: underline;

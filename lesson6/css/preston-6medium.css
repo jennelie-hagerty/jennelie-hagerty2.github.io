@@ -39,6 +39,11 @@
     height: 300px;
   }
 
+  .sumdiv {
+    width: 40%;
+    left: 50px;
+  }
+
   .cur {
     text-align: center;
   }
