@@ -1,81 +1,84 @@
-#entirePage {
+#entirepage {
   background-color: #e6e6fa;
+  color: #f8f8f8;
+  max-width: 1920px;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  color: black;
+  font-size: 19px;
 }
 
-header {
+.headerdiv {
   width: 90%;
-  height: 120px;
-  background-color: #140152;
-  border-radius: 25px;
-  margin-top: 30px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  color: #f8f8f8;
+  border: red solid 2px;
+}
+
+.topBanner {
+  background-color: #140152;
+  border-radius: 1.5em;
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
 h1 {
   /*font-family: "Raleway", sans-serif;*/
   font-family: "Dancing Script", cursive;
-  padding-top: 40px;
-  font-size: 20px;
+  font-size: 2em; /*24pt*/
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-#logo1 {
+.logo1 {
+  max-width: 15%;
   float: left;
-  margin-left: 5px;
-  margin-top: -60px;
-  max-width: 15%;
+  margin-top: -50px;
+  margin-left: 10px;
 }
 
-#logo2 {
+.logo2 {
+  max-width: 15%;
   float: right;
-  margin-right: 5px;
-  margin-top: -60px;
-  max-width: 15%;
+  margin-top: -50px;
+  margin-right: 10px;
 }
 
-.motto {
-  font-size: 15px;
+.moto {
+  font-size: 1em;
 }
 
 .topNav {
-  margin: 0 auto;
-  max-width: 90%;
-  height: auto;
   background-color: #8a2be2;
-  border: #000 solid 2px;
+  border: black solid 2px;
   border-radius: 25px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -16px;
 }
 
-.navigation {
+.navlist {
   list-style: none;
-  padding: 0;
-  background-color: #8a2be2;
 }
 
-.navigation li:first-child {
+.navlist li:first-child {
   display: block;
-  text-align: center;
+  text-decoration: underline;
+  margin-left: -20px;
 }
 
-.navigation li {
+.navlist li {
   display: none;
-  text-align: center;
 }
 
-.navigation a {
-  display: block;
-  padding: 0.75rem;
-  text-decoration: none;
+.navlist li a {
   color: #f8f8f8;
-}
-
-.navigation li {
-  display: none;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 .responsive li {
@@ -87,164 +90,174 @@ h1 {
 }
 
 /* unvisited link */
-/*a:link {
+a:link {
   color: #f8f8f8;
-}*/
+}
 
-/*visited link*/
-/*a:visited {
-  color: aqua;
-}*/
+/* visited link */
+a:visited {
+  color: violet;
+}
 
 /* mouse over link */
-/*a:hover {
-  color: yellow;
+a:hover {
+  background-color: lightblue;
+  border-radius: 25px;
 }
-*/
 
 /* selected link */
-/*a:active {
-  color: coral;
-}*/
-
-h2 {
-  font-family: "Raleway", sans-serif;
-  color: #564592;
-  text-align: center;
-}
-
-h3 {
-  font-family: "Raleway", sans-serif;
-  color: #564592;
-  margin-left: 10px;
+a:active {
+  background-color: blue;
+  border-radius: 25px;
 }
 
 .herocontainer {
   position: relative;
   width: 90%;
   height: auto;
+  top: 15px;
   bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: red solid 2px;
+}
+
+.hero {
+  margin-top: -30px;
+  padding: 5px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #564592;
+}
+
+.heroimg {
+  width: 95%;
+  border-radius: 25px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.hero {
-  text-align: center;
-}
-
-.heroimg {
-  width: 90%;
-  height: 200px;
-  border-radius: 50px;
-}
-
-.sumdiv {
+.summarydiv {
+  background-color: #8a2be2;
+  border-radius: 25px;
+  position: absolute;
   width: 30%;
   height: auto;
-  background-color: #8a2be2;
-  color: #f8f8f8;
-  border-radius: 25px;
-  text-align: left;
-  font-size: x-small;
-  position: absolute;
-  top: 15px;
-  left: 40px;
+  font-size: .5em;
+  top: 62px;
+  left: 20px;
   opacity: .8;
 }
 
 .summary {
+  margin-left: 15px;
   text-decoration: underline;
-  color: #f8f8f8;
-  text-align: center;
-  padding-top: 10px;
 }
 
-.cur {
-  margin-left: 15px;
+.summarylist {
+  list-style: none;
+  margin-left: -20px;
+  margin-top: -6px;
+  line-height: 20px;
 }
 
-.temp {
-  margin-left: 15px;
-}
-
-.hum {
-  margin-left: 15px;
-}
-
-.wind {
-  margin-left: 15px;
-}
-
-.winC {
-  margin-left: 15px;
-  padding-bottom: 15px;
-}
-
-.fiveday {
+.fivedaycontainer {
   display: none;
 }
 
-.article {
-  text-align: center;
-}
-
-.rodeoimg {
+.articlecontainer {
+  border: red solid 2px;
   width: 90%;
-  height: 200px;
-  border-radius: 25px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
 }
 
 .art {
-  text-align: left;
-  margin-left: 15px;
-  margin-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  color: #564592;
   text-decoration: underline;
+  margin-left: 15px;
 }
 
 .artpara {
-  text-align: left;
-  width: 80%;
+  width: 90%;
+  color: black;
+  font-size: .8em;
+  margin-left: 25px;
+  margin-top: -15px;
+}
+
+.rodeoimg {
   display: block;
-  margin-left: 10px;
-  margin-bottom: 5px;
+  width: 90%;
+  height: 200px;
+  border-radius: 25px;
+  border: black solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.contactcontainer {
+  border: red solid 2px;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.contact {
+  background-color: #8a2be2;
+  border-radius: 25px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.cont {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.contpara {
+  text-align: center;
+  margin-top: -15px;
 }
 
 .map {
   display: none;
 }
 
-.contact {
-  background-color: #8a2be2;
-  color: #f8f8f8;
-}
-
-.cont {
-  color: #f8f8f8;
-  text-align: left;
-  margin-left: 15px;
-  margin-bottom: 5px;
-}
-
-.contpara {
-  text-align: left;
-  width: 80%;
-  display: block;
-  margin-left: 30px;
-  margin-bottom: 5px;
-}
-
-footer {
-  width: 90%;
-  height: 90px;
+.footercontainer {
   background-color: #140152;
-  border-radius: 10px;
-  margin-top: 30px;
-  margin-left: 10px;
-  color: #f8f8f8;
+  border-radius: 1.5em;
+  border: red solid 2px;
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fpara {
-  font-size: 15px;
-  padding-top: 15px;
+  width: 95%;
+  height: auto;
+  margin-left: 15px;
+  font-size: .8em;
+}
+
+.byulink {
   text-align: center;
+  margin-top: -10px;
+}
+
+.date {
+  margin-left: 15px;
 }

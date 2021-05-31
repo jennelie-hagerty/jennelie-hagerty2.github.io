@@ -36,4 +36,5 @@ function currentdate() {
   document.querySelector("#currentdate").textContent = fulldate;
 
   document.querySelector("#currentdate").innerHTML = document.lastModified;
+
 }
