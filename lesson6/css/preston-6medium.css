@@ -1,140 +1,90 @@
-@media only screen and (min-width: 700px) {
-  #logo1 {
-    margin-top: -70px;
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  .logo1 {
+    max-width: 12%;
+    margin-top: -60px;
+    margin-left: 10px;
   }
 
-  #logo2 {
-    margin-top: -70px;
-  }
-
-  .topNav {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-  }
-
-  .navigation {
-    display: flex;
-  }
-
-  .navigation li {
-    display: block;
-    flex: 1 1 auto;
-  }
-
-  .responsive li:first-child {
-    display: none;
-  }
-
-  .navigation a {
-    padding: 10px;
-    text-align: center;
+  .logo2 {
+    max-width: 12%;
+    margin-top: -60px;
+    margin-right: 10px;
   }
 
   a.ham {
     display: none;
   }
 
-  .heroimg {
-    height: 300px;
-  }
-
-  .sumdiv {
-    width: 40%;
-    left: 50px;
-  }
-
-  .cur {
+  .navlist {
+    display: flex;
+    flex: 1 1 auto;
     text-align: center;
+    font-size: 13px;
   }
 
-  .temp {
-    text-align: center;
-  }
-
-  .hum {
-    text-align: center;
-  }
-
-  .wind {
-    text-align: center;
-  }
-
-  .winC {
-    text-align: center;
-  }
-
-  .fiveday {
+  .navlist li {
     display: block;
-    text-align: center;
+  }
+
+  .summarydiv {
+    width: 35%;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+
+  .summarylist {
+    line-height: 30px;
+    margin-top: -15px;
+    margin-left: -10px;
+  }
+
+  .fivedaycontainer {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: red solid 2px;
   }
 
   .cast {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .foreimg {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    border-radius: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #564592;
   }
 
-  .art {
-    margin-top: 50px;
+  .foreimg {
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .artpara {
-    text-align: left;
-    width: 80%;
-    display: block;
-    margin-left: 10px;
+    width: 45%;
   }
 
   .rodeoimg {
-    margin-top: 50px;
-    width: 50%;
     float: right;
-    height: 300px;
-    padding: 15px;
+    width: 50%;
+    margin-top: -270px;
+    margin-bottom: 60px;
   }
 
-  .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-radius: 25px;
-  }
-  .cont {
-    grid-column: 1;
-    grid-row: 1;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-bottom: 60px;
-    text-decoration: underline;
+  .fpara {
+    margin-left: 25px;
+    font-size: 1em;
+    text-align: center;
   }
   
-  .contpara {
-    grid-column: 1;
-    grid-row: 1;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 60px;
+  .byulink {
+    text-align: center;
+    margin-top: -10px;
   }
-
-  .map {
-    display: block;
+  
+  .date {
+    margin-left: 25px;
   }
-
-  .mapheading {
-    color: #f8f8f8;
-  }
-
-  .iframe {
-    width: 90%;
-    margin-bottom: 20px;
-    border-radius: 25px;
-}
+  
 }
