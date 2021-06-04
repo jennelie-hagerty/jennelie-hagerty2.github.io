@@ -11,7 +11,7 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  border: red solid 2px;
+  /*border: red solid 2px;*/
 }
 
 .topBanner {
@@ -119,7 +119,7 @@ a:active {
   bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: red solid 2px;
+  /*border: red solid 2px;*/
 }
 
 .hero {
@@ -145,10 +145,10 @@ h2 {
   position: absolute;
   width: 30%;
   height: auto;
-  font-size: .5em;
-  top: 62px;
+  font-size: 0.5em;
+  top: 115px;
   left: 20px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .summary {
@@ -168,7 +168,7 @@ h2 {
 }
 
 .articlecontainer {
-  border: red solid 2px;
+  /*border: red solid 2px;*/
   width: 90%;
   height: auto;
   margin-left: auto;
@@ -186,7 +186,7 @@ h2 {
 .artpara {
   width: 90%;
   color: black;
-  font-size: .8em;
+  font-size: 0.8em;
   margin-left: 25px;
   margin-top: -15px;
 }
@@ -203,7 +203,7 @@ h2 {
 }
 
 .contactcontainer {
-  border: red solid 2px;
+  /*border: red solid 2px;*/
   width: 90%;
   height: auto;
   margin-left: auto;
@@ -238,7 +238,7 @@ h2 {
 .footercontainer {
   background-color: #140152;
   border-radius: 1.5em;
-  border: red solid 2px;
+  /*border: red solid 2px;*/
   width: 90%;
   height: auto;
   margin-top: 20px;
@@ -250,7 +250,7 @@ h2 {
   width: 95%;
   height: auto;
   margin-left: 15px;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .byulink {
