@@ -61,15 +61,55 @@
     margin-right: auto;
   }
 
+  .articlecontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .artpara {
-    width: 45%;
+    grid-column: 1;
+    grid-row: 1 / 2;
   }
 
   .rodeoimg {
-    float: right;
-    width: 50%;
-    margin-top: -270px;
-    margin-bottom: 60px;
+    grid-column: 2;
+    grid-row: 2 / 3;
+    margin-top: 20px;
+    height: 275px;
+    width: 100%;
+  }
+
+  .contactcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact {
+    grid-column: 1 / 2;
+    height: 200px;
+    margin-top: 90px;
+    padding-right: 10px;
+  }
+
+  .map {
+    display: block;
+    grid-column: 2 / 3;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mapheading {
+    font-family: "Raleway", sans-serif;
+    color: #564592;
+    margin-bottom: 15px;
+  }
+
+  .iframe {
+    width: 90%;
+    height: 315px;
+    padding-left: 10px;
+
   }
 
   .fpara {
@@ -77,14 +117,13 @@
     font-size: 1em;
     text-align: center;
   }
-  
+
   .byulink {
     text-align: center;
     margin-top: -10px;
   }
-  
+
   .date {
     margin-left: 25px;
   }
-  
 }
