@@ -1,0 +1,156 @@
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  .logo1 {
+    max-width: 10%;
+    margin-top: -60px;
+    margin-left: 20px;
+  }
+
+  .logo2 {
+    max-width: 10%;
+    margin-top: -60px;
+    margin-right: 20px;
+  }
+
+  a.ham {
+    display: none;
+  }
+
+  .navlist {
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 13px;
+  }
+
+  .navlist li {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .picturecontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pic1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 35px;
+  }
+  
+  .p1 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+  }
+  
+  .pic2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 35px;
+  }
+  
+  .p2{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+  }
+  
+  .pic3 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 35px;
+  }
+  
+  .p3{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+  }
+  
+  .pic4 {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 35px;
+  }
+  
+  .p4{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+  }
+  
+  .pic5 {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 35px;
+  }
+  
+  .p5{
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+  }
+  
+  .pic6 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 35px;
+  }
+  
+  .p6{
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+  }
+  
+  .pic7 {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 35px;
+  }
+  
+  .p7{
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+  }
+  
+  .pic8 {
+    grid-column: 2;
+    grid-row: 4;
+    margin-left: 35px;
+  }
+  
+  .p8{
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+  }
+  
+  .pic9 {
+    grid-column: 1;
+    grid-row: 5;
+    margin-left: 35px;
+  }
+  
+  .p9{
+    grid-column: 1;
+    grid-row: 5;
+    text-align: center;
+  }
+
+  .fpara {
+    margin-left: 25px;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .byulink {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  .date {
+    margin-left: 25px;
+  }
+}
