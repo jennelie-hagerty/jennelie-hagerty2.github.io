@@ -12,6 +12,8 @@ table {
     box-shadow: #628ca6 10px 10px 20px;
     line-height: 35px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td {
@@ -43,4 +45,17 @@ tbody tr:nth-child(1) {
 
 tfoot {
     background-color: #7fb9c2;
+}
+
+
+/*Medium Query*/
+
+table {
+    width: 40%;
+}
+
+/*Large Query*/
+
+table {
+    width: 30%;
 }
