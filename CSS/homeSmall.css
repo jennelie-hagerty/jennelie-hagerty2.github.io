@@ -148,6 +148,17 @@ p {
   margin-top: 10px;
 }
 
+.p9 {
+  grid-column: 1;
+  grid-row: 10;
+}
+
+.present {
+  grid-column: 2;
+  grid-row: 10;
+  margin-top: 10px;
+}
+
 /* unvisited link */
 a:link {
   color: #f8f8f8;
