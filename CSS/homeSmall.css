@@ -159,6 +159,12 @@ p {
   margin-top: 10px;
 }
 
+.prophets {
+  grid-column: 2;
+  grid-row: 10;
+  margin-top: 30px; 
+}
+
 /* unvisited link */
 a:link {
   color: #f8f8f8;
