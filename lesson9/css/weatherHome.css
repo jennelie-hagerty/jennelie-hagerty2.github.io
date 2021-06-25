@@ -1,0 +1,143 @@
+/*SMALL*/
+#entirepage {
+    background-color: #e6e6fa;
+    color: #f8f8f8;
+    max-width: 1920px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+  }
+  
+  .headerdiv {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: red solid 2px;*/
+  }
+  
+  .topBanner {
+    background-color: #140152;
+    border-radius: 1.5em;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2em; /*24pt*/
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .logo1 {
+    max-width: 15%;
+    float: left;
+    margin-top: -50px;
+    margin-left: 10px;
+  }
+  
+  .logo2 {
+    max-width: 15%;
+    float: right;
+    margin-top: -50px;
+    margin-right: 10px;
+  }
+  
+  .moto {
+    font-size: 1em;
+  }
+  
+  .topNav {
+    background-color: #8a2be2;
+    border: black solid 2px;
+    border-radius: 25px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+  }
+  
+  .navlist {
+    list-style: none;
+  }
+  
+  .navlist li:first-child {
+    display: block;
+    text-decoration: underline;
+    margin-left: -20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .navlist li {
+    display: none;
+  }
+  
+  .navlist li a {
+    color: #f8f8f8;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .responsive li {
+    display: block;
+    /* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
+    display block because the responsive class is added to the end of the class list like this in HTML.    
+    <ul class="navigation responsive">
+    */
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: #f8f8f8;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: violet;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    background-color: lightblue;
+    border-radius: 25px;
+  }
+  
+  /* selected link */
+  a:active {
+    background-color: blue;
+    border-radius: 25px;
+  }
+
+  .herocontainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .heroimg {
+    display: block;
+    width: 90%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 10px 10px 50px #8a2be2;
+  }
+
+section {
+  color: pink;
+  border: black solid 1px;
+  width: 90%;
+}
+
+  section :nth-child(2) {
+    color: black;
+  }
+  
+  section :nth-child(3) {
+    color: blue;
+  }
