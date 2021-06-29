@@ -1,10 +1,158 @@
 @media only screen and (min-width: 1000px) and (max-width: 1920px) {
 
-  h2 {
-    margin-left: 50%;
+
+  #headerBlock {
+    width: 85%;
+    height: 200px;
   }
 
-   #breakLine {
-    margin-left: 215px;
-  } 
+  h1 {
+    padding-top: 35px;
+    margin-left: 45px;
+    font-size: 100px;
+  }
+
+  img {
+    margin-top: -195px;
+    margin-right: 25px;
+    width: 300px;
+    height: 300px;
+  }
+
+  h2 {
+    margin-top: 30px;
+    margin-left: 125px;
+    font-size: 40px;
+  }
+
+  #breakLine {
+    width: 1240px;
+  }
+
+  ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 40px;
+  }
+
+  .p2 {
+    margin-left: 25px;
+  }
+
+  .wk2 {
+    margin-top: 90px;
+    margin-left: 25px;
+  }
+
+  .p3 {
+    grid-column: 3;
+  }
+
+  .wk3 {
+    grid-column: 3;
+    margin-top: 90px;
+  }
+
+  .p4 {
+    margin-left: 25px;
+  }
+  
+  .wk4 {
+    margin-top: 90px;
+    margin-left: 25px;
+  }
+
+  .p5 {
+    grid-column: 3;
+  }
+
+  .bom {
+    grid-column: 3;
+    margin-top: 140px;
+  }
+
+  .wk5 {
+    grid-column: 3;
+    margin-top: 90px;
+  }
+
+  .p6 {
+    margin-left: 25px;
+  }
+  
+  .wk6 {
+    margin-top: 90px;
+    margin-left: 25px;
+  }
+
+  .p7 {
+    grid-column: 3;
+  }
+
+  .lazy {
+    grid-column: 3;
+    margin-top: 90px;
+  }
+
+  .wk7 {
+    grid-column: 3;
+    margin-top: 140px;
+  }
+
+  .p8 {
+    margin-left: 25px;
+  }
+  
+  .table {
+    margin-top: 90px;
+    margin-left: 25px;
+  }
+
+  .p9 {
+    grid-column: 3;
+  }
+
+  .present {
+    grid-column: 3;
+    margin-top: 90px;
+  }
+
+  .prophets {
+    grid-column: 3;
+    margin-top: 140px;
+  }
+
+  .wk9 {
+    grid-column: 3;
+    margin-top: 190px;
+  }
+
+  .p10 {
+    margin-left: 25px;
+  }
+  
+  .wk10 {
+    margin-top: 90px;
+    margin-left: 25px;
+  }
+
+  .p11 {
+    grid-column: 3;
+  }
+
+  .wk11 {
+    grid-column: 3;
+    margin-top: 90px;
+  }
+
+
+  footer {
+    width: 85%;
+    height: 200px;
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+
+  .fpara2 {
+    margin-top: -100px;
+  }
 }

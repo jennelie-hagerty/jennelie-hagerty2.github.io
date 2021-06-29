@@ -1,22 +1,103 @@
 @media only screen and (min-width: 700px) and (max-width: 999px) {
-
   #headerBlock {
-    width: 100%;
+    width: 90%;
+    height: 140px;
+  }
+
+  h1 {
+    padding-top: 35px;
+    margin-left: 35px;
+    font-size: 60px;
+  }
+
+  img {
+    margin-top: -100px;
+    margin-right: 25px;
   }
 
   h2 {
-    margin-left: 50%;
+    margin-top: 15px;
+    margin-left: 65px;
+    font-size: 30px;
   }
 
   #breakLine {
-    width: 500px;
-    margin-left: 35px;
+    width: 615px;
   }
 
+  ul {
+    font-size: 25px;
+  }
+
+  .wk2 {
+    margin-top: 55px;
+  }
+
+  .wk3 {
+    margin-top: 55px;
+  }
+
+  .wk4 {
+    margin-top: 55px;
+  }
+
+  .wk5 {
+    margin-top: 55px;
+  }
+
+  .bom {
+    margin-top: 90px;
+  }
+
+  .wk6 {
+    margin-top: 55px;
+  }
+
+  .wk7 {
+    margin-top: 90px;
+  }
+
+  .lazy {
+    margin-top: 55px;
+  }
+
+  .table {
+    margin-top: 55px;
+  }
+
+  .present {
+    margin-top: 55px;
+  }
+
+  .prophets {
+    margin-top: 90px;
+  }
+
+  .wk9 {
+    margin-top: 125px;
+  }
+
+  .wk10 {
+    margin-top: 55px;
+  }
+
+  .wk11 {
+    margin-top: 55px;
+  }
 
   footer {
-    width: 100%;
+    width: 90%;
+    height: 140px;
+    font-size: 20px;
+    margin-bottom: 40px;
   }
 
-  main {max-width: 100%;}
+  .fpara1 {
+    padding-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .fpara2 {
+    margin-top: -20px;
+}
 }

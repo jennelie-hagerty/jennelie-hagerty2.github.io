@@ -2,7 +2,6 @@ body {
   background-color: #94c5cc;
   color: #f8f8f8;
   font-family: "Raleway", "sans-se-rif";
-  font-size: 19px;
   max-width: 100%;
 }
 
@@ -52,12 +51,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   list-style: none;
-  margin-left: 10px;
-  font-size: 15px;
-}
-
-p {
-  margin-bottom: 0px;
+  margin-top: 60px;
   font-size: 15px;
 }
 
@@ -67,108 +61,146 @@ p {
 }
 
 .wk2 {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 1;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .p3 {
-  grid-column: 1;
-  grid-row: 2;
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: 50px;
 }
 
 .wk3 {
   grid-column: 2;
-  grid-row: 2;
-  margin-top: 15px;
+  grid-row: 1;
+  margin-top: 35px;
+  margin-left: 50px
 }
 
 .p4 {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 2;
 }
 
 .wk4 {
-  grid-column: 2;
-  grid-row: 3;
-  margin-top: 15px;
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 35px;
 }
 
 .p5 {
-  grid-column: 1;
-  grid-row: 4;
+  grid-column: 2;
+  grid-row: 2;
+  margin-left: 50px;
 }
 
 .wk5 {
   grid-column: 2;
-  grid-row: 4;
-  margin-top: 15px;
+  grid-row: 2;
+  margin-top: 35px;
+  margin-left: 50px
 }
 
 .bom {
   grid-column: 2;
-  grid-row: 5;
+  grid-row: 2;
+  margin-top: 60px;
+  margin-left: 50px
 }
 
 .p6 {
   grid-column: 1;
-  grid-row: 6;
+  grid-row: 3;
 }
 
 .wk6 {
-  grid-column: 2;
-  grid-row: 6;
-  margin-top: 15px;
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: 35px;
 }
 
 .p7 {
-  grid-column: 1;
-  grid-row: 7;
+  grid-column: 2;
+  grid-row: 3;
+  margin-left: 50px;
 }
 
 .wk7 {
   grid-column: 2;
-  grid-row: 7;
-  margin-top: 15px;
+  grid-row: 3;
+  margin-top: 35px;
+  margin-left: 50px
 }
 
 .lazy {
   grid-column: 2;
-  grid-row: 8;
+  grid-row: 3;
+  margin-top: 60px;
+  margin-left: 50px
 }
 
 .p8 {
   grid-column: 1;
-  grid-row: 9;
+  grid-row: 4;
 }
 
 .table {
-  grid-column: 2;
-  grid-row: 9;
-  margin-top: 10px;
+  grid-column: 1;
+  grid-row: 4;
+  margin-top: 35px;
 }
 
 .p9 {
-  grid-column: 1;
-  grid-row: 10;
+  grid-column: 2;
+  grid-row: 4;
+  margin-left: 50px;
 }
 
 .present {
   grid-column: 2;
-  grid-row: 10;
-  margin-top: 10px;
+  grid-row: 4;
+  margin-top: 35px;
+  margin-left: 50px;
 }
 
 .prophets {
   grid-column: 2;
-  grid-row: 10;
-  margin-top: 30px; 
+  grid-row: 4;
+  margin-top: 60px;
+  margin-left: 50px;
 }
 
-.weatherHome {
+.wk9 {
   grid-column: 2;
-  grid-row: 10;
-  margin-top: 50px; 
+  grid-row: 4;
+  margin-top: 85px;
+  margin-left: 50px;
+}
+
+.p10 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.wk10 {
+  grid-column: 1;
+  grid-row: 5;
+  margin-top: 35px;
+}
+
+.p11 {
+  grid-column: 2;
+  grid-row: 5;
+  margin-left: 50px;
+}
+
+.wk11 {
+  grid-column: 2;
+  grid-row: 5;
+  margin-top: 35px;
+  margin-left: 50px;
 }
 
 /* unvisited link */
