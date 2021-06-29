@@ -63,7 +63,8 @@ ul {
 .wk2 {
   grid-column: 1;
   grid-row: 1;
-  margin-top: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .p3 {
@@ -75,7 +76,7 @@ ul {
 .wk3 {
   grid-column: 2;
   grid-row: 1;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-left: 50px
 }
 
@@ -87,7 +88,7 @@ ul {
 .wk4 {
   grid-column: 1;
   grid-row: 2;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .p5 {
@@ -99,15 +100,16 @@ ul {
 .wk5 {
   grid-column: 2;
   grid-row: 2;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-left: 50px
 }
 
 .bom {
   grid-column: 2;
   grid-row: 2;
-  margin-top: 60px;
-  margin-left: 50px
+  margin-top: 45px;
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 .p6 {
@@ -118,7 +120,7 @@ ul {
 .wk6 {
   grid-column: 1;
   grid-row: 3;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .p7 {
@@ -130,15 +132,16 @@ ul {
 .wk7 {
   grid-column: 2;
   grid-row: 3;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-left: 50px
 }
 
 .lazy {
   grid-column: 2;
   grid-row: 3;
-  margin-top: 60px;
-  margin-left: 50px
+  margin-top: 45px;
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 .p8 {
@@ -149,7 +152,7 @@ ul {
 .table {
   grid-column: 1;
   grid-row: 4;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .p9 {
@@ -161,22 +164,23 @@ ul {
 .present {
   grid-column: 2;
   grid-row: 4;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-left: 50px;
 }
 
 .prophets {
   grid-column: 2;
   grid-row: 4;
-  margin-top: 60px;
+  margin-top: 45px;
   margin-left: 50px;
 }
 
 .wk9 {
   grid-column: 2;
   grid-row: 4;
-  margin-top: 85px;
+  margin-top: 70px;
   margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 .p10 {
@@ -187,7 +191,7 @@ ul {
 .wk10 {
   grid-column: 1;
   grid-row: 5;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .p11 {
@@ -199,7 +203,7 @@ ul {
 .wk11 {
   grid-column: 2;
   grid-row: 5;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-left: 50px;
 }
 
@@ -225,4 +229,12 @@ footer {
   margin-right: auto;
   margin-top: 50px;
   border-radius: 25px;
+}
+
+.fpara1 {
+  margin-bottom: 0px;
+}
+
+.fpara2 {
+  margin-top: -20px;
 }

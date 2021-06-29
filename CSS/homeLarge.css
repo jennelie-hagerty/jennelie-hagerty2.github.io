@@ -31,7 +31,7 @@
 
   ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .p2 {
@@ -39,7 +39,7 @@
   }
 
   .wk2 {
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 25px;
   }
 
@@ -49,30 +49,32 @@
 
   .wk3 {
     grid-column: 3;
-    margin-top: 90px;
+    margin-top: 50px;
   }
 
   .p4 {
     margin-left: 25px;
+    margin-top: 20px;
   }
   
   .wk4 {
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left: 25px;
   }
 
   .p5 {
     grid-column: 3;
+    margin-top: 20px;
   }
 
   .bom {
     grid-column: 3;
-    margin-top: 140px;
+    margin-top: 70px;
   }
 
   .wk5 {
     grid-column: 3;
-    margin-top: 90px;
+    margin-top: 120px;
   }
 
   .p6 {
@@ -80,7 +82,7 @@
   }
   
   .wk6 {
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 25px;
   }
 
@@ -90,7 +92,7 @@
 
   .lazy {
     grid-column: 3;
-    margin-top: 90px;
+    margin-top: 50px;
   }
 
   .wk7 {
@@ -103,7 +105,7 @@
   }
   
   .table {
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 25px;
   }
 
@@ -113,7 +115,7 @@
 
   .present {
     grid-column: 3;
-    margin-top: 90px;
+    margin-top: 50px;
   }
 
   .prophets {
@@ -131,7 +133,7 @@
   }
   
   .wk10 {
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 25px;
   }
 
@@ -141,7 +143,7 @@
 
   .wk11 {
     grid-column: 3;
-    margin-top: 90px;
+    margin-top: 50px;
   }
 
 
