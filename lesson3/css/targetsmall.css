@@ -1,0 +1,146 @@
+#entirePage {
+    background-color: #e6e6fa;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: auto;
+    background-color: #140152;
+    color: #f8f8f8;
+    border-radius: 25px;
+  }
+  
+  #logo1 {
+    grid-column: 1;
+    grid-row: 2;
+    width: 80%;
+    padding-top: 20px;
+    margin-left: 5px;
+  }
+  
+  #logo2 {
+    grid-column: 3;
+    grid-row: 2;
+    width: 80%;
+    padding-top: 20px;
+    margin-left: 5px;
+  }
+  
+  h1 {
+    grid-column: 2;
+    grid-row: 2;
+    padding-top: 15px;
+    margin-right: 5px;
+  }
+  
+  .motto {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+  
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+  
+  nav li{
+    list-style: none;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: #489fb5;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: violet;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    background-color: lightblue;
+    border-radius: 25px;
+  }
+  
+  /* selected link */
+  a:active {
+    background-color: blue;
+    border-radius: 25px;
+  }
+
+  main {
+    font-size: 20px;
+  }
+
+  .tA {
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #8a2be2;
+  }
+
+  .target {
+    margin-left: 20px;
+    padding-right: 5px;
+  }
+
+  .p1{
+    text-decoration: underline;
+    color: #8a2be2;
+    margin-left: 20px;
+  }
+
+  .per1 {
+    margin-left: 20px;
+    padding-right: 5px;
+  }
+
+  .s1{
+    text-decoration: underline;
+    color: #8a2be2;
+    margin-left: 20px;
+  }
+
+  .sl1 {
+    margin-left: 20px;
+    padding-right: 5px;
+  }
+
+  .p2{
+    text-decoration: underline;
+    color: #8a2be2;
+    margin-left: 20px;
+  }
+
+  .per2 {
+    margin-left: 20px;
+    padding-right: 5px;
+  }
+
+  .s2{
+    text-decoration: underline;
+    color: #8a2be2;
+    margin-left: 20px;
+  }
+
+  .sl2 {
+    margin-left: 20px;
+    padding-right: 5px;
+  }
+
+  footer {
+    background-color: #140152;
+    color: #f8f8f8;
+    border-radius: 25px;
+  }
+  
+  .byuiLink {
+    text-align: center;
+  }

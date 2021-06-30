@@ -1,0 +1,94 @@
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+    header {
+        margin-top: 20px;
+    }
+
+    #logo1 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+      }
+      
+      #logo2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+      }
+      
+      h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 60px;
+      }
+      
+      .motto {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+      }
+      
+      nav ul{
+        flex-direction: row;
+        margin-left: 30px;
+        font-size: 35px;
+        
+      }
+      nav li{
+        padding-left: 20px;
+      }
+
+      main {
+        font-size: 40px;
+      }
+
+      .c1 {
+        grid-column: 1/2;
+        grid-row: 2;
+        padding-bottom: 75px;
+        padding-top: 75px;
+        margin-right: 10px;
+      }
+      
+      .c2 {
+        grid-column: 3/4;
+        grid-row: 2;
+        padding-bottom: 75px;
+        padding-top: 75px;
+      }
+      
+      .c3 {
+        grid-column: 1/2;
+        grid-row: 3;
+        padding-bottom: 75px;
+        padding-top: 75px;
+        margin-right: 10px;
+      }
+      
+      .c4 {
+        grid-column: 3/4;
+        grid-row: 3;
+        padding-bottom: 75px;
+        padding-top: 75px;
+      }
+      
+      .m1 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+      
+      .m2 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+      
+      .m3 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+
+      footer {
+          font-size: 35px;
+      }
+}

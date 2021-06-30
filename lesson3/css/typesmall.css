@@ -44,13 +44,13 @@ h1 {
   margin-left: -10px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   flex-direction: column;
   margin-left: 80px;
 }
 
-nav li{
+nav li {
   list-style: none;
 }
 
@@ -77,29 +77,17 @@ a:active {
 }
 
 main {
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.pur {
-  margin-left: 20px;
-  text-decoration: underline;
+.typo {
+  margin-top: 100px;
   color: #8a2be2;
-}
-.purpose{
-  margin-left: 20px;
-  padding-right: 10px;
+  text-align: center;
 }
 
-.dN {
-  margin-left: 20px;
-  text-decoration: underline;
-  color: #8a2be2;
-}
-
-.domain {
-  margin-left: 20px;
-  padding-right: 10px;
-  margin-bottom: 50px;
+.t1 {
+  margin-bottom: 100px;
 }
 
 footer {
@@ -111,5 +99,3 @@ footer {
 .byuiLink {
   text-align: center;
 }
-
-

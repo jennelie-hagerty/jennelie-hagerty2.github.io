@@ -1,0 +1,48 @@
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+    #logo1 {
+        width: 50%;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      #logo2 {
+        width: 50%;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      h1 {
+        padding-top: 0px;
+        margin-left: 65px;
+        margin-bottom: -20px;
+        font-size: 50px;
+      }
+      
+      .motto {
+        margin-top: -20px;
+        margin-left: 20px;
+        font-size: 30px;
+      }
+      
+      nav ul{
+        flex-direction: row;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 85px;
+        
+      }
+      nav li{
+        padding-left: 20px;
+      }
+
+      main {
+        font-size: 30px;
+      }
+
+      footer {
+          font-size: 25px;
+          margin-bottom: 15px;
+      }
+}
