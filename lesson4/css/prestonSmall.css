@@ -1,141 +1,161 @@
 #entirePage {
   background-color: #e6e6fa;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
   color: black;
 }
 
-header {
-  width: auto;
-  height: 150px;
+.topBanner {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 100%;
+  height: auto;
   background-color: #140152;
-  border-radius: 25px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
   color: #f8f8f8;
-  text-align: center;
-}
-
-h1 {
-  font-family: "Raleway", sans-serif;
-  padding-top: 40px;
-  font-size: 20px;
+  border-radius: 25px;
 }
 
 #logo1 {
-  float: left;
+  grid-column: 1;
+  grid-row: 2;
+  width: 80%;
+  padding-top: 20px;
   margin-left: 5px;
-  margin-top: -60px;
 }
 
 #logo2 {
-  float: right;
+  grid-column: 3;
+  grid-row: 2;
+  width: 80%;
+  padding-top: 20px;
+  margin-left: 5px;
+}
+
+h1 {
+  grid-column: 2;
+  grid-row: 2;
+  padding-top: 10px;
   margin-right: 5px;
-  margin-top: -60px;
 }
 
 .motto {
-  font-size: 15px;
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 
-footer {
-  width: auto;
-  height: 100px;
-  background-color: #140152;
-  border-radius: 25px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #f8f8f8;
-  text-align: center;
-}
-
-nav {
-  margin: 0 auto;
-  max-width: 760px;
+.topNav {
   background-color: #8a2be2;
-  border: #000 solid 2px;
+  border: black solid 2px;
   border-radius: 25px;
-  
+  width: 100%;
 }
 
-.navigation {
+.navlist {
   list-style: none;
-  padding: 0;
-  
 }
 
-.navigation li:first-child {
+.navlist li:first-child {
   display: block;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: -65px;
 }
 
-.navigation li {
+.navlist li {
   display: none;
+  text-align: center;
+ margin-left: -65px;
 }
 
-.navigation a {
-  display: block;
-  padding: 0.75rem;
-  text-align: left;
-  text-decoration: none;
+
+.navlist li a {
   color: #f8f8f8;
+  text-decoration: none;
+  margin-left: 20px;
 }
-
-.navigation a:hover {
-  color: yellow;
-}
-
-a:visited {
-  color: aqua;
-}
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
 
 .responsive li {
-	display: block;
+  display: block;
+  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
+  display block because the responsive class is added to the end of the class list like this in HTML.    
+  <ul class="navigation responsive">
+  */
+}
+
+/* unvisited link */
+a:link {
+  color: #489fb5;
+}
+
+/* visited link */
+a:visited {
+  color: greenyellow;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: lightblue;
+  border-radius: 25px;
+}
+
+/* selected link */
+a:active {
+  background-color: blue;
+  border-radius: 25px;
+}
+
+main {
+  font-size: 25px;
+  color: #f8f8f8;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
-  color: #564592;
+  color: #8a2be2;
 }
 
 .hero {
-  width: auto;
-  height: 50px;
-  background-color: #564592;
+  background-color: #8a2be2;
+  border: #140152 solid 2px;
 }
 
 .fiveday {
-  width: auto;
-  height: 50px;
-  background-color: #8a2be2;
+  background-color: #140152;
+  border: #8a2be2 solid 2px;
+  margin-top: 10px;
 }
 
 .article {
-  width: auto;
-  height: 50px;
-  background-color: #564592;
+  background-color: #8a2be2;
+  border: #140152 solid 2px;
+  margin-top: 10px;
 }
 
 .map {
-  width: auto;
-  height: 50px;
-  background-color: #8a2be2;
+  background-color: #140152;
+  border: #8a2be2 solid 2px;
+  margin-top: 10px;
 }
 
 .contact {
-  width: auto;
-  height: 50px;
-  background-color: #564592;
+  background-color: #8a2be2;
+  border: #140152 solid 2px;
+  margin-top: 10px;
 }
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+footer {
+  background-color: #140152;
+  color: #f8f8f8;
+  border-radius: 25px;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.byuiLink {
+  text-align: center;
 }
