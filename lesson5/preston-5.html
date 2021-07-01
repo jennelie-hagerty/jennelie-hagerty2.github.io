@@ -1,92 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Weather Site for Jennelie Hagerty in 
-  WDD 230: Web Frontend Development at Brigham Young University - Idaho"
-    />
 
-    <title>Weather 2 Go|Preston</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Weather Site for Jennelie Hagerty in 
+  WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
 
-    <link rel="stylesheet" href="css/normalize-p-5.css" />
-    <link rel="stylesheet" href="css/preston-5small.css" />
-    <link rel="stylesheet" href="css/preston-5medium.css" />
-    <link rel="stylesheet" href="css/preston-5large.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
-    />
-    <!--para text-->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
-    />
-    <!--headings text-->
-  </head>
+  <title>Weather 2 Go|Preston</title>
 
-  <body id="entirePage">
-    <header>
-      <h1>Weather 2 Go</h1>
-      <img
-        id="logo1"
-        src="images/logo_white_large.png"
-        alt="logo for weather site"
-        width="100"
-      />
-      <img
-        id="logo2"
-        src="images/logo_white_large.png"
-        alt="logo for weather site"
-        width="100"
-      />
-      <p class="motto">Weather for those on the go!</p>
+  <link rel="shortcut icon" href="../homeImages/favicon.ico" />
+  <link rel="stylesheet" href="../lesson5/css/normalize-p-5.css" />
+  <link rel="stylesheet" href="../lesson5/css/preston-5small.css" />
+  <link rel="stylesheet" href="../lesson5/css/preston-5medium.css" />
+  <link rel="stylesheet" href="../lesson5/css/preston-5large.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" />
+  <!--para text-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" />
+  <!--headings text-->
+</head>
+
+<body id="entirePage">
+  <header>
+<div class="headerdiv">
+      <section class="topBanner">
+        <h1>Weather&nbsp;2&nbsp;Go</h1>
+        <img id="logo1" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+        <img id="logo2" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+        <p class="motto">Weather&nbsp;for&nbsp;those&nbsp;on&nbsp;the&nbsp;go!</p>
+      </section>
+
+      <div class="topNav">
+        <nav class="hamburgernav">
+          <ul class="navlist">
+            <li><a class="ham" href="#">Menu</a></li>
+            <li><a href="../index.html">Portal</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     </header>
+
     <main>
-      <nav class="topNav">
-        <ul class="navigation">
-          <li><a class="ham" href="#">Menu</a></li>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="">Preston</a></li>
-          <li><a href="">Soda Springs</a></li>
-          <li><a href="">Fish Haven</a></li>
-          <li><a href="">Storm Center</a></li>
-          <li><a href="">Gallery</a></li>
-        </ul>
-      </nav>
+      <h2>Preston, Idaho</h2>
 
-      <h2>Preston Idaho</h2>
       <div class="hero">
-        <img
-          class="heroimg"
-          src="images/heroMed-Lar.jpg"
-          alt="mountains with a little snow remaining overlooking river below"
-          width="300"
-        />
-        <h3 class="summary">Currently:</h3>
+        <img class="heroimg" src="images/heroMed-Lar.jpg"
+          alt="mountains with a little snow remaining overlooking river below" width="300" />
 
-        <!-- Start WX Widget Code --><a
-          href="https://www.weatherwx.com/forecast/id/preston.html"
-          target="_blank"
-          ><img
-            class="currentimg"
-            src="https://www.weatherwx.com/fetch-images.php?forecast=zandh&place=preston&state=id&country=us&config=png&alt=hwitransparentbbb&hwvbg=transparent"
-            border="0"
-            alt="Click for the latest Preston weather forecast." /></a
-        ><!-- End WX Widget Code -->
+        <section class="summarydiv">
+          <h3 class="summary">Weather&nbsp;Summary</h3>
+          <ul class="summarylist">
+            <li class="cur">Currently: 30&deg; F </li>
+            <li class="hum">Humidity: 10&#37;</li>
+            <li class="wind">Wind Speed: 5mph</li>
+            <li class="winC">Windchill: 20&deg; F</li>
+          </ul>
+        </section>
       </div>
 
+      <div id="banner">Preston Pancakes for Kids in the Park! <br>
+        8:00 a.m. tomorrow Saturday at the city park pavilion.</div>
+        
       <div class="fiveday">
         <h3 class="cast">Five Day Forecast</h3>
-        <img
-          class="foreimg"
-          src="images/5day.png"
-          alt="image of 5 day forecast"
-          width="400"
-        />
+        <img class="foreimg" src="images/5day.png" alt="image of 5 day forecast" width="400" />
       </div>
 
       <div class="article">
@@ -104,15 +88,9 @@
 
       <div class="map">
         <h3 class="mapheading">Map</h3>
-        <iframe
-          class="iframe"
+        <iframe class="iframe"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621737562969!5m2!1sen!2sus"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
       <div class="contact">
@@ -128,15 +106,14 @@
 
     <footer>
       <p class="fpara">
-        &copy; 2021 | Jennelie Hagerty | North Carolina |<a
-          href="https://www.byui.edu/online"
-        >
+        &copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina |<a href="https://www.byui.edu/online">
           BYUI Online Learning
         </a>
         <br /><br />
-        Last Modified: <span id="currentdate"></span>
-        <script src="js/prestonJS.js"></script>
+        <span id="currentdate"></span>
+        <script src="../lesson5/js/prestonJS.js"></script>
       </p>
     </footer>
-  </body>
+</body>
+
 </html>

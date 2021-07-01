@@ -1,112 +1,65 @@
 @media only screen and (min-width: 1008px) {
-  header {
-    width: 70%;
-    height: 120px;
-  }
-
-  h1 {
-    font-size: 50px;
-    padding: 0px;
-  }
-
   #logo1 {
-    margin-left: 50px;
-    margin-top: -88px;
-    max-width: 15%;
+    width: 50%;
+    margin-top: 30px;
   }
 
   #logo2 {
-    margin-right: 50px;
-    margin-top: -88px;
-    max-width: 15%;
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  h1 {
+    padding-top: 10px;
+    font-size: 90px;
   }
 
   .motto {
-    font-size: 25px;
+    font-size: 60px;
   }
 
-  .topNav {
-    width: 60%;
-    height: auto;
-    margin-top: 0px;
-  }
+  .navlist li {
+    font-size: 35px;
+    padding-left: 90px;
+  } 
 
-  h2 {
-    text-align: left;
-    margin-left: 100px;
-    margin-top: 50px;
-    font-size: 75px;
-  }
+h2 {
+  font-size: 100px;
+}
 
-  h3 {
-    text-align: center;
-  }
+h3 {
+  font-size: 60px;
+}
 
   .heroimg {
-    width: 1000px;
-    height: 300px;
+    width: 90%;
+    height: 600px;
+  }
+
+  .summarydiv {
+    width: 30%;
+    height: auto;
+    top: 730px;
+    left: 200px;
   }
 
   .summary {
-    text-align: left;
-    margin-left: 75px;
+    font-size: 2em;
   }
 
-  .currentimg {
-    width: 30%;
-    margin-left: 50px;
-    margin-bottom: 100px;
+  .summarylist {
+    margin-top: -55px;
+    line-height: 90px;
+    font-size: 2em;
   }
 
-  .cast {
-    text-align: left;
-    margin-left: 75px;
+  #banner {
+  font-size: 50px;
   }
-
+  
   .foreimg {
-    width: 40%;
-    height: 200px;
-    margin-left: 100px;
+    width: 90%;
+    height: 300px;
   }
-
-  .art {
-    text-align: left;
-    margin-left: 75px;
-  }
-
-  .artpara {
-    text-align: left;
-    margin-left: 100px;
-  }
-
-  .mapheading {
-    text-align: left;
-    margin-left: 75px;
-  }
-
-  .iframe {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
-  .cont {
-    text-align: center;
-  }
-
-  .contpara {
-    text-align: center;
-    margin-left: 160px;
-  }
-
-  footer {
-    width: 70%;
-    height: 120px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .fpara {
-    font-size: 20px;
-  }
-} /*end large */
+  
+} 

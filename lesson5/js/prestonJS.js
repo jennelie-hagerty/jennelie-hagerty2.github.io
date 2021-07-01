@@ -1,22 +1,3 @@
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation');
-
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
-// To solve the mid resizing issue with responsive class on
-window.onresize = () => {if (window.innerWidth > 641) mainnav.classList.remove('responsive')};
-
-/*** Programming Notes **************************************
-  Arrow Functions - es6 syntactically compact alternative to a regular function expression
-  see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
-  or https://www.w3schools.com/js/js_arrow_function.asp
-
-  classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
-  */
-
-
-  window.onload = currentdate;
-
 let days = [
   "Sunday",
   "Monday",
@@ -40,17 +21,40 @@ let months = [
   "November",
   "December",
 ];
-
+/**********************************************************************************************************************************/
+var d = new Date();
 function currentdate() {
-  //Retrieve date from user's computer
-  var d = new Date();
-  var day = days[d.getDate()];
-  var month = months[d.getMonth()];
-  var year = d.getFullYear();
-
-  let fulldate = `${day} "," ${month}  " " ${d.getDate()} "," ${year}`;
-
-  document.querySelector("#currentdate").textContent = fulldate;
-
-  document.querySelector("#currentdate").innerHTML = document.lastModified;
+  
+  var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getFullYear();
+ 
+  var clocktext = "" + days[nday] + ", " + months[nmonth] + " " + ndate + ", " + nyear + " ";/*"+nhour+":"+nmin+":"+nsec+ap+"*/
+  document.getElementById('currentdate').innerHTML = clocktext;
 }
+
+currentdate();
+setInterval(currentdate, 1000);
+/**********************************************************************************************************************************/
+if (d.getDay() === 5) {
+  document.getElementById('banner').style.display = 'block';
+  }
+  else {
+     document.getElementById('banner').style.display = 'none';
+  }
+
+/**********************************************************************************************************************************/
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navlist');
+
+hambutton.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);
+
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => { if (window.innerWidth > 641) mainnav.classList.remove('responsive') };
+
+/*** Programming Notes **************************************
+  Arrow Functions - es6 syntactically compact alternative to a regular function expression
+  see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+  or https://www.w3schools.com/js/js_arrow_function.asp
+
+  classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+  */
+
