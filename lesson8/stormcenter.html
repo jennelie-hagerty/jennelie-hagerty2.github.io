@@ -37,11 +37,11 @@
           <ul class="navlist">
             <li><a class="ham" href="#">Menu</a></li>
             <li><a href="../index.html">Portal</a></li>
-            <li><a href="#">Preston</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
           </ul>
         </nav>
       </div>
@@ -56,13 +56,13 @@
       <fieldset>
         <legend>Personal Information</legend>
         <label class="top">Full Name:</label>
-        <input type="text" name="name" pattern="[A-Za-z]" value="John Doe" required minlength="5"><br>
+        <input type="text" name="name" required minlength="5"><br>
 
         <label class="top">Email:</label>
-        <input type="email" name="email" value="johndoe@email.com" required><br>
+        <input type="email" name="email" placeholder="johndoe@email.com" required><br>
 
         <label class="top">Phone:</label>
-        <input type="tel" name="phone" value="(208)999-9999)" required><br>
+        <input type="tel" name="phone" required><br>
 
         <label class="top">Zip Code:</label>
         <input type="number" name="zip" required>
@@ -71,11 +71,11 @@
       <fieldset>
         <legend>Storm Information</legend>
         <label class="top">Storm Date</label>
-        <input type="date" name="date"><br>
+        <input type="date" name="date" required><br>
 
         <label class="top">Type of Storm</label>
         <label class="top"></label>
-        <input list="stormtype" name="storms"><br>
+        <input list="stormtype" name="storms" required><br>
         <datalist id="stormtype">
           <option value="Flash Flood"></option>
           <option value="Hail"></option>

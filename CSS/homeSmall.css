@@ -155,6 +155,12 @@ ul {
   margin-top: 20px;
 }
 
+.wk8 {
+  grid-column: 1;
+  grid-row: 4;
+  margin-top: 45px;
+}
+
 .p9 {
   grid-column: 2;
   grid-row: 4;
