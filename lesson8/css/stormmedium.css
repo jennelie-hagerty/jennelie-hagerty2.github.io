@@ -1,0 +1,78 @@
+@media only screen and (min-width: 640px) {
+    #logo1 {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #logo2 {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    h1 {
+      padding-top: 45px;
+      text-align: center;
+    }
+  
+    .motto {
+      margin-top: -50px;
+      text-align: center;
+      font-size: 25px;
+    }
+  
+    a.ham {
+      display: none;
+    }
+  
+    .navlist {
+      display: flex;
+      flex: 1 1 auto;
+    }
+  
+    .navlist li {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      padding-left: 60px;
+    } 
+    
+    main {
+      font-size: 30px;
+    }
+
+    .comments {
+        width: 90%;
+    }
+
+    .map {
+      display: block;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .mapheading {
+      font-family: "Raleway", sans-serif;
+      color: #564592;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  
+    .iframe {
+      width: 90%;
+      height: 315px;
+      padding-left: 10px;
+  
+    }
+  
+    .fpara {
+      font-size: 30px;
+    }
+    
+    .byuiLink {
+      font-size: 30px;
+    }
+  }
+  

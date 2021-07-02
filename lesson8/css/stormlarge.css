@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1008px) {
+    #logo1 {
+      width: 50%;
+      margin-top: 30px;
+    }
+  
+    #logo2 {
+      width: 50%;
+      margin-top: 30px;
+    }
+  
+    h1 {
+      padding-top: 10px;
+      font-size: 90px;
+    }
+  
+    .motto {
+      font-size: 60px;
+    }
+  
+    .navlist li {
+      font-size: 35px;
+      padding-left: 90px;
+    } 
+  
+    h2,h3{
+        text-align: center;
+    }
+
+form{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .comments {
+        width: 90%;
+    }
+    
+    .foreimg {
+      width: 90%;
+      height: 300px;
+    }
+    
+  } 
+  

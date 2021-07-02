@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Weather Site for Jennelie Hagerty in 
+    WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+
+  <title>Weather 2 Go|Preston</title>
+
+  <link rel="shortcut icon" href="../lesson8/images/favicon.ico" />
+  <link rel="stylesheet" href="../lesson8/css/normalize-p-8.css" />
+  <link rel="stylesheet" href="../lesson8/css/stormsmall.css" />
+  <link rel="stylesheet" href="../lesson8/css/stormmedium.css" />
+  <link rel="stylesheet" href="../lesson8/css/stormlarge.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" />
+  <!--para text-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" />
+  <!--headings text-->
+</head>
+
+
+<body id="entirePage">
+  <header>
+    <div class="headerdiv">
+      <section class="topBanner">
+        <h1>Weather&nbsp;2&nbsp;Go</h1>
+        <img id="logo1" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+        <img id="logo2" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+        <p class="motto">Weather&nbsp;for&nbsp;those&nbsp;on&nbsp;the&nbsp;go!</p>
+      </section>
+
+      <div class="topNav">
+        <nav class="hamburgernav">
+          <ul class="navlist">
+            <li><a class="ham" href="#">Menu</a></li>
+            <li><a href="../index.html">Portal</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h2>Storm Center</h2>
+    <h3>Report A Storm</h3>
+
+    <form method="GET" action="thanks.html">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label class="top">Full Name:</label>
+        <input type="text" name="name" pattern="[A-Za-z]" value="John Doe" required minlength="5"><br>
+
+        <label class="top">Email:</label>
+        <input type="email" name="email" value="johndoe@email.com" required><br>
+
+        <label class="top">Phone:</label>
+        <input type="tel" name="phone" value="(208)999-9999)" required><br>
+
+        <label class="top">Zip Code:</label>
+        <input type="number" name="zip" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Storm Information</legend>
+        <label class="top">Storm Date</label>
+        <input type="date" name="date"><br>
+
+        <label class="top">Type of Storm</label>
+        <label class="top"></label>
+        <input list="stormtype" name="storms"><br>
+        <datalist id="stormtype">
+          <option value="Flash Flood"></option>
+          <option value="Hail"></option>
+          <option value="Thunderstorm"></option>
+          <option value="Tornado"></option>
+          <option value="Blizzard"></option>
+        </datalist>
+
+        <label class="severity" for="sev">Severity of Storm</label>
+        <input type="range" id="sev" value="10" min="1" max="10" step="1" list="tickmarks"
+          oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" /><span id="severityvalue">10</span>
+          <datalist id="tickmarks">
+            <option value="0">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+          </datalist><br><br>
+
+        <label class="top">Region</label><br>
+        <select name="region">
+          <option value="" selected disabled>Select</option>
+          <option value="preston">Preston</option>
+          <option value="soda">Soda Springs</option>
+          <option value="fish">Fish Haven</option>
+        </select><br>
+
+        <label class="top">Danger Level</label><br>
+        <label>Are you in danger?</label><br>
+
+        <input type="radio" id="yes" name="danger" value="Yes">
+        <label for="yes">Yes</label><br>
+
+        <input type="radio" id="no" name="danger" value="No">
+        <label for="no">No</label><br>
+
+        <input type="radio" id="maybe" name="danger" value="Maybe">
+        <label for="maybe">Maybe</label><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Comments</legend>
+        <textarea name="comments" rows="10" cols="75" class="comments"></textarea>
+        <br>
+      </fieldset>
+
+      <input type="submit" value="Submit Form" class="submit">
+    </form>
+
+    <div class="contactcontainer">
+      <section class="contact">
+        <h3 class="cont">Contact Information</h3>
+        <p class="contpara">
+          777 Deathly Hallows BLVD.<br />
+          Preston, ID 83263<br />
+          Phone: (208) 427-7677<br />
+          Email: info@seidweather.com
+        </p>
+      </section>
+
+      <section class="map">
+        <h3 class="mapheading">Map</h3>
+        <iframe class="iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621737562969!5m2!1sen!2sus"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p class="fpara">
+      &copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina |<a href="https://www.byui.edu/online">
+        BYUI Online Learning
+      </a>
+      <br /><br />
+      <span id="currentdate"></span>
+    </p>
+  </footer>
+
+  <script src="../lesson8/js/stormcenter.js"></script>
+
+</body>
+
+</html>
