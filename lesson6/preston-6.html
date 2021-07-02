@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Weather Site for Jennelie Hagerty in 
   WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
-  <title>Weather 2 Go | Preston</title>
+  <title>Weather&nbsp;To&nbsp;Go|Preston</title>
+  <link rel="shortcut icon" href="../homeImages/favicon.ico" />
   <link rel="stylesheet" href="../lesson6/css/normalize-p-6.css" />
   <link rel="stylesheet" href="../lesson6/css/preston-6small.css" />
   <link rel="stylesheet" href="../lesson6/css/preston-6medium.css" />
@@ -22,10 +23,10 @@
   <header>
     <div class="headerdiv">
       <section class="topBanner">
-        <h1>Weather 2 Go</h1>
-        <img class="logo1" src="../lesson6/images/logo_white_large.png" alt="logo for weather site" width="100" />
-        <img class="logo2" src="../lesson6/images/logo_white_large.png" alt="logo for weather site" width="100" />
-        <p class="motto">Weather for those on the go!</p>
+        <h1>Weather&nbsp;2&nbsp;Go</h1>
+        <img id="logo1" src="../lesson6/images/logo_white_large.png" alt="logo for weather site" width="100" />
+        <img id="logo2" src="../lesson6/images/logo_white_large.png" alt="logo for weather site" width="100" />
+        <p class="motto">Weather&nbsp;for&nbsp;those&nbsp;on&nbsp;the&nbsp;go!</p>
       </section>
 
       <div class="topNav">
@@ -59,14 +60,16 @@
       <section class="summarydiv">
         <h3 class="summary">Currently</h3>
         <ul class="summarylist">
-          <li class="cur">Current: <span>Sunny</span></li>
-          <li class="temp">Temperature: <span class="t">30</span>&#8457;</li>
-          <li class="hum">Humidity: <span class="h">69</span>&#37;</li>
-          <li class="wind">Wind Speed: <span class="w">5</span>mph</li>
-          <li class="winC">Windchill: <span class="wC"></span></li>
-        </ul>
+          <li class="cur">Currently: <span id="current-temp">30</span> &deg;F </li>
+          <li class="hum">Humidity: <span id="humidity">5</span> &#37;</li>
+          <li class="wind">Wind Speed: <span id="windspeed">10</span> mph</li>
+          <li class="winC">Windchill: <span id="windchill"></span></li>
+      </ul>
       </section>
     </div>
+
+    <div id="banner">Preston Pancakes for Kids in the Park! <br>
+      8:00 a.m. tomorrow Saturday at the city park pavilion.</div>
 
     <div class="fivedaycontainer">
       <h3 class="cast">Five Day Forecast</h3>
@@ -75,7 +78,16 @@
 
     <div class="articlecontainer">
       <section class="article">
-        <h3 class="art">Remember the Rodeo</h3>
+        <h3 class="art">Remember the Rodeo</h3>      
+        <div class="articleimg">
+          <picture>
+            <source media="(max-width: 640px)" srcset="images/rodeo400.jpg" />
+            <source media="(min-width: 700px) and (max-width: 999px)" srcset="images/rodeo800.jpg" />
+            <source media="(min-width: 1000px)" srcset="images/rodeo1100.jpg" />
+  
+            <img class="rodeoimg" src="../lesson6/images/rodeo.jpg" alt="man riding bucking horse" />
+          </picture>
+        </div>
         <p class="artpara">
           Folks, bring the family and kids out for a night of fun this July.
           Returning this year is the long-time favorite "The Famous Preston
@@ -90,16 +102,6 @@
           <a href="https://www.prestonrodeo.com/"> continue story... </a>
         </p>
       </section>
-
-      <div class="articleimg">
-        <picture>
-          <source media="(max-width: 699px)" srcset="images/rodeo400.jpg" />
-          <source media="(min-width: 700px) and (max-width: 999px)" srcset="images/rodeo800.jpg" />
-          <source media="(min-width: 1000px)" srcset="images/rodeo1100.jpg" />
-
-          <img class="rodeoimg" src="../lesson6/images/rodeo.jpg" alt="man riding bucking horse" />
-        </picture>
-      </div>
     </div>
 
     <div class="contactcontainer">
@@ -123,24 +125,18 @@
   </main>
 
   <footer>
-    <div class="footercontainer">
-      <p class="fpara">
-        &copy; 2021 | Jennelie Hagerty | North Carolina
-      <p class="byulink"><a href="https://www.byui.edu/online">
-          BYUI Online Learning
-        </a></p>
-      </p>
-
-      <p class="date"> Date: <span id="currentdate"></span> </p>
-      <script src="../lesson6/js/pancakebanner.js"></script>
-    </div>
+    <p class="byuiLink">
+      &copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina |<a href="https://www.byui.edu/online">
+        BYUI&nbsp;Online&nbsp;Learning
+      </a>
+      <br />
+      <span id="currentdate"></span>
+    </p>
   </footer>
 
+  <script src="../lesson6/js/prestonJS.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script src="../lesson6/js/webfont.js"></script>
-  <script src="../lesson6/js/hamburger.js"></script>
-  <script src="../lesson6/js/windchill.js"></script>
-  <script src="../lesson6/js/pancakebanner.js"></script>
 </body>
 
 </html>

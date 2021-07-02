@@ -22,7 +22,7 @@ h1 {
 
 nav ul {
   list-style: none;
-  margin-left: 35px;
+  text-align: center;
 }
 
 a:link {
@@ -135,10 +135,12 @@ main {
 }
 
 footer {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    background-color: #372554;
-  }
+  background-color: #140152;
+  color: #f8f8f8;
+  border-radius: 25px;
+}
+
+.byuiLink {
+  text-align: center;
+}
+

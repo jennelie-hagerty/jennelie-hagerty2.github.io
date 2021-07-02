@@ -1,146 +1,72 @@
-@media only screen and (min-width: 1000px) and (max-width: 1920px) {
+@media only screen and (min-width: 1008px) {
+  #logo1 {
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  #logo2 {
+    margin-left: 210px;
+    width: 50%;
+    margin-top: 30px;
+}
+
   h1 {
-    font-size: 4em;
-  }
-
-  .logo1 {
-    max-width: 15%;
-    margin-top: -90px;
-    margin-left: 30px;
-  }
-
-  .logo2 {
-    max-width: 15%;
-    margin-top: -90px;
-    margin-right: 30px;
+    padding-top: 10px;
+    font-size: 90px;
+    text-align: center;
   }
 
   .motto {
-    font-size: 1.5em;
-  }
-
-  a.ham {
-    display: none;
-  }
-
-  .navlist {
-    display: flex;
-    flex: 1 1 auto;
+    font-size: 60px;
     text-align: center;
-    font-size: 20px;
   }
 
   .navlist li {
-    display: block;
-  }
+    font-size: 35px;
+    padding-left: 90px;
+  } 
 
-  h2 {
-    font-size: 2em;
-  }
+h2 {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 60px;
+}
 
   .heroimg {
     width: 90%;
-    height: 275px;
+    height: 600px;
   }
 
   .summarydiv {
-    width: 25%;
-    margin-left: 70px;
-    margin-top: 40px;
-    font-size: 20px;
+    width: 30%;
+    height: auto;
+    top: 225px;
+    left: 50px;
+  }
+
+  .summary {
+    font-size: 2em;
   }
 
   .summarylist {
-    line-height: 30px;
-    margin-top: -15px;
-    margin-left: -10px;
+    margin-top: -10px;
+    line-height: 80px;
+    font-size: 2em;
   }
 
-  .fivedaycontainer {
-    display: block;
-    width: 90%;
-    height: auto;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    /*border: red solid 2px;*/
+  #banner {
+  font-size: 50px;
   }
-
-  .cast {
-    font-family: "Raleway", sans-serif;
-    color: #564592;
-  }
-
+  
   .foreimg {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .articlecontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .artpara {
-    grid-column: 1;
-    grid-row: 1 / 2;
-    font-size: 1em;
+    width: 90%;
+    height: 300px;
   }
 
   .rodeoimg {
-    grid-column: 2;
-    grid-row: 2 / 3;
-    margin-top: 40px;
-    height: 320px;
-    width: 100%;
+    width: 30%;
   }
-
-  .contactcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .contact {
-    grid-column: 1 / 2;
-    height: 200px;
-    margin-top: 90px;
-    padding-right: 10px;
-  }
-
-  .map {
-    display: block;
-    grid-column: 2 / 3;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .mapheading {
-    font-family: "Raleway", sans-serif;
-    color: #564592;
-    margin-bottom: 15px;
-  }
-
-  .iframe {
-    width: 90%;
-    height: 315px;
-    padding-left: 10px;
-  }
-
-  .fpara {
-    margin-left: 25px;
-    font-size: 1em;
-    text-align: center;
-  }
-
-  .byulink {
-    text-align: center;
-    margin-top: -10px;
-  }
-
-  .date {
-    margin-left: 25px;
-  }
-}
+  
+} 
