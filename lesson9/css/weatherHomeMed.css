@@ -1,44 +1,153 @@
 @media only screen and (min-width: 640px) {
-    #logo1 {
-      width: 60%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    #logo2 {
-      width: 60%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    h1 {
-      padding-top: 45px;
-      text-align: center;
-    }
-  
-    .motto {
-      margin-top: -50px;
-      text-align: center;
-      font-size: 25px;
-    }
-  
-    a.ham {
-      display: none;
-    }
-  
-    .navlist {
-      display: flex;
-      flex: 1 1 auto;
-    }
-  
-    .navlist li {
-      display: block;
-      text-align: center;
-      font-size: 20px;
-      padding-left: 60px;
-    }
-  
-    main {
-      font-size: 30px;
-    }
+  #logo1 {
+    width: 60%;
+    padding-top: 20px;
+    margin-left: 10px;
   }
+
+  #logo2 {
+    width: 60%;
+    padding-top: 20px;
+    margin-left: 90px;
+  }
+
+  h1 {
+    font-size: 50px;
+    padding: 55px;
+    text-align: center;
+  }
+
+  .motto {
+    font-size: 30px;
+    margin-top: -45px;
+  }
+
+  a.ham {
+    display: none;
+  }
+
+  .navlist {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .navlist li {
+    display: block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+  }
+
+  #sodasprings {
+  grid-column: 1/4;
+  grid-row: 1;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-size: 25px;
+  }
+
+  #sodasprings img { 
+    grid-column: 3/4;
+    grid-row: 1;
+    width: 40%;
+    margin-right: 20px;
+    margin-top: -170px;
+  }
+  
+  #fishhaven {
+  grid-column: 1/4;
+  grid-row: 2;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+#fishhaven :nth-child(3) {
+ margin-left: 380px;
+}
+#fishhaven :nth-child(4) {
+  margin-left: 380px;
+ }
+ #fishhaven :nth-child(5) {
+  margin-left: 380px;
+ }
+
+#fishhaven img { 
+  grid-column: 1;
+  grid-row: 2;
+  width: 40%;
+  margin-top: -170px;
+  margin-left: 0px;
+}
+
+#preston{
+  grid-column: 1/4;
+  grid-row: 3;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+#preston img { 
+  grid-column: 3/4;
+  grid-row: 3;
+  width: 40%;
+  margin-right: 20px;
+  margin-top: -170px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.townmotto {
+  margin-top: 0px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.contact {
+  font-size: 25px;
+}
+
+.map {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mapheading {
+  font-family: "Raleway", sans-serif;
+  color: #564592;
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.iframe {
+  width: 90%;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fpara {
+  font-size: 25px;
+}
+
+.byuiLink {
+  font-size: 25px;
+}
+}

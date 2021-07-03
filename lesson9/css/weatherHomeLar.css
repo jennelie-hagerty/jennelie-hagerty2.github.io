@@ -1,47 +1,102 @@
 @media only screen and (min-width: 1008px) {
-    #logo1 {
-      width: 50%;
-      margin-top: 30px;
-    }
-  
-    #logo2 {
-      width: 50%;
-      margin-top: 30px;
-    }
-  
-    h1 {
-      padding-top: 10px;
-      font-size: 90px;
-    }
-  
-    .motto {
-      font-size: 60px;
-    }
-  
-    .navlist li {
-      font-size: 35px;
-      padding-left: 90px;
-    }
-  
-    h2,
-    h3 {
-      text-align: center;
-    }
-  
-    form {
-      display: block;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .comments {
-      width: 90%;
-    }
-  
-    .foreimg {
-      width: 90%;
-      height: 300px;
-    }
+  #logo1 {
+    width: 40%;
+    margin-left: 100px;
+    padding-top: 50px;
   }
+
+  #logo2 {
+    width: 40%;
+    margin-left: 170px;
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  .motto {
+    font-size: 40px;
+    margin-top: -55px;
+  }
+
+  .navlist li {
+    font-size: 30px;
+  } 
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+  }
+
+  #sodasprings {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  }
+
+  #sodasprings img { 
+  margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  #fishhaven {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+#fishhaven :nth-child(3) {
+ margin-left: 0px;
+}
+#fishhaven :nth-child(4) {
+  margin-left: 0px;
+ }
+ #fishhaven :nth-child(5) {
+  margin-left: 0px;
+ }
+
+#fishhaven img { 
+  margin-top: 80px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#preston{
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+}
+
+#preston img { 
+  margin-top: 80px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.townmotto {
+margin-bottom: 30px;
+}
+
+.iframe {
+  margin-left: 50px;
+}
+
+.fpara {
+  font-size: 35px;
+}
+
+.byuiLink {
+  font-size: 35px;
+}
+
+}
   
