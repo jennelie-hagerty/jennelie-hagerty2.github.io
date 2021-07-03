@@ -1,64 +1,56 @@
-#entirepage {
+#entirePage {
   background-color: #e6e6fa;
-  color: #f8f8f8;
-  max-width: 1920px;
   font-family: "Montserrat", sans-serif;
-  font-size: 19px;
-}
-
-.headerdiv {
-  width: 90%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  /*border: red solid 2px;*/
+  color: black;
 }
 
 .topBanner {
-  background-color: #140152;
-  border-radius: 1.5em;
-  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  background-color: #140152;
+  color: #f8f8f8;
+  border-radius: 25px;
+}
+
+#logo1 {
+  grid-column: 1;
+  grid-row: 2;
+  width: 80%;
+  padding-top: 20px;
+  margin-left: 5px;
+}
+
+#logo2 {
+  grid-column: 3;
+  grid-row: 2;
+  width: 80%;
+  padding-top: 20px;
+  margin-left: 5px;
 }
 
 h1 {
-  /*font-family: "Raleway", sans-serif;*/
-  font-family: "Dancing Script", cursive;
-  font-size: 2em; /*24pt*/
-  padding: 10px;
-  margin-top: auto;
-  margin-bottom: auto;
+  grid-column: 2;
+  grid-row: 2;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  margin-right: 5px;
 }
 
-.logo1 {
-  max-width: 15%;
-  float: left;
-  margin-top: -50px;
-  margin-left: 10px;
-}
-
-.logo2 {
-  max-width: 15%;
-  float: right;
-  margin-top: -50px;
-  margin-right: 10px;
-}
-
-.moto {
-  font-size: 1em;
+.motto {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: -30px;
+  text-align: center;
 }
 
 .topNav {
   background-color: #8a2be2;
   border: black solid 2px;
   border-radius: 25px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -16px;
+  width: 100%;
 }
 
 .navlist {
@@ -68,11 +60,14 @@ h1 {
 .navlist li:first-child {
   display: block;
   text-decoration: underline;
-  margin-left: -20px;
+  text-align: center;
+  margin-left: -65px;
 }
 
 .navlist li {
   display: none;
+  text-align: center;
+  margin-left: -65px;
 }
 
 .navlist li a {
@@ -91,7 +86,7 @@ h1 {
 
 /* unvisited link */
 a:link {
-  color: #f8f8f8;
+  color: #489fb5;
 }
 
 /* visited link */
@@ -111,49 +106,50 @@ a:active {
   border-radius: 25px;
 }
 
-.herocontainer {
-  position: relative;
+main {
+  display: block;
+  font-size: 20px;
   width: 90%;
-  height: auto;
-  top: 15px;
-  bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  /*border: red solid 2px;*/
 }
 
-.hero {
-  margin-top: -30px;
-  padding: 5px;
-}
-h2 {
+h2,h3 {
   font-family: "Raleway", sans-serif;
   color: #564592;
+  text-align: center;
+}
+
+.herocontainer {
+  position: relative;
 }
 
 .heroimg {
-  width: 95%;
-  border-radius: 25px;
   display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .summarydiv {
   background-color: #8a2be2;
+  color: #f8f8f8;
   border-radius: 25px;
   position: absolute;
-  width: 30%;
+  width: 60%;
   height: auto;
-  font-size: 0.5em;
-  top: 115px;
-  left: 20px;
+  font-size: 0.7em;
+  top: 100px;
+  left: 10px;
   opacity: 0.8;
 }
 
 .summary {
   margin-left: 15px;
   text-decoration: underline;
+  color: #f8f8f8;
 }
 
 .summarylist {
@@ -163,8 +159,33 @@ h2 {
   line-height: 20px;
 }
 
+#banner {
+  background-color: #489fb5;
+  color: #f8f8f8;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
 .fivedaycontainer {
-  display: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #564592;
+  font-size: 15px;
+  text-align: center;
+/*border: red solid 2px;*/  
+}
+
+.weather-icon {
+  margin-left: -20px;
 }
 
 .articlecontainer {
@@ -194,7 +215,6 @@ h2 {
 .rodeoimg {
   display: block;
   width: 90%;
-  height: 200px;
   border-radius: 25px;
   border: black solid 2px;
   margin-left: auto;
@@ -213,6 +233,7 @@ h2 {
 
 .contact {
   background-color: #8a2be2;
+  color: #f8f8f8;
   border-radius: 25px;
   width: 95%;
   margin-left: auto;
@@ -235,7 +256,7 @@ h2 {
   display: none;
 }
 
-.footercontainer {
+footer {
   background-color: #140152;
   border-radius: 1.5em;
   /*border: red solid 2px;*/
@@ -244,6 +265,7 @@ h2 {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  color: #f8f8f8;
 }
 
 .fpara {
@@ -251,13 +273,15 @@ h2 {
   height: auto;
   margin-left: 15px;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .byulink {
   text-align: center;
   margin-top: -10px;
+  text-align: center;
 }
 
 .date {
-  margin-left: 15px;
+  text-align: center;
 }
