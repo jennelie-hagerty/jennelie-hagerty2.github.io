@@ -13,6 +13,7 @@ let months = [
   "February",
   "March",
   "April",
+  "May",
   "June",
   "July",
   "August",
@@ -24,9 +25,9 @@ let months = [
 /**********************************************************************************************************************************/
 var d = new Date();
 function currentdate() {
-  
+
   var nday = d.getDay(), nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getFullYear();
- 
+
   var clocktext = "" + days[nday] + ", " + months[nmonth] + " " + ndate + ", " + nyear + " ";/*"+nhour+":"+nmin+":"+nsec+ap+"*/
   document.getElementById('currentdate').innerHTML = clocktext;
 }
@@ -58,9 +59,9 @@ window.onresize = () => { if (window.innerWidth > 641) mainnav.classList.remove(
   classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
   */
 /**********************************************************************************************************************************/
-  function adjustRating(rating) {
-    document.getElementById("severityvalue").innerHTML = rating;
-  }
+function adjustRating(rating) {
+  document.getElementById("severityvalue").innerHTML = rating;
+}
 /**********************************************************************************************************************************/
 const requestURL =
   "https://byui-cit230.github.io/weather/data/towndata.json";
@@ -77,34 +78,56 @@ fetch(requestURL)
       if (i == 0 || i == 2 || i == 6) {
         let card = document.createElement("section");
 
+        let towndiv = document.createElement('div');
+        towndiv.classList.add("towndiv");
+        card.appendChild(towndiv)
+
         let h2 = document.createElement("h2");
         h2.innerHTML = `${towns[i].name}`;
-        card.appendChild(h2);
+        towndiv.appendChild(h2);
 
-        let p1 = document.createElement("p");
-        p1.innerHTML = `${towns[i].motto}`;
-        p1.classList.add("p1");
-        card.appendChild(p1);
+        let townmotto = document.createElement('p');
+        townmotto.innerHTML = `${towns[i].motto}`;
+        townmotto.classList.add("townmotto");
+        towndiv.appendChild(townmotto);
 
-        let p2 = document.createElement("p");
-        p2.innerHTML = `Year founded: ${towns[i].yearFounded}`;
-        p2.classList.add("p2");
-        card.appendChild(p2);
+        let yearfounded = document.createElement('p');
+        yearfounded.innerHTML = `Year founded: ${towns[i].yearFounded}`;
+        yearfounded.classList.add("yearfounded");
+        towndiv.appendChild(yearfounded);
 
-        let p3 = document.createElement("p");
-        p3.innerHTML = `Population: ${towns[i].currentPopulation}`;
-        p3.classList.add("p3");
-        card.appendChild(p3);
+        let population = document.createElement('p');
+        population.innerHTML = `Population: ${towns[i].currentPopulation}`;
+        population.classList.add("population");
+        towndiv.appendChild(population);
 
-        let p4 = document.createElement("p");
-        p4.innerHTML = `Annual Rain Fall: ${towns[i].averageRainfall}`;
-        p4.classList.add("p4");
-        card.appendChild(p4);
+        let rainfall = document.createElement('p');
+        rainfall.innerHTML = `Annual Rain Fall: ${towns[i].averageRainfall}`;
+        rainfall.classList.add("rainfall");
+        towndiv.appendChild(rainfall);
 
-        let i1 =document.createElement("img");
-        i1.innerHTML = `${towns[i].photo}`;
-        i1.classList.add("i1");
-        card.appendChild(i1);
+        let townimage = document.createElement('img');
+        
+          if (i == 0) {
+            townimage.setAttribute('src', 'images/sodasprings.jpg')
+            townimage.setAttribute('alt', 'Image of ' + towns[i].name)
+            card.setAttribute('id', 'sodasprings')
+            card.appendChild(townimage);
+          } 
+
+          if (i == 2) {
+            townimage.setAttribute('src', 'images/fishhaven.jpg')
+            townimage.setAttribute('alt', 'Image of ' + towns[i].name)
+            card.setAttribute('id', 'fishhaven')
+            card.appendChild(townimage);
+          } 
+
+          if (i == 6) {
+            townimage.setAttribute('src', 'images/preston.jpg')
+            townimage.setAttribute('alt', 'Image of ' + towns[i].name)
+            card.setAttribute('id', 'preston')
+            card.appendChild(townimage);
+          } 
 
         document.querySelector("div.cards").appendChild(card);
       }

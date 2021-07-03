@@ -13,6 +13,7 @@
   background-color: #140152;
   color: #f8f8f8;
   border-radius: 25px;
+  margin-bottom: 0px;
 }
 
 #logo1 {
@@ -45,225 +46,156 @@ h1 {
   margin-left: -10px;
 }
 
-  
 .topNav {
   background-color: #8a2be2;
   border: black solid 2px;
   border-radius: 25px;
   width: 100%;
 }
-  
-  .navlist {
-    list-style: none;
-    margin-left: -40px;
-  }
-  
-  .navlist li {
-    display: none;
-    text-align: center;
-  }
-  
-  .navlist li:first-child {
-    display: block;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 25px;
-  }
-  
-  .navlist li a {
-    color: #f8f8f8;
-    text-decoration: none;
-  }
-  
-  .responsive li {
-    display: block;
-    /* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
+
+.navlist {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.navlist li {
+  display: none;
+  text-align: center;
+}
+
+.navlist li:first-child {
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+}
+
+.navlist li a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.responsive li {
+  display: block;
+  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
     display block because the responsive class is added to the end of the class list like this in HTML.    
     <ul class="navigation responsive">
     */
-  }
-  
-  main {
-    display: block;
-    font-size: 20px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-  }
-
-  .herocontainer {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .heroimg {
-    display: block;
-    width: 90%;
-    height: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    box-shadow: 10px 10px 50px #8a2be2;
-  }
-
-  h2,h3 {
-    color: #8a2be2;
-    background-color: aqua;
-    text-align: center;
-  }
-
-  section {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #564592;
-    border: black solid 1px;
-    width: 90%;
-    margin-bottom: 100px;
 }
 
-  section :nth-child(2) {
-    font-size: 25px;
-    color: #f8f8f8;
-    text-align: center;
-  }
-  
-  section :nth-child(3) {
-    color: #f8f8f8;
-  }
-
-  section :nth-child(4) {
-    color: #f8f8f8;
-  }
-
-  section :nth-child(5) {
-    color: #f8f8f8;
-  }
-
-  .i1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  footer {
-    background-color: #140152;
-    color: #f8f8f8;
-    border-radius: 25px;
-    width: 90%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .fpara {
-    text-align: center;
-  }
-  
-  .byuiLink {
-    text-align: center;
-  }
-  /***************************************************************/
-  /*Medium*/
-  @media only screen and (min-width: 640px) {
-  #logo1 {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #logo2 {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h1 {
-    padding-top: 45px;
-    text-align: center;
-  }
-
-  .motto {
-    margin-top: -50px;
-    text-align: center;
-    font-size: 25px;
-  }
-
-  a.ham {
-    display: none;
-  }
-
-  .navlist {
-    display: flex;
-    flex: 1 1 auto;
-  }
-
-  .navlist li {
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    padding-left: 60px;
-  } 
-  
-  main {
-    font-size: 30px;
-  }
+/* unvisited link */
+a:link {
+  color: #489fb5;
 }
 
-  /****************************************************************/
-  /*Large*/
-  @media only screen and (min-width: 1008px) {
-    #logo1 {
-      width: 50%;
-      margin-top: 30px;
-    }
-  
-    #logo2 {
-      width: 50%;
-      margin-top: 30px;
-    }
-  
-    h1 {
-      padding-top: 10px;
-      font-size: 90px;
-    }
-  
-    .motto {
-      font-size: 60px;
-    }
-  
-    .navlist li {
-      font-size: 35px;
-      padding-left: 90px;
-    } 
-  
-    h2,h3{
-        text-align: center;
-    }
-
-form{
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+/* visited link */
+a:visited {
+  color: greenyellow;
 }
 
-    .comments {
-        width: 90%;
-    }
-    
-    .foreimg {
-      width: 90%;
-      height: 300px;
-    }
+/* mouse over link */
+a:hover {
+  background-color: lightblue;
+  border-radius: 25px;
+}
 
-    .thankyou {
-      text-align: center;
-      margin-top: 25px;
-      margin-bottom: 25px;
-    }
-    
-  } 
-  
+/* selected link */
+a:active {
+  background-color: blue;
+  border-radius: 25px;
+}
+
+main {
+  display: block;
+  font-size: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+.herocontainer {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heroimg {
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 10px 10px 50px #8a2be2;
+}
+
+h2,
+h3 {
+  color: #8a2be2;
+  background-color: aqua;
+  text-align: center;
+}
+
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #564592;
+  border: black solid 1px;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.townmotto {
+  font-size: 25px;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.yearfounded {
+  color: #f8f8f8;
+}
+
+.population {
+  color: #f8f8f8;
+}
+
+.rainfall {
+  color: #f8f8f8;
+}
+
+#sodasprings img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#fishhaven img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#preston img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+footer {
+  background-color: #140152;
+  color: #f8f8f8;
+  border-radius: 25px;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
