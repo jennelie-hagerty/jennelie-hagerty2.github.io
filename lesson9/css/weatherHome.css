@@ -209,6 +209,10 @@ footer {
   text-align: center;
 }
 
-.byuiLink {
+.byulink {
+  text-align: center;
+}
+
+.date {
   text-align: center;
 }

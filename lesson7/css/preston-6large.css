@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) and (max-width: 1920px) {
+@media only screen and (min-width: 1008px)  {
   h1 {
     font-size: 4em;
   }
@@ -15,23 +15,8 @@
     margin-right: 30px;
   }
 
-  a.ham {
-    display: none;
-  }
-
   .motto {
     font-size: 2em;
-  }
-
-  .navlist {
-    display: flex;
-    flex: 1 1 auto;
-    font-size: 1.3em;
-  }
-
-  .navlist li {
-    display: block;
-    margin-left: 15px;
   }
 
   .picturecontainer {
@@ -151,24 +136,4 @@
     text-align: center;
   }
 
-  .footercontainer {
-    width: 75%;
-  }
-
-  .fpara {
-    margin-left: 25px;
-    font-size: 2em;
-    text-align: center;
-  }
-
-  .byulink {
-    text-align: center;
-    margin-top: -10px;
-    font-size: 1.5em;
-  }
-
-  .date {
-    text-align: center;
-    font-size: 1.5em;
-  }
 }

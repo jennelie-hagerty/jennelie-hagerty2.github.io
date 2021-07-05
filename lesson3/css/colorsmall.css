@@ -98,6 +98,8 @@ main {
   grid-row: 1;
   color: #8a2be2;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .c1 {
@@ -146,6 +148,8 @@ main {
   grid-row: 1;
   margin-bottom: 10px;
   color: #489fb5;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .m1 {

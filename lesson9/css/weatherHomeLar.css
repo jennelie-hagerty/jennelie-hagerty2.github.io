@@ -86,15 +86,33 @@ h2 {
 margin-bottom: 30px;
 }
 
+.contactcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .iframe {
-  margin-left: 50px;
+  grid-column: 3/4;
+  grid-row: 1;
+  width: 100%;
+}
+
+.contact {
+  grid-column: 1/3;
+  grid-row: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .fpara {
   font-size: 35px;
 }
 
-.byuiLink {
+.byulink {
   font-size: 35px;
 }
 

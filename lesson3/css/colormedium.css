@@ -52,7 +52,8 @@
         grid-row: 2;
         padding-bottom: 75px;
         padding-top: 75px;
-        margin-right: 10px;
+        margin-left: 20px;
+        width: 100%;
       }
       
       .c2 {
@@ -60,6 +61,8 @@
         grid-row: 2;
         padding-bottom: 75px;
         padding-top: 75px;
+        margin-left: -20px;
+        width: 100%;
       }
       
       .c3 {
@@ -67,7 +70,8 @@
         grid-row: 3;
         padding-bottom: 75px;
         padding-top: 75px;
-        margin-right: 10px;
+        margin-left: 20px;
+        width: 100%;
       }
       
       .c4 {
@@ -75,6 +79,8 @@
         grid-row: 3;
         padding-bottom: 75px;
         padding-top: 75px;
+        margin-left: -20px;
+        width: 100%;
       }
       
       .m1 {

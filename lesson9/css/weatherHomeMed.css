@@ -137,17 +137,23 @@ margin-bottom: 50px;
 }
 
 .iframe {
+  display: block;
   width: 90%;
-  height: 315px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .fpara {
-  font-size: 25px;
+  font-size: 30px;
+  margin-bottom: 0px;
 }
 
-.byuiLink {
-  font-size: 25px;
+.byulink {
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.date {
+  font-size: 30px;
 }
 }

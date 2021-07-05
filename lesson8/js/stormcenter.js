@@ -61,3 +61,4 @@ window.onresize = () => { if (window.innerWidth > 641) mainnav.classList.remove(
   function adjustRating(rating) {
     document.getElementById("severityvalue").innerHTML = rating;
   }
+/**********************************************************************************************************************************/

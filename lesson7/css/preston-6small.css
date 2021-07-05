@@ -1,13 +1,12 @@
 #entirepage {
   background-color: #e6e6fa;
   color: #f8f8f8;
-  max-width: 1920px;
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
 }
 
 .headerdiv {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -17,7 +16,7 @@
 .topBanner {
   background-color: #140152;
   border-radius: 1.5em;
-  width: 95%;
+  width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -27,7 +26,7 @@
 h1 {
   /*font-family: "Raleway", sans-serif;*/
   font-family: "Dancing Script", cursive;
-  font-size: 2em; /*24pt*/
+  font-size: 1.5em; /*24pt*/
   padding: 10px;
   margin-top: auto;
   margin-bottom: auto;
@@ -55,30 +54,28 @@ h1 {
   background-color: #8a2be2;
   border: black solid 2px;
   border-radius: 25px;
-  width: 85%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: -16px;
 }
 
-.navlist {
-  list-style: none;
-}
-
 .navlist li:first-child {
   display: block;
   text-decoration: underline;
-  margin-left: -20px;
+  text-align: center;
+  margin-left: -40px
 }
 
 .navlist li {
   display: none;
+  margin-left: -40px;
+  text-align: center;
 }
 
 .navlist li a {
   color: #f8f8f8;
   text-decoration: none;
-  margin-left: 20px;
 }
 
 .responsive li {
@@ -143,7 +140,7 @@ a:active {
   margin-right: auto;
 }
 
-.p2{
+.p2 {
   grid-column: 2;
   grid-row: 2;
   margin-top: 300px;
@@ -157,7 +154,7 @@ a:active {
   margin-right: auto;
 }
 
-.p3{
+.p3 {
   grid-column: 2;
   grid-row: 3;
   margin-top: 300px;
@@ -171,7 +168,7 @@ a:active {
   margin-right: auto;
 }
 
-.p4{
+.p4 {
   grid-column: 2;
   grid-row: 4;
   margin-top: 300px;
@@ -185,7 +182,7 @@ a:active {
   margin-right: auto;
 }
 
-.p5{
+.p5 {
   grid-column: 2;
   grid-row: 5;
   margin-top: 300px;
@@ -199,7 +196,7 @@ a:active {
   margin-right: auto;
 }
 
-.p6{
+.p6 {
   grid-column: 2;
   grid-row: 6;
   margin-top: 300px;
@@ -213,7 +210,7 @@ a:active {
   margin-right: auto;
 }
 
-.p7{
+.p7 {
   grid-column: 2;
   grid-row: 7;
   margin-top: 300px;
@@ -227,7 +224,7 @@ a:active {
   margin-right: auto;
 }
 
-.p8{
+.p8 {
   grid-column: 2;
   grid-row: 8;
   margin-top: 300px;
@@ -241,7 +238,7 @@ a:active {
   margin-right: auto;
 }
 
-.p9{
+.p9 {
   grid-column: 2;
   grid-row: 9;
   margin-top: 300px;
@@ -261,16 +258,19 @@ a:active {
 
 .fpara {
   width: 95%;
-  height: auto;
   margin-left: 15px;
   font-size: 0.8em;
 }
 
-.byulink {
+.date {
   text-align: center;
-  margin-top: -10px;
 }
 
-.date {
-  margin-left: 15px;
+.byulink {
+  text-align: center;
+}
+
+.lastvisit {
+  text-align: center;
+  margin-top: 0px;
 }
