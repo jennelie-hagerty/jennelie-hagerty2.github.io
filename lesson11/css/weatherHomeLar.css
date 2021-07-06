@@ -1,0 +1,389 @@
+@media only screen and (min-width: 1008px) {
+  #logo1 {
+    width: 40%;
+    margin-left: 100px;
+    padding-top: 50px;
+  }
+
+  #logo2 {
+    width: 40%;
+    margin-left: 170px;
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  .motto {
+    font-size: 40px;
+    margin-top: -55px;
+  }
+
+  .navlist li {
+    font-size: 30px;
+  } 
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+  }
+
+  #sodasprings {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  }
+
+  #sodasprings img { 
+  margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  #fishhaven {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+#fishhaven :nth-child(3) {
+ margin-left: 0px;
+}
+#fishhaven :nth-child(4) {
+  margin-left: 0px;
+ }
+ #fishhaven :nth-child(5) {
+  margin-left: 0px;
+ }
+
+#fishhaven img { 
+  margin-top: 80px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#preston{
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+}
+
+#preston img { 
+  margin-top: 80px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.townmotto {
+margin-bottom: 30px;
+}
+
+.contactcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.iframe {
+  grid-column: 3/4;
+  grid-row: 1;
+  width: 100%;
+}
+
+.contact {
+  grid-column: 1/3;
+  grid-row: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.fpara {
+  font-size: 35px;
+}
+
+.byulink {
+  font-size: 35px;
+}
+
+.date {
+  text-align: center;
+}
+
+/**********************************************************************************************/
+/*PRESTON*/
+.heroimg {
+  height: 400px;
+}
+
+.summarydiv {
+  width: 30%;
+  top: 130px;
+  left: 100px;
+}
+
+.summary {
+  text-align: left;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.summarylist {
+  line-height: 45px;
+  font-size: 1.5em;
+}
+
+.articlecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.artpara {
+  grid-column: 1;
+  grid-row: 1 / 2;
+  font-size: 1em;
+}
+
+.rodeoimg {
+  grid-column: 2;
+  grid-row: 2 / 3;
+  margin-top: 120px;
+  width: 100%;
+}
+/**********************************************************************************************/
+/*SODA SPRINGS*/
+.spheroimg {
+  height: 400px;
+}
+
+.spsummarydiv {
+  width: 30%;
+  top: 130px;
+  left: 100px;
+}
+
+.spsummary {
+  text-align: left;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.spsummarylist {
+  line-height: 45px;
+  font-size: 1.5em;
+}
+
+.sparticlecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.spartpara {
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.wildfire {
+  grid-column: 2;
+  grid-row: 2 / 3;
+  margin-top: 200px;
+  width: 100%;
+}
+.source {
+  font-size: 30px;
+}
+/**********************************************************************************************/
+/*FISH HAVEN*/
+.fhheroimg {
+  height: 400px;
+}
+
+.fhsummarydiv {
+  width: 30%;
+  top: 130px;
+  left: 100px;
+}
+
+.fhsummary {
+  text-align: left;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.fhsummarylist {
+  line-height: 45px;
+  font-size: 1.5em;
+}
+
+.fharticlecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fhartpara {
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.sub {
+  grid-column: 2;
+  grid-row: 2 / 3;
+  margin-top: 200px;
+  width: 100%;
+}
+.credit {
+  font-size: 30px;
+}
+/**********************************************************************************************/
+/*STORM CENTER*/
+form{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .comments {
+      width: 90%;
+  }
+  
+  .foreimg {
+    width: 90%;
+    height: 300px;
+  }
+
+  .thankyou {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+/**********************************************************************************************/
+/*GALLERY*/
+.picturecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img:hover {
+  box-shadow: 20px/*right*/ 20px /*bottom*/ 40px rgb(6, 133, 133);
+}
+
+.pic1 {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 35px;
+}
+
+.p1 {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+}
+
+.pic2 {
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: 35px;
+}
+
+.p2 {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.pic3 {
+  grid-column: 3;
+  grid-row: 1;
+  margin-left: 35px;
+}
+
+.p3 {
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+}
+
+.pic4 {
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 35px;
+}
+
+.p4 {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+}
+
+.pic5 {
+  grid-column: 2;
+  grid-row: 2;
+  margin-left: 35px;
+}
+
+.p5 {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.pic6 {
+  grid-column: 3;
+  grid-row: 2;
+  margin-left: 35px;
+}
+
+.p6 {
+  grid-column: 3;
+  grid-row: 2;
+  text-align: center;
+}
+
+.pic7 {
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 35px;
+}
+
+.p7 {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+}
+
+.pic8 {
+  grid-column: 2;
+  grid-row: 3;
+  margin-left: 35px;
+}
+
+.p8 {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: center;
+}
+
+.pic9 {
+  grid-column: 3;
+  grid-row: 3;
+  margin-left: 35px;
+}
+
+.p9 {
+  grid-column: 3;
+  grid-row: 3;
+  text-align: center;
+}
+}
+  

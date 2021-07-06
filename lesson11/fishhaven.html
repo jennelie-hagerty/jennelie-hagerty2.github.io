@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 2 Go|Fish Haven</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/weatherHome.css" />
+    <link rel="stylesheet" href="css/weatherHomeMed.css" />
+    <link rel="stylesheet" href="css/weatherHomeLar.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" />
+    <!--para text-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" />
+    <!--headings text-->
+</head>
+
+<body id="entirepage">
+    <header>
+        <div class="headerdiv">
+            <section class="topBanner">
+                <h1>Weather&nbsp;2&nbsp;Go</h1>
+                <img id="logo1" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+                <img id="logo2" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+                <p class="motto">Weather&nbsp;for&nbsp;those&nbsp;on&nbsp;the&nbsp;go!</p>
+            </section>
+
+            <div class="topNav">
+                <nav class="hamburgernav">
+                    <ul class="navlist">
+                        <li><a class="ham" href="#">Menu</a></li>
+                        <li><a href="weatherhome.html">Weather&nbsp;2&nbsp;Go</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="sodaSprings.html">Soda&nbsp;Springs</a></li>
+                        <li><a href="fishhaven.html">Fish&nbsp;Haven</a></li>
+                        <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="../index.html">Portal</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="fhherocontainer">
+            <section class="hero">
+                <h2>Fish Haven</h2>
+                <picture>
+                    <img class="fhheroimg" src="images/fish.jpg" alt="A-frame cabin in winter" />
+                </picture>
+            </section>
+
+            <section class="fhsummarydiv">
+                <h3 class="fhsummary">Weather Summary</h3>
+                <ul class="fhsummarylist">
+                    <li class="fhcur">Currently: <span id="fhcondition"></span> &#38; <span
+                            id="fhcurrent-temp"></span>&deg; F </li>
+                    <li class="fhhum">Humidity: <span id="fhhumidity"></span>&#37;</li>
+                    <li class="fhwind">Wind Speed: <span id="fhwindspeed"></span>mph</li>
+                    <li class="fhwinC">Windchill: <span id="fhwindchill"></span></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="fhfivedaycontainer"></div>
+
+        <div class="fharticlecontainer">
+            <section class="fharticle">
+                <h3 class="fhart">Idaho to be represented in the U.S. Navy once again</h3>
+                <p class="fhartpara">TWIN FALLS, Idaho (KMVT/KSVT) — A new $2.6 billion dollar submarine will soon be
+                    joining the United States Navy fleet, and it’s named after the Gem State.
+
+                    The U.S.S. Idaho is a Virginia-class nuclear-powered fast attack submarine, that will be the fifth
+                    Navy vessel to be named after the 43rd state.
+
+                    “It’s an honor... We haven’t had a ship named after this state for 102 years,” said Navy Veteran
+                    Richard Fife. “So, we’re very pleased with this decision.”
+
+                    The submariners who will make up the crew of the U.S.S. Idaho, are touring around the state to meet
+                    with residents and veterans as a lead-up to the submarine’s debut.<br>
+                    <a href="https://www.kmvt.com/2021/07/05/idaho-be-represented-us-navy-once-again/" style="color: #564592;"> continue story... </a></p>
+
+            </section>
+
+            <div class="fharticleimg">
+                <picture>
+                    <img class="sub" src="images/sub.jpg" alt="navy submarine" width="200" />
+                </picture>
+            </div>
+        </div>
+
+        <div class="contactcontainer">
+            <section class="contact">
+                <h3 class="cont">Contact Information</h3>
+                <p class="contpara">
+                    777 Spinners BLVD.<br />
+                    Fish Haven, ID 83263<br />
+                    Phone: (208) 427-7677<br />
+                    Email: info@seidweather.com
+                </p>
+            </section>
+
+            <section class="map">
+                <h3 class="mapheading">Map</h3>
+                <iframe class="iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621737562969!5m2!1sen!2sus"
+                    width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footercontainer">
+            <p class="fpara">&copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina</p>
+            <p class="byulink"><a href="https://www.byui.edu/online">BYUI&nbsp;Online&nbsp;Learning</a></p>
+            <p class="date"> Date: <span id="currentdate"></span> </p>
+            <p class="credit"><a
+                href="https://www.kmvt.com/2021/07/05/idaho-be-represented-us-navy-once-again/">Article
+                Credit: KMVT 11</a> </p>
+        </div>
+    </footer>
+    <script src="js/currentDate.js"></script>
+    <script src="js/fhWindFore.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+
+</html>

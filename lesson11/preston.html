@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather Site for Jennelie Hagerty. Class WDD 230: Web Frontend Development 
+    at Brigham Young University - Idaho" />
+
+    <title>Weather 2 Go|Preston</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/weatherHome.css" />
+    <link rel="stylesheet" href="css/weatherHomeMed.css" />
+    <link rel="stylesheet" href="css/weatherHomeLar.css" />
+    <!--para text-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" />
+    <!--headings text-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" />
+</head>
+
+<body id="entirepage">
+    <header>
+        <div class="headerdiv">
+            <section class="topBanner">
+                <h1>Weather&nbsp;2&nbsp;Go</h1>
+                <img id="logo1" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+                <img id="logo2" src="images/logo_white_large.png" alt="logo for weather site" width="100" />
+                <p class="motto">Weather&nbsp;for&nbsp;those&nbsp;on&nbsp;the&nbsp;go!</p>
+            </section>
+
+            <div class="topNav">
+                <nav class="hamburgernav">
+                    <ul class="navlist">
+                        <li><a class="ham" href="#">Menu</a></li>
+                        <li><a href="weatherhome.html">Weather&nbsp;2&nbsp;Go</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="sodaSprings.html">Soda&nbsp;Springs</a></li>
+                        <li><a href="fishhaven.html">Fish&nbsp;Haven</a></li>
+                        <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="../index.html">Portal</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="herocontainer">
+            <section class="hero">
+                <h2>Preston Idaho</h2>
+                <picture>
+                    <img class="heroimg" src="images/prestonHome.jpg" alt="blazing sun over mountains" />
+                </picture>
+            </section>
+
+            <section class="summarydiv">
+                <h3 class="summary">Weather Summary</h3>
+                <ul class="summarylist">
+                    <li class="cur">Currently: <span id="condition"></span> &#38; <span id="current-temp"></span>&deg; F </li>
+                    <li class="hum">Humidity: <span id="humidity"></span>&#37;</li>
+                    <li class="wind">Wind Speed: <span id="windspeed"></span>mph</li>
+                    <li class="winC">Windchill: <span id="windchill"></span></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="banner">Preston Pancakes for Kids in the Park! <br>
+            8:00 a.m. tomorrow Saturday at the city park pavilion.</div>
+
+        <div class="fivedaycontainer"></div>
+
+        <div class="articlecontainer">
+            <section class="article">
+                <h3 class="art">Remember the Rodeo</h3>
+                <p class="artpara">
+                    Folks, bring the family and kids out for a night of fun this July.
+                    Returning this year is the long-time favorite "The Famous Preston
+                    Night Rodeo". This year's show will be held on July 29, 30, and 31.
+                    Tickets go on sale on May 20, 2021.<br />
+                    As a special treat this year, Garth Brooks will be returning to take
+                    on the most sinister bull this side of the Mississippi, Lord
+                    Voldermort. Fred and George Weasley, our famously hilarious clowns,
+                    will also be returning. The Weasley Clowns cannot wait to provide
+                    good family entertainment, and of course, to assist the competitors if
+                    needed. Elvis Presley will be the opening night's headliner. <br />
+                    <a href="https://www.prestonrodeo.com/" style="color: #564592;"> continue story... </a>
+                </p>
+            </section>
+
+            <div class="articleimg">
+                <picture>
+                    <img class="rodeoimg" src="images/rodeo.jpg" alt="man riding bucking horse" width="200"/>
+                </picture>
+            </div>
+        </div>
+
+        <div class="contactcontainer">
+            <section class="contact">
+                <h3 class="cont">Contact Information</h3>
+                <p class="contpara">
+                    777 Deathly Hallows BLVD.<br />
+                    Preston, ID 83263<br />
+                    Phone: (208) 427-7677<br />
+                    Email: info@seidweather.com
+                </p>
+            </section>
+
+            <section class="map">
+                <h3 class="mapheading">Map</h3>
+                <iframe class="iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621737562969!5m2!1sen!2sus"
+                    width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footercontainer">
+            <p class="fpara">&copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina</p>
+            <p class="byulink"><a href="https://www.byui.edu/online">BYUI&nbsp;Online&nbsp;Learning</a></p>
+            <p class="date"> Date: <span id="currentdate"></span> </p>
+        </div>
+    </footer>
+    
+    
+    <script src="js/currentDate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/windspeed-forecast.js"></script>
+
+</body>
+
+</html>
