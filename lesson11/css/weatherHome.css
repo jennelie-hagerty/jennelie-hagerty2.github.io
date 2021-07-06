@@ -333,6 +333,24 @@ h2,h3 {
   margin-right: auto;
   margin-bottom: 10px;
 }
+
+#towneventsp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  background-color: #564592;
+  border-radius: 25px;
+  width: 90%;
+  height: auto;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.ph2 {
+  color: #f8f8f8;
+  margin-bottom: -15px;
+}
 /*************************************************************/
 /*SODA SPRINGS*/
 main {
@@ -438,6 +456,24 @@ h2,h3 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+}
+
+#towneventsss {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  background-color: #564592;
+  border-radius: 25px;
+  width: 90%;
+  height: auto;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.sph2 {
+  color: #f8f8f8;
+  margin-bottom: -15px;
 }
 
 .source {
@@ -549,6 +585,24 @@ h2,h3 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+}
+
+#towneventsfh {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  background-color: #564592;
+  border-radius: 25px;
+  width: 90%;
+  height: auto;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.fh2 {
+  color: #f8f8f8;
+  margin-bottom: -15px;
 }
 
 .credit {
