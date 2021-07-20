@@ -1,0 +1,33 @@
+#entirePage {
+    background-color: #7dd8d9;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logo {
+    border-radius: 10px;
+    width: 45%;
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.city {
+    color: #0f2d66;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin-bottom: 0px;
+}
+
+.chamber {
+    color: #0f2d66;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 2;
+    margin-top: 0px;
+}
