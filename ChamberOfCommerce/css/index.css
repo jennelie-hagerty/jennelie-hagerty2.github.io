@@ -1,33 +1,1357 @@
 #entirePage {
-    background-color: #7dd8d9;
+  background-color: #7dd8d9;
 }
 
-header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.headerDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: auto;
 }
 
-.logo {
-    border-radius: 10px;
-    width: 45%;
-    grid-column: 1;
-    grid-row: 1;
-    margin-top: auto;
-    margin-bottom: auto;
+.headerSection {
+  grid-column: 1 / 4;
+  grid-row: 1;
 }
 
 .city {
-    color: #0f2d66;
-    text-align: center;
-    grid-column: 1/4;
-    grid-row: 1;
-    margin-bottom: 0px;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  color: #0f2d66;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -15px;
 }
 
 .chamber {
-    color: #0f2d66;
+  color: #0f2d66;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -45px;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+  width: 20%;
+  margin-top: -30px;
+}
+
+.motto {
+  color: #f2482a;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.topNav {
+  background-color: #0f2d66;
+  border: black solid 2px;
+  border-radius: 25px;
+  width: 30%;
+  grid-column: 1 / 4;
+  grid-row: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navList {
+  list-style: none;
+}
+
+.navList li:first-child {
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.navList li {
+  display: none;
+  text-align: center;
+  margin-left: -65px;
+}
+
+.navList li a {
+  color: #f2482a;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.responsive li {
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+  color: #7dd8d9;
+}
+
+/* visited link */
+a:visited {
+  color: #f2482a;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: #9d8df1;
+  border-radius: 25px;
+}
+
+/* selected link */
+a:active {
+  background-color: #9d8df1;
+  border-radius: 25px;
+  text-decoration: underline;
+}
+
+.summarySection {
+  background-color: #0f2d66;
+  color: #7dd8d9;
+  border: black solid 1px;
+  border-radius: 25px;
+  width: 70%;
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary {
+  text-align: center;
+  margin-top: 0px;
+  text-decoration: underline;
+  color: #7dd8d9;
+}
+
+.summarylist {
+  list-style: none;
+  margin-left: -35px;
+  margin-top: -10px;
+}
+
+.forecastSection {
+  display: none;
+}
+
+.memorial {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.memorialcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.sign {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.signcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.trader {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.tradercap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cpMotto {
+  text-align: center;
+}
+
+.jets {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jetscap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.gate {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.gatecap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.general {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.generalcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.pepsi {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pepsicap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.hall {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.hallcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.tryon {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.tryoncap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.atlantic {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.atlanticcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.emerald {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.emeraldcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.morehead {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.moreheadcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.vision {
+  margin-bottom: -10px;
+}
+
+.serving {
+  margin-bottom: -10px;
+}
+
+.boone {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boonecap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.discount {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.discountcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.spoiled {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 140px;
+}
+
+.spoiledcap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.special {
+  text-align: center;
+}
+
+.cda {
+  display: block;
+  border-radius: 10px;
+  box-shadow: #0f2d66 5px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.cdacap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.events {
+  margin-bottom: -5px;
+}
+
+.contact {
+  margin-bottom: -5px;
+}
+
+.footercontainer {
+  background-color: #0f2d66;
+  color: #ffff;
+  border-radius: 25px;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fpara {
+  text-align: center;
+}
+
+.byulink {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.cite {
+  margin-left: 30px;
+}
+
+.date {
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #0f2d66;
+}
+
+/* Facebook */
+.facebook {
+  background: #3b5998;
+  margin-right: 10px;
+}
+
+/* Twitter */
+.twitter {
+  background: #55acee;
+}
+
+/*****************************************************************************/
+@media only screen and (min-width: 640px) {
+  .city {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+  }
+
+  .chamber {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: -40px;
+  }
+
+  .logo {
+    width: 30%;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+  }
+
+  .motto {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+
+  .topNav {
+    width: 90%;
+  }
+
+  a.ham {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .navList li {
+    display: block;
+    font-size: 25px;
+    margin-left: -5px;
+    margin-right: 10px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .summarySection {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-left: 30px;
+    width: 100%;
+    height: 200px;
+  }
+
+  .summary {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .summarylist {
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  .forecastSection {
+    grid-column: 2/4;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0f2d66;
+    color: #f2482a;
+    font-size: 17px;
     text-align: center;
+    border-radius: 10px;
+  }
+
+  .weather-icon {
+    margin-left: -20px;
+  }
+
+  .have {
     grid-column: 1/4;
     grid-row: 2;
-    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+
+  .haveParagraph {
+    grid-column: 1/4;
+    grid-row: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 25px;
+  }
+
+  .memorial {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .memorialcap {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 115px;
+    font-size: 20px;
+  }
+
+  .sign {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .signcap {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 165px;
+    font-size: 20px;
+  }
+
+  .trader {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .tradercap {
+    grid-column: 3;
+    grid-row: 3;
+    margin-top: 165px;
+    font-size: 20px;
+  }
+
+  .cherry {
+    grid-column: 1/4;
+    grid-row: 4;
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+
+  .cpParagraph1 {
+    grid-column: 1/4;
+    grid-row: 4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 25px;
+  }
+
+  .cpMotto {
+    grid-column: 1/4;
+    grid-row: 4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 190px;
+    font-size: 25px;
+  }
+
+  .cpParagraph2 {
+    grid-column: 1/4;
+    grid-row: 4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+    font-size: 25px;
+  }
+
+  .jets {
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: 15px;
+  }
+
+  .jetscap {
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: 140px;
+    font-size: 20px;
+  }
+
+  .gate {
+    grid-column: 2;
+    grid-row: 5;
+  }
+
+  .gatecap {
+    grid-column: 2;
+    grid-row: 5;
+    margin-top: 165px;
+    font-size: 20px;
+  }
+
+  .general {
+    grid-column: 3;
+    grid-row: 5;
+  }
+
+  .generalcap {
+    grid-column: 3;
+    grid-row: 5;
+    margin-top: 165px;
+    font-size: 20px;
+  }
+
+  .surrounding {
+    grid-column: 1/4;
+    grid-row: 6;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+  }
+
+  .bern {
+    grid-column: 1/4;
+    grid-row: 7;
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+
+  .bernParagraph {
+    grid-column: 1/4;
+    grid-row: 7;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 25px;
+  }
+
+  .pepsi {
+    grid-column: 1;
+    grid-row: 8;
+    margin-top: 15px;
+  }
+
+  .pepsicap {
+    grid-column: 1;
+    grid-row: 8;
+    margin-top: 165px;
+    font-size: 20px;
+  }
+
+  .hall {
+    grid-column: 2;
+    grid-row: 8;
+  }
+
+  .hallcap {
+    grid-column: 2;
+    grid-row: 8;
+    margin-top: 160px;
+    font-size: 20px;
+  }
+
+  .tryon {
+    grid-column: 3;
+    grid-row: 8;
+  }
+
+  .tryoncap {
+    grid-column: 3;
+    grid-row: 8;
+    margin-top: 160px;
+    font-size: 20px;
+  }
+
+  .crystal {
+    grid-column: 1/4;
+    grid-row: 9;
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+
+  .crystalParagraph {
+    grid-column: 1/4;
+    grid-row: 9;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 25px;
+  }
+
+  .atlantic {
+    grid-column: 1;
+    grid-row: 10;
+    margin-top: 15px;
+  }
+
+  .atlanticcap {
+    grid-column: 1;
+    grid-row: 10;
+    margin-top: 150px;
+    font-size: 20px;
+  }
+
+  .emerald {
+    grid-column: 2;
+    grid-row: 10;
+  }
+
+  .emeraldcap {
+    grid-column: 2;
+    grid-row: 10;
+    margin-top: 150px;
+    font-size: 20px;
+  }
+
+  .morehead {
+    grid-column: 3;
+    grid-row: 10;
+  }
+
+  .moreheadcap {
+    grid-column: 3;
+    grid-row: 10;
+    margin-top: 170px;
+    font-size: 20px;
+  }
+
+  .commerce {
+    grid-column: 1/4;
+    grid-row: 11;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+
+  .mission {
+    grid-column: 1/4;
+    grid-row: 12;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .mpara {
+    grid-column: 1/4;
+    grid-row: 12;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 25px;
+  }
+
+  .vision {
+    grid-column: 1/4;
+    grid-row: 13;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .visionpara {
+    grid-column: 1/4;
+    grid-row: 13;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-size: 25px;
+  }
+
+  .serving {
+    grid-column: 1/4;
+    grid-row: 14;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .servingpara {
+    grid-column: 1/4;
+    grid-row: 14;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    font-size: 25px;
+  }
+
+  .local {
+    grid-column: 1/4;
+    grid-row: 15;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .boone {
+    grid-column: 1;
+    grid-row: 16;
+    margin-top: 15px;
+  }
+
+  .boonecap {
+    grid-column: 1;
+    grid-row: 16;
+    margin-top: 170px;
+    font-size: 20px;
+  }
+
+  .discount {
+    grid-column: 2;
+    grid-row: 16;
+  }
+
+  .discountcap {
+    grid-column: 2;
+    grid-row: 16;
+    margin-top: 170px;
+    font-size: 20px;
+  }
+
+  .spoiled {
+    grid-column: 3;
+    grid-row: 16;
+  }
+
+  .spoiledcap {
+    grid-column: 3;
+    grid-row: 16;
+    margin-top: 170px;
+    font-size: 20px;
+  }
+
+  .special {
+    grid-column: 1/4;
+    grid-row: 17;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .cda {
+    grid-column: 1;
+    grid-row: 18;
+    margin-top: 80px;
+  }
+
+  .cdacap {
+    grid-column: 1;
+    grid-row: 18;
+    margin-top: 240px;
+    font-size: 20px;
+  }
+
+  .cdapara {
+    grid-column: 2/4;
+    grid-row: 18;
+    font-size: 25px;
+  }
+
+  .events {
+    grid-column: 1/2;
+    grid-row: 19;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .eventspara {
+    grid-column: 1/2;
+    grid-row: 19;
+    font-size: 25px;
+    margin-top: 60px;
+  }
+
+  .contact {
+    grid-column: 2/4;
+    grid-row: 19;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+  }
+
+  .contactpara {
+    grid-column: 2/4;
+    grid-row: 19;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 80px;
+    text-align: center;
+  }
+
+  .address {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 19;
+    font-size: 25px;
+    margin-top: 115px;
+    margin-left: 80px;
+  }
+
+  .hour {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 19;
+    font-size: 25px;
+    margin-top: 205px;
+    margin-left: 80px;
+  }
+
+  .fpara {
+    font-size: 25px;
+  }
+
+  .byulink {
+    font-size: 25px;
+    margin-left: 130px;
+  }
+
+  .cite {
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 25px;
+  }
+}
+/*******************************************************************/
+@media only screen and (min-width: 1008px) {
+  .city {
+    font-size: 65px;
+  }
+
+  .chamber {
+    font-size: 50px;
+  }
+
+  .logo {
+    width: 20%;
+    margin-top: -150px;
+  }
+
+  .motto {
+    font-size: 45px;
+    margin-top: -50px;
+  }
+
+  nav {
+    margin-bottom: 50px;
+  }
+
+  .navList li {
+    font-size: 45px;
+    margin-left: 30px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .summary {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .summarylist {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .forecastSection {
+    font-size: 20px;
+  }
+
+  .have {
+    margin-top: 60px;
+    font-size: 65px;
+  }
+
+  .haveParagraph {
+    margin-top: 150px;
+    font-size: 30px;
+  }
+
+  .memorial {
+  width: 80%;
+  height: auto;
+  margin-top: 80px;
+  }
+
+  .memorialcap {
+    margin-top: 290px;
+    font-size: 30px;
+  }
+
+  .sign {
+    width: 80%;
+    height: auto;
+  }
+
+  .signcap {
+    margin-top: 360px;
+    font-size: 30px;
+  }
+
+  .trader {
+    width: 80%;
+    height: auto;
+  }
+
+  .tradercap {
+    margin-top: 425px;
+    font-size: 30px;
+  }
+
+  .cherry {
+    margin-top: 60px;
+    font-size: 65px;
+  }
+
+  .cpParagraph1 {
+    margin-top: 150px;
+    font-size: 30px;
+  }
+
+  .cpMotto {
+    margin-top: 250px;
+    font-size: 40px;
+  }
+
+  .cpParagraph2 {
+        margin-top: 320px;
+        font-size: 30px;
+      }
+
+  .jets {
+    width: 80%;
+    height: auto;
+    margin-top: 100px;
+    }
+
+  .jetscap {
+    margin-top: 330px;
+    font-size: 30px;
+  }
+
+  .gate {
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+    }
+
+  .gatecap {
+    margin-top: 360px;
+    font-size: 30px;
+  }
+
+  .general {
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+    }
+
+  .generalcap {
+    margin-top: 400px;
+    font-size: 30px;
+  }
+
+  .surrounding {
+    margin-top: 50px;
+    font-size: 65px;
+  }
+
+  .bern {
+      font-size: 60px;
+  }
+
+  .bernParagraph {
+    margin-top: 150px;
+    font-size: 30px;
+  }
+
+  .pepsi {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .pepsicap {
+    margin-top: 340px;
+    font-size: 30px;
+  }
+
+  .hall {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .hallcap {
+    margin-top: 340px;
+    font-size: 30px;
+  }
+
+  .tryon {
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .tryoncap {
+    margin-top: 340px;
+    font-size: 30px;
+  }
+
+  .crystal {
+    font-size: 60px;
+  }
+
+  .crystalParagraph {
+    margin-top: 150px;
+    font-size: 30px;
+  }
+
+  .atlantic {
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .atlanticcap {
+    margin-top: 340px;
+    font-size: 30px;
+  }
+
+  .emerald {
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .emeraldcap {
+    margin-top: 340px;
+    font-size: 30px;
+  }
+
+  .morehead {
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .moreheadcap {
+    margin-top: 340px;
+    font-size: 30px;
+  }
+
+  .commerce {
+    font-size: 65px;
+    margin-top: 60px;
+  }
+
+  .mission {
+    font-size: 60px;
+  }
+
+  .mpara {
+    margin-top: 130px;
+    font-size: 30px;
+  }
+
+  .vision {
+    font-size: 60px;
+  }
+
+  .visionpara {
+    margin-top: 130px;
+    font-size: 30px;
+  }
+
+  .serving {
+    font-size: 60px;
+  }
+
+  .servingpara {
+    margin-top: 150px;
+    font-size: 30px;
+  }
+
+  .local {
+    font-size: 65px;
+  }
+
+  .boone {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .boonecap {
+    margin-top: 350px;
+    font-size: 30px;
+  }
+
+  .discount {
+    width: 80%;
+    height: 300px;
+    margin-top: 40px;
+  }
+
+  .discountcap {
+    margin-top: 350px;
+    font-size: 30px;
+  }
+
+  .spoiled {
+    width: 80%;
+    height: 300px;
+    margin-top: 40px;
+  }
+
+  .spoiledcap {
+    margin-top: 350px;
+    font-size: 30px;
+  }
+
+  .special {
+    font-size: 40px;
+  }
+
+  .cda {
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .cdacap {
+    margin-top: 350px;
+    font-size: 30px;;
+  }
+
+  .cdapara {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+
+  .events {
+    font-size: 65px;
+  }
+
+  .eventspara {
+    margin-top: 140px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .contact {
+    font-size: 65px;
+  }
+
+  .contactpara {
+    margin-top: 120px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .address {
+    margin-top: 160px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .hour {
+    margin-top: 280px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .fpara {
+    font-size: 50px;
+  }
+
+  .byulink {
+    font-size: 40px;
+    margin-left: 380px;
+  }
+
+  .cite {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 40px;
+  }
 }

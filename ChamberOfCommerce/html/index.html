@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,41 +9,251 @@
 
     <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body id="entirePage">
     <header>
-        <img class="logo" src="../images/logo (1).png" alt="Logo for City" width="200">
-        <h1 class="city">City of Havelock</h1>
-        <h2 class="chamber">Chamber of Commerce</h2>
-        <p class="motto">Home to the Sound of Freedom!</p>
+        <div class="headerDiv">
+            <section class="headerSection">
+                <h1 class="city">City of Havelock</h1>
+                <h2 class="chamber">Chamber of Commerce</h2>
+                <img class="logo" src="../images/logo (1).png" alt="Logo for City" width="200">
+                <p class="motto">Home to the Sound of Freedom!</p>
+            </section>
 
-<nav>
-<ul>
-    <li><a class="ham" href="#">Menu</a></li>
-    <li><a href="../html/index.html">Home</a></li>
-    <li><a href="../html/city.html">Havelock</a></li>
-    <li><a href="../html/join.html">Join Us</a></li>
-    <li><a href="../html/directory.html">Directory</a></li>
-    <li><a href="../html/contact.html">Contact Us</a></li>
-</ul>
-</nav>
-
+            <nav class="topNav">
+                <ul class="navList">
+                    <li><a class="ham" href="#">Menu</a></li>
+                    <li class="l1"><a href="../html/index.html">Home</a></li>
+                    <li class="l2"><a href="../html/city.html">Havelock</a></li>
+                    <li class="l3"><a href="../html/join.html">Join Us</a></li>
+                    <li class="l4"><a href="../html/directory.html">Directory</a></li>
+                    <li class="l5"><a href="../html/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-
-        <section class="map">
-            <h3 class="mapheading">Map</h3>
-            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104707.29497781608!2d-76.97088950133382!3d34.9038654107522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a8c18294403bc3%3A0xee0c537ee47fa9a0!2sHavelock%2C%20NC!5e0!3m2!1sen!2sus!4v1626735181766!5m2!1sen!2sus" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <section class="summarySection">
+            <h3 class="summary">Weather</h3>
+            <ul class="summarylist">
+                <li class="cur">Currently: <span id="condition"></span></li>
+                <li class="temp">Temp: <span id="current-temp"></span>&deg; F</li>
+                <li class="hum">Humidity: <span id="humidity"></span>&#37;</li>
+            </ul>
         </section>
+
+        <section class="forecastSection"></section>
+
+        <h1 class="have">Havelock</h1>
+        <p class="haveParagraph">Welcome to the City of Havelock, North Carolina
+            Located in Eastern North Carolina, midway between historic New Bern and the beautiful beaches of the Crystal
+            Coast, Havelock has much to offer residents and visitors alike. Havelock is proud to be the home of Marine
+            Corps Air Station Cherry Point, the 2nd Marine Aircraft Wing and the Fleet Readiness Center – East. A city
+            of 22,500, Havelock is a great place to live or visit, blending old fashioned Southern hospitality with a of
+            cultural diversity.
+        </p>
+
+        <img class="memorial" src="../images/9-11memorial.jpg" alt="City of Havelock's memorial to 9/11." width="200">
+        <figcaption class="memorialcap">9/11 tribute downtown Havelock</figcaption>
+        <img class="sign" src="../images/havelock.jpg" alt="Welcome sign for Havelock" width="200">
+        <figcaption class="signcap">Welcome sign for city of Havelock and Cherry Point</figcaption>
+        <img class="trader" src="../images/tradersStore.jpg" alt="One of the few original buildings left in Havelock."
+            width="200">
+        <figcaption class="tradercap">The Trade's Store is one of the few original buildings of Havelock</figcaption>
+
+        <h1 class="cherry">Cherry Point</h1>
+        <p class="cpParagraph1">When visitors come to Marine Corps Air Station Cherry Point, one of the first things
+            many of them notice is the roar of jet aircraft passing over the front gate on their way to or from
+            runway number 5/23. On a sign outside the gate, are the words:</p>
+        <p class="cpMotto" style="font-style: italic;">“Pardon our noise, it’s the sound of freedom.”</p>
+        <p class="cpParagraph2">For more than 75 years, those sounds of freedom have echoed through local skies, from
+            the deep, guttural growl of amphibious biplanes and single-wing attack aircraft during World War II, to the
+            piercing whine of today’s sleek and
+            sophisticated jets. Those sounds are music to the ears of the Marines who fight on the ground, for there is
+            nothing Marines like better than to have Marine artillery behind them, Marine intelligence in front of
+            them and Marine aircraft overhead.<br><br>
+
+            Located only 20 miles from some of the Atlantic’s most beautiful beaches, Cherry Point is about 90 miles
+            west-southwest of Cape Hatteras, at the foot of the great Outer Banks. It is perhaps appropriate that
+            the
+            home of such a powerful aviation arsenal is just down the coast from Kitty Hawk, where winged aviation got
+            its start.<br><br>
+
+            Duty at Cherry Point is challenging. Whether you’re headed for the 2d Marine Aircraft Wing for duty with the
+            Fleet Marine Force, or support service with the air station or one of ts tenant activities, the tasks
+            are
+            varied and rewarding. And they’re all directed toward the same end — providing country and Corps with a
+            combat-ready aerial striking force. </p>
+
+        <img class="jets" src="../images/cpPlanes.jpg" alt="Jets flying over Cherry Point's base sign." width="200">
+        <figcaption class="jetscap">Jets flying over Cherry Point's base sign.</figcaption>
+        <img class="gate" src="../images/frontGate.jpg" alt="Cherry Point's front gate" width="200">
+        <figcaption class="gatecap">Cherry Point's front gate sign welcoming Marines and visitors.</figcaption>
+        <img class="general" src="../images/generalBuilding.jpg" alt="Cherry Point's General's Building" width="200">
+        <figcaption class="generalcap">Cherry Point's General's Building.</figcaption>
+
+        <h1 class="surrounding">Surrounding Areas</h1>
+
+        <h2 class="bern">New Bern</h2>
+        <p class="bernParagraph">New Bern was settled in 1710 by Swiss and Palatine immigrants led by Christoph von
+            Graffenried. They named the settlement after Bern, the capital of Switzerland. But long before the Europeans
+            arrived, the
+            Tuscarora indians also lived along New Bern's riverbanks in a village they called Chattoka.<br><br>
+
+            New Bern is the second-oldest colonial town in North Carolina and was the capital of the North Carolina
+            colonial government. For a short period of time it was also the state capital. Given its picturesque
+            setting and growing political prestige, New Bern quickly became known as "the Athens of the South." You'll
+            find the
+            Athens Theater and the Masonic Temple downtown, part of the rich culture of New Bern then, are still
+            very active today.<br><br>
+
+            New Bern is rich in history and culture, part of its charm and appeal to visitors young and old. Visit the
+            Firemen's Museum and NC History Center to find out more about the history of New Bern. Step back in time
+            as you walk through the Governor's mansion at Tryon Palace. And top it all off with an ice cold Pepsi, in
+            the
+            city where Pepsi was born. Stroll our downtown and you'll find yourself amongst some of the most
+            beautiful historic districts in the South. No matter your pleasure, there's something for everyone here. We
+            hope
+            you enjoy your visit. </p>
+
+        <img class="pepsi" src="../images/bradhamPepsi.jpg" alt="Caleb Bradham's pharmacy in downtown New Bern"
+            width="200">
+        <figcaption class="pepsicap">Caleb Bradham's pharmacy. Birthplace of Pepsi.</figcaption>
+        <img class="hall" src="../images/nbCityHall.jpg" alt="New Bern's City Hall" width="200">
+        <figcaption class="hallcap">New Bern City Hall. Sometimes called the "clock tower".</figcaption>
+        <img class="tryon" src="../images/tryonPalace.jpg" alt="Tryon Palace" width="200">
+        <figcaption class="tryoncap">Tryon Palace.</figcaption>
+
+        <h2 class="crystal">Crystal Coast</h2>
+        <p class="crystalParagraph"> The Crystal Coast is an 85-mile stretch of coastline that extends from the Cape
+            Lookout National Seashore, which includes 56 miles of protected beaches, southwestward to the New River. The
+            Crystal Coast is a
+            popular area with tourists and second-home owners in the summer.<br><br>
+
+            The main area includes all the major Carteret County beaches (those on Bogue Banks, which face south).
+            It also includes eastern portions of Carteret County, such as Harkers Island, Down East and Shackleford
+            Banks, as well as the northern Onslow County beaches (Bear Island/Hammock's Beach), and a few ports along
+            the
+            Intercostal Waterway. <br><br>
+
+            The main communities include the coastal resorts of Atlantic Beach, Emerald Isle, Indian Beach, Pine Knoll
+            Shores and Salter Path, as well as the inland (sound-side) ports of Beaufort, Morehead City, and
+            Swansboro. Besides the many quiet beach communities and numerous shops and restaurants in the area, other
+            major
+            attractions include Fort Macon State Park, which protects a series of historic coastal forts used from
+            the early 19th to the mid 20th century, and the North Carolina Aquarium at Pine Knoll Shores, one of three
+            such aquariums located along the North Carolina coast. A population of feral Banker horses is located on
+            Shackleford Banks, and several protected areas, including Hammocks Beach State Park, Cape Lookout National
+            Seashore (including the ghost town of Portsmouth) lie along the region as well.
+        </p>
+
+        <img class="atlantic" src="../images/atlantic-beach.jpg" alt="Aerial shot of Atlantic Beach" width="200">
+        <figcaption class="atlanticcap">Aerial shot of Atlantic Beach.</figcaption>
+        <img class="emerald" src="../images/emerald-isle.jpg" alt="Aerial shot of Emerald Isle" width="200">
+        <figcaption class="emeraldcap">Aerial shot of Emerald Isle.</figcaption>
+        <img class="morehead" src="../images/morehead-city.jpg" alt="Aerial shot of Morehead City" width="200">
+        <figcaption class="moreheadcap">Aerial shot of Morehead City.</figcaption>
+
+        <h1 class="commerce">Chamber of Commerce - Havelock</h1>
+        <h2 class="mission">Mission Statement</h2>
+        <p class="mpara">Strengthen and promote business in the Havelock region to facilitate a robust economic and
+            community environment.
+        </p>
+
+        <h2 class="vision">Vision Statement</h2>
+        <p class="visionpara">Havelock’s voice for business and community success.</p>
+
+        <h2 class="serving">Serving our Community</h2>
+        <p class="servingpara">Located at 201 Tourist Center Drive inside the Havelock Tourist and Event Center, the
+            Havelock Chamber of
+            Commerce provides a platform for businesses to come together to work towards common goals and serve as a
+            collective voice to advocate business issues.<br><br>
+
+            Being a member of the Havelock Chamber means investing in the future of the area. Membership the Greater
+            Havelock Chamber of Commerce is good for business, your business. We encourage visitors, citizens of
+            Havelock and the surrounding area to support the members of the Havelock Chamber as they help to build a
+            strong growing community. We encourage you to take advantage of the Havelock Chamber's services and to
+            become involved in programs that are of specific interest to you. Most of all we thank you for your
+            continued investment in your Havelock Chamber of Commerce.<br><br>
+
+            The Havelock Chamber of Commerce is proud to be a Chamber that sets itself apart from the others by giving
+            back to the community through our events. These events raise money for the local non-profits and schools in
+            our community to help the citizens of Havelock remain strong. The Havelock Chamber of Commerce is also very
+            proud to work closely with MCAS Cherry Point, one of the largest Marine corps Air Stations in the world and
+            Fleet Readiness Center East, the largest industrial employer east of I-95.<br><br>
+
+            These two entities are the largest economic force in Eastern North Carolina with an economic impact of $2.0
+            Billion annually.<br><br>
+
+            If you are not already a member of the Havelock Chamber of Commerce, please accept this invitation to <a
+                href="../html/join.html">join us</a>!
+        </p>
+
+        <h1 class="local">This Week's Local Businesses</h1>
+        <img class="boone" src="../images/boones.jpg" alt="Boone's Car Dealership" width="200">
+        <figcaption class="boonecap">Boone's Truck and Car Dealership</figcaption>
+        <img class="discount" src="../images/discountcity.jpg" alt="Discount City Hardware" width="200">
+        <figcaption class="discountcap">Discount City Hardware</figcaption>
+        <img class="spoiled" src="../images/spoiledRotten.jpg" alt="Spoiled Rotten Hair Salon" width="200">\
+        <figcaption class="spoiledcap">Spoiled Rotten Hair Salon</figcaption>
+
+        <h3 class="special">A Special Shout Out</h3>
+        <img class="cda" src="../images/cda.jpg" alt="Carolina Dance Alliance" width="200">
+        <figcaption class="cdacap">Carolina Dance Alliance</figcaption>
+        <p class="cdapara">Carolina Dance Alliance (CDA) is located in James City and is home to many of Havelock's
+            young
+            dancers. This award-winning studio offers students the opportunity to grow in the art of dance by offering
+            a wide range of classes including Classical Ballet, Jazz, Tap, plus many more. Every year CDA travels with
+            their talented dance teams to near by states to compete in dance competitions. CDA is owned and operated by
+            Radonna Carrol.
+        </p>
+
+        <h1 class="events">Up Coming</h1>
+        <p class="eventspara">Board of Commissioners Televised Meeting<br>
+            July 26 @ 7:00 pm - 8:30 pm<br><br>
+
+            Recreation Advisory Board Meeting<br>
+            July 29 @ 7:00 pm - 8:00 pm<br><br>
+
+            Board of Commissioners Workshop<br>
+            August 9 @ 7:00 pm - 8:30 pm<br><br>
+
+            Appearance Commission Meeting<br>
+            August 12 @ 6:30 pm - 7:30 pm
+        </p>
+
+        <h1 class="contact">Contact Us</h1>
+        <p class="contactpara">Havelock Chamber of Commerce</p>
+        <p class="address"> 201 Tourist Center Drive<br>
+            Havelock, NC 28532, US<br>
+            (252) 447-1101</p>
+        <p class="hour">Hours:<br>
+            Monday - Friday: 9:00am - 4:00pm<br>
+            Saturday: Closed<br>
+            Sunday: Closed
+        </p>
     </main>
 
     <footer>
         <div class="footercontainer">
             <p class="fpara">&copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina</p>
-            <p class="byulink"><a href="https://www.byui.edu/online">BYUI&nbsp;Online&nbsp;Learning</a></p>
+
+            <a class="byulink" href="https://www.byui.edu/online" target="_blank">BYUI&nbsp;Online&nbsp;Learning</a>
+            <a class="cite" href="../html/citations.html">Citations</a>
+
             <p class="date"> Date: <span id="lastModDate"></span> </p>
+            <p class="social">
+                <a href="https://www.facebook.com/havelock.chamber" class="facebook" target="_blank"><img
+                        src="../images/fb.png" alt="facebook icon" width="50"></a>
+                <a href="https://twitter.com/HavelockChamber" class="twitter" target="_blank"><img
+                        src="../images/twitter.png" alt="twitter icon" width="50"></a>
+            </p>
         </div>
     </footer>
+
+    <script src="../js/hamburger.js"></script>
+    <script src="../js/weatherSum.js"></script>
 </body>
+
 </html>
