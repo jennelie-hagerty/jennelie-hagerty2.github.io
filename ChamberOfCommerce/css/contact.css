@@ -512,21 +512,20 @@ textarea.comments {
     height: 500px;
 }
 
-  .fpara {
-    font-size: 50px;
-  }
+.fpara {
+  font-size: 40px;
+}
 
-  .byulink {
-    font-size: 40px;
-    margin-left: 380px;
-  }
+.byulink {
+  font-size: 30px;
+  margin-left: 380px;
+}
 
-  .cite {
-    font-size: 40px;
-    margin-left: 50px;
-  }
+.cite {
+  font-size: 30px;
+  margin-left: 50px;
+}
 
-  .date {
-    font-size: 40px;
-  }
+.date {
+  font-size: 30px;
 }
