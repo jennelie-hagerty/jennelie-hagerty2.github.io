@@ -1,0 +1,579 @@
+#entirePage {
+  background-color: #7dd8d9;
+}
+
+.headerDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: auto;
+}
+
+.headerSection {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.city {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  color: #0f2d66;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -15px;
+}
+
+.chamber {
+  color: #0f2d66;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -45px;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+  width: 20%;
+  margin-top: -30px;
+}
+
+.motto {
+  color: #f2482a;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.topNav {
+  background-color: #0f2d66;
+  border: black solid 2px;
+  border-radius: 25px;
+  width: 30%;
+  grid-column: 1 / 4;
+  grid-row: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navList {
+  list-style: none;
+}
+
+.navList li:first-child {
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.navList li {
+  display: none;
+  text-align: center;
+  margin-left: -65px;
+}
+
+.navList li a {
+  color: #f2482a;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.responsive li {
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+  color: #ffff;
+}
+
+/* visited link */
+a:visited {
+  color: #f2482a;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: #9d8df1;
+  border-radius: 25px;
+}
+
+/* selected link */
+a:active {
+  background-color: #9d8df1;
+  border-radius: 25px;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #0f2d66;
+}
+
+.member {
+  text-align: center;
+}
+
+.mission {
+  margin-bottom: -10px;
+}
+
+.vision {
+  margin-bottom: -10px;
+}
+
+.serving {
+  margin-bottom: -10px;
+}
+
+.levels {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.non {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.nonlist {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.bronze {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.bronzelist {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.silver {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.silverlist {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.gold {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.goldlist {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.form {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.address {
+  width: 90%;
+}
+
+.descr {
+  width: 90%;
+}
+
+.footercontainer {
+  background-color: #0f2d66;
+  color: #ffff;
+  border-radius: 25px;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fpara {
+  text-align: center;
+}
+
+.byulink {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.cite {
+  margin-left: 30px;
+}
+
+.date {
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+/* Facebook */
+.facebook {
+  background: #3b5998;
+  margin-right: 10px;
+}
+
+/* Twitter */
+.twitter {
+  background: #55acee;
+}
+
+/*****************************************************************************/
+@media only screen and (min-width: 640px) {
+  .city {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+  }
+
+  .chamber {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: -40px;
+  }
+
+  .logo {
+    width: 30%;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+  }
+
+  .motto {
+    font-size: 25px;
+    margin-top: -10px;
+  }
+
+  .topNav {
+    width: 90%;
+  }
+
+  a.ham {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .navList li {
+    display: block;
+    font-size: 25px;
+    margin-left: -5px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3,
+  h4 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  li {
+    font-size: 25px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .member {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+
+  .mission {
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: center;
+  }
+
+  .mpara {
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .vision {
+    grid-column: 1/4;
+    grid-row: 3;
+    text-align: center;
+  }
+
+  .visionpara {
+    grid-column: 1/4;
+    grid-row: 3;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .serving {
+    grid-column: 1/4;
+    grid-row: 4;
+    text-align: center;
+  }
+
+  .servingpara {
+    grid-column: 1/4;
+    grid-row: 4;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .mac {
+    grid-column: 1/4;
+    grid-row: 5;
+    text-align: center;
+  }
+
+  .macpara {
+    grid-column: 1/4;
+    grid-row: 5;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .levels {
+    grid-column: 1/4;
+    grid-row: 6;
+    text-align: center;
+  }
+
+  .non {
+    grid-column: 1/3;
+    grid-row: 7;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .nonlist {
+    grid-column: 1/4;
+    grid-row: 7;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  .bronze {
+    grid-column: 1/3;
+    grid-row: 8;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .bronzelist {
+    grid-column: 1/4;
+    grid-row: 8;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  .silver {
+    grid-column: 1/3;
+    grid-row: 9;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .silverlist {
+    grid-column: 1/4;
+    grid-row: 9;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  .gold {
+    grid-column: 1/3;
+    grid-row: 10;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .goldlist {
+    grid-column: 1/4;
+    grid-row: 10;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  .form { grid-column: 1/4;
+    grid-row: 11;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+.form input {
+    font-size: 25px;
+  }
+
+  .form textarea {
+    font-size: 25px;
+  }
+
+  .fpara {
+    font-size: 25px;
+  }
+
+  .byulink {
+    font-size: 25px;
+    margin-left: 130px;
+  }
+
+  .cite {
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 25px;
+  }
+}
+/*******************************************************************/
+@media only screen and (min-width: 1008px) {
+  .city {
+    font-size: 65px;
+  }
+
+  .chamber {
+    font-size: 50px;
+  }
+
+  .logo {
+    width: 20%;
+    margin-top: -150px;
+  }
+
+  .motto {
+    font-size: 45px;
+    margin-top: -50px;
+  }
+
+  nav {
+    margin-bottom: 50px;
+  }
+
+  .navList li {
+    font-size: 45px;
+    margin-left: 30px;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3,
+  h4 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  li {
+    font-size: 30px;
+  }
+
+  .form input {
+    font-size: 30px;
+  }
+
+  .form textarea {
+    font-size: 30px;
+  }
+
+  .mission {
+    margin-top: 60px;
+  }
+
+  .mpara {
+    margin-top: 100px;
+  }
+
+  .vision {
+    margin-top: 60px;
+  }
+
+  .visionpara {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .serving {
+    margin-top: 60px;
+  }
+
+  .servingpara {
+    margin-top: 100px;
+  }
+
+  .mac {
+    margin-top: 60px;
+  }
+
+  .macpara {
+    margin-top: 100px;
+  }
+
+  .fpara {
+    font-size: 50px;
+  }
+
+  .byulink {
+    font-size: 40px;
+    margin-left: 380px;
+  }
+
+  .cite {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 40px;
+  }
+}
