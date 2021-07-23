@@ -1,47 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Chamber of Commerce|Havelock</title>
+
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
-<body>
+
+<body id="entirePage">
     <header>
-        <section class="headerSection">
-        <img class="logo" src="../images/logo (1).png" alt="Logo for City" width="200">
-        <h1 class="city">City of Havelock</h1>
-        <h2 class="chamber">Chamber of Commerce</h2>
-        <p class="motto">Home to the Sound of Freedom!</p>
-    </section>
+        <div class="headerDiv">
+            <section class="headerSection">
+                <h1 class="city">City of Havelock</h1>
+                <h2 class="chamber">Chamber of Commerce</h2>
+                <img class="logo" src="../images/logo (1).png" alt="Logo for City" width="200">
+                <p class="motto">Home to the Sound of Freedom!</p>
+            </section>
 
-<nav>
-<ul>
-    <li><a class="ham" href="#">Menu</a></li>
-    <li><a href="../html/index.html">Home</a></li>
-    <li><a href="../html/city.html">Havelock</a></li>
-    <li><a href="../html/join.html">Join Us</a></li>
-    <li><a href="../html/directory.html">Directory</a></li>
-    <li><a href="../html/contact.html">Contact Us</a></li>
-</ul>
-</nav>
-
+            <nav class="topNav">
+                <ul class="navList">
+                    <li><a class="ham" href="#">Menu</a></li>
+                    <li class="l1"><a href="../html/index.html">Home</a></li>
+                    <li class="l2"><a href="../html/city.html">Havelock</a></li>
+                    <li class="l3"><a href="../html/join.html">Join Us</a></li>
+                    <li class="l4"><a href="../html/directory.html">Directory</a></li>
+                    <li class="l5"><a href="../html/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
+        <h2 class="contact">Contact Us</h2>
+        <p class="para">We would love to see you. Come see us in person or drop us a message.</p>
+        <h3 class="title">Havelock Chamber of Commerce</h3>
+        <p class="address">201 Tourist Center Drive<br> Havelock, NC 28532, US</p>
+        <p class="phone">(252) 447-1101</p>
+
+        <p class="hours">Hours</p>
+        <p class="hourslist">Monday - Friday: 9:00am - 4:00pm<br>
+            Saturday: Closed<br>
+            Sunday: Closed</p>
+
+
+        <form method="GET" action="thankyou.html" class="form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name:</label>
+                <input type="text" name="name" required minlength="5"><br>
+
+                <label class="top">Email:</label>
+                <input type="email" name="email" placeholder="johndoe@email.com" required><br>
+
+                <label class="top">Phone:</label>
+                <input type="tel" name="phone" required><br>
+                </fieldset>
+
+                <fieldset class="message">
+                    <legend>Comments/Message</legend>
+                    <textarea name="comments" rows="10" cols="75" class="comments"></textarea>
+                    <br>
+                </fieldset>
+
+                <input type="submit" value="Submit Form" class="submit">
+        </form>
+
+
+        <h2 class="directors">2021 Board of Directors</h2>
+        <h3 class="executive">Executive Committee</h3>
+        <ul class="exlist">
+            <li>Kim Smith - Chairman (Heart of a Warrior & Rice's Rentaland) </li>
+            <li>Mary Eastman - Vice-Chairman (TAGG - Whiteman's Engraving)</li>
+            <li>Lori Glass - Treasurer (Individual)</li>
+            <li>Terri Sharp - Secretary (Individual)</li>
+            <li>Erin Knight - Executive Director</li>
+        </ul>
+        <h3 class="board">Board of Directors</h3>
+        <ul class="boardlist">
+            <li>Frank Amato (Nationwide Insurance)</li>
+            <li>Gary Baldree (Baldree's Tire Pros)</li>
+            <li>Frank Bottorff (Ex-Officio, City Of Havelock)</li>
+            <li>Valerie Dickens (Val's Pub & Grill)</li>
+            <li>Ken Dimpsey (Munden Funeral Home)</li>
+            <li>Bruce Fortin - MAC Chairman (Edward Jones)</li>
+            <li>Dr. Meghan Doyle (Ex-Officio, Craven County Schools)</li>
+            <li>Megan McGarvey (CarolinaEast Health Systems)</li>
+            <li>Cruz Morales (Mucho Bueno)</li>
+            <li>Rhonda Murray (Ex-Officio, MCAS Cherry Point)</li>
+            <li>Lacey Robinson (Robinson Family Dental)</li>
+            <li>Bob Warren (Cotton Funeral Home)</li>
+            <li>Jeff Wood (Ex-Officio, Craven County Economic Development Rep.)</li>
+        </ul>
+
+
+
+
+
+
         <section class="map">
             <h3 class="mapheading">Map</h3>
-            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104707.29497781608!2d-76.97088950133382!3d34.9038654107522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a8c18294403bc3%3A0xee0c537ee47fa9a0!2sHavelock%2C%20NC!5e0!3m2!1sen!2sus!4v1626735181766!5m2!1sen!2sus" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="iframe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13090.493285761406!2d-76.926879!3d34.890804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x65120705a0add31f!2sHavelock%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1626987830375!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </main>
 
     <footer>
         <div class="footercontainer">
             <p class="fpara">&copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina</p>
-            <p class="byulink"><a href="https://www.byui.edu/online">BYUI&nbsp;Online&nbsp;Learning</a></p>
+
+            <a class="byulink" href="https://www.byui.edu/online" target="_blank">BYUI&nbsp;Online&nbsp;Learning</a>
+            <a class="cite" href="../html/citations.html">Citations</a>
+
             <p class="date"> Date: <span id="lastModDate"></span> </p>
+            <p class="social">
+                <a href="https://www.facebook.com/havelock.chamber" class="facebook" target="_blank"><img
+                        src="../images/fb.png" alt="facebook icon" width="50"></a>
+                <a href="https://twitter.com/HavelockChamber" class="twitter" target="_blank"><img
+                        src="../images/twitter.png" alt="twitter icon" width="50"></a>
+            </p>
         </div>
     </footer>
+
+    <script src="../js/hamburger.js"></script>
+    <script src="../js/date.js"></script>
 </body>
+
 </html>

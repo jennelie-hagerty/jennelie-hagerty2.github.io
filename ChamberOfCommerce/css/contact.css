@@ -1,0 +1,532 @@
+#entirePage {
+  background-color: #7dd8d9;
+}
+
+.headerDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: auto;
+}
+
+.headerSection {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.city {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  color: #0f2d66;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -15px;
+}
+
+.chamber {
+  color: #0f2d66;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -45px;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+  width: 20%;
+  margin-top: -30px;
+}
+
+.motto {
+  color: #f2482a;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.topNav {
+  background-color: #0f2d66;
+  border: black solid 2px;
+  border-radius: 25px;
+  width: 30%;
+  grid-column: 1 / 4;
+  grid-row: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navList {
+  list-style: none;
+}
+
+.navList li:first-child {
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.navList li {
+  display: none;
+  text-align: center;
+  margin-left: -65px;
+}
+
+.navList li a {
+  color: #f2482a;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.responsive li {
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+  color: #ffff;
+}
+
+/* visited link */
+a:visited {
+  color: #f2482a;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: #9d8df1;
+  border-radius: 25px;
+}
+
+/* selected link */
+a:active {
+  background-color: #9d8df1;
+  border-radius: 25px;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  color: #0f2d66;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.para {
+    margin-top: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.address {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.phone {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hours {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.hourslist {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+textarea.comments {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directors {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.executive {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.exlist {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.board {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.boardlist {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.iframe {
+    display: block;
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footercontainer {
+  background-color: #0f2d66;
+  color: #ffff;
+  border-radius: 25px;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fpara {
+  text-align: center;
+}
+
+.byulink {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.cite {
+  margin-left: 30px;
+}
+
+.date {
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+/* Facebook */
+.facebook {
+  background: #3b5998;
+  margin-right: 10px;
+}
+
+/* Twitter */
+.twitter {
+  background: #55acee;
+}
+
+/*****************************************************************************/
+@media only screen and (min-width: 640px) {
+  .city {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+  }
+
+  .chamber {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: -40px;
+  }
+
+  .logo {
+    width: 30%;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+  }
+
+  .motto {
+    font-size: 25px;
+    margin-top: -10px;
+  }
+
+  .topNav {
+    width: 90%;
+  }
+
+  a.ham {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .navList li {
+    display: block;
+    font-size: 25px;
+    margin-left: -5px;
+    margin-right: 10px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact {
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: 30px;
+}
+
+.para {
+    grid-column: 1/4;
+    grid-row: 2;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+.title {
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 25px;
+}
+
+.address {
+    grid-column: 1/4;
+    grid-row: 4;
+    font-size: 25px;
+}
+
+.phone {
+    grid-column: 1/4;
+    grid-row: 5;
+    font-size: 25px;
+}
+
+.hours {
+    grid-column: 1/4;
+    grid-row: 6;
+    font-size: 25px;
+}
+
+.hourslist {
+    grid-column: 1/4;
+    grid-row: 7;
+    font-size: 25px;
+}
+
+.form {
+    grid-column: 1/4;
+    grid-row: 8;
+    font-size: 25px;
+}
+
+textarea.comments {
+   width: 100%;
+   height: 250px;
+   margin-top: 25px;
+}
+
+.directors {
+    grid-column: 1/4;
+    grid-row: 9;
+    font-size: 30px;
+}
+
+.executive {
+    grid-column: 1/4;
+    grid-row: 10;
+    font-size: 25px;
+}
+
+.exlist {
+    grid-column: 1/4;
+    grid-row: 11;
+    font-size: 25px;
+}
+
+.board {
+    grid-column: 1/4;
+    grid-row: 12;
+    font-size: 25px;
+}
+
+.boardlist {
+    grid-column: 1/4;
+    grid-row: 13;
+    font-size: 25px;
+}
+
+.map {
+    grid-column: 1/4;
+    grid-row: 14;
+    font-size: 25px;
+    text-align: center;
+}
+
+.iframe {
+    grid-column: 1/4;
+    grid-row: 15;
+    width: 100%;
+}
+
+  .fpara {
+    font-size: 25px;
+  }
+
+  .byulink {
+    font-size: 25px;
+    margin-left: 130px;
+  }
+
+  .cite {
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 25px;
+  }
+}
+/*******************************************************************/
+@media only screen and (min-width: 1008px) {
+  .city {
+    font-size: 65px;
+  }
+
+  .chamber {
+    font-size: 50px;
+  }
+
+  .logo {
+    width: 20%;
+    margin-top: -150px;
+  }
+
+  .motto {
+    font-size: 45px;
+    margin-top: -50px;
+  }
+
+  nav {
+    margin-bottom: 50px;
+  }
+
+  .navList li {
+    font-size: 45px;
+    margin-left: 30px;
+  }
+
+  .contact {
+    font-size: 60px;
+}
+
+.para {
+    font-size: 30px;
+   text-align: center;
+}
+
+
+.title {
+    font-size: 30px;
+}
+
+.address {
+    font-size: 30px;
+}
+
+.phone {
+    font-size: 30px;
+}
+
+.hours {
+    font-size: 30px;
+}
+
+.hourslist {
+    font-size: 30px;
+}
+
+.form {
+    font-size: 30px;
+    width: 70%;
+}
+
+.directors {
+    font-size: 60px;
+}
+
+.executive {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.exlist {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.board {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.boardlist {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.map {
+    font-size: 30px;
+}
+
+.iframe {
+    width: 80%;
+    height: 500px;
+}
+
+  .fpara {
+    font-size: 50px;
+  }
+
+  .byulink {
+    font-size: 40px;
+    margin-left: 380px;
+  }
+
+  .cite {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 40px;
+  }
+}
