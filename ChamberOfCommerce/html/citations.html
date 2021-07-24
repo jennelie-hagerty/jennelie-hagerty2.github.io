@@ -6,59 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Chamber of Commerce|Citations</title>
+    <title>Chamber of Commerce|Havelock</title>
 
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/cit.css">
+    
 </head>
 
 <body id="entirePage">
     <header>
-        <section class="headerSection">
-            <img class="logo" src="../images/logo (1).png" alt="Logo for City" width="200">
-            <h1 class="city">City of Havelock</h1>
-            <h2 class="chamber">Chamber of Commerce</h2>
-            <p class="motto">Home to the Sound of Freedom!</p>
-        </section>
+        <div class="headerDiv">
+            <section class="headerSection">
+                <h1 class="city">City of Havelock</h1>
+                <h2 class="chamber">Chamber of Commerce</h2>
+                <img class="logo" src="../images/logo(1).png" alt="Logo for City" width="200">
+                <p class="motto">Home to the Sound of Freedom!</p>
+            </section>
 
-        <nav>
-            <ul>
-                <li><a class="ham" href="#">Menu</a></li>
-                <li><a href="../html/index.html">Home</a></li>
-                <li><a href="../html/city.html">Havelock</a></li>
-                <li><a href="../html/join.html">Join Us</a></li>
-                <li><a href="../html/directory.html">Directory</a></li>
-                <li><a href="../html/contact.html">Contact Us</a></li>
-                <li><a href="../html/citations.html">Citations</a></li>
-            </ul>
-        </nav>
+            <nav class="topNav">
+                <ul class="navList">
+                    <li><a class="ham" href="#">Menu</a></li>
+                    <li class="l1"><a href="../html/index.html">Home</a></li>
+                    <li class="l2"><a href="../html/city.html">Havelock</a></li>
+                    <li class="l3"><a href="../html/join.html">Join Us</a></li>
+                    <li class="l4"><a href="../html/directory.html">Directory</a></li>
+                    <li class="l5"><a href="../html/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
     <main>
-City of havelock Home Page: https://www.havelocknc.us/<br>
-Cherry Point About Page: https://www.cherrypoint.marines.mil/About/<br>
-New Bern About Page: https://www.newbernnc.gov/visitors/city_information/city_history.php<br>
-Crystal Coast: https://en.wikipedia.org/wiki/Crystal_Coast <br>
-Chamber of Commerce: https://havelockchamber.org/ <br>
-Discount city: https://www.discountcityhome.com/
-Boone's: https://www.boonestruckcenter.com/
-spoiled rotten: https://www.facebook.com/SpoiledRottenHairSalon/
-demo:https://worldpopulationreview.com/us-cities/havelock-nc-population
-pop growth: https://www.havelocknc.us/about/population-growth/
-history: https://www.havelocknc.us/about/history/
-join https://havelockchamber.org/membership
 
+<h2>Citations</h2>
 
+        <ul class="list">
+            <li><a href="https://www.havelocknc.us/">City of havelock Home Page</a></li>
+            <li><a href="https://www.cherrypoint.marines.mil/About/">Cherry Point About Page</a></li>
+            <li><a href="https://www.newbernnc.gov/visitors/city_information/city_history.php">New Bern About Page</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Crystal_Coast">Crystal Coast</a></li>
+            <li><a href="https://havelockchamber.org/">Havelock COC</a></li>
+            <li><a href="https://www.discountcityhome.com/">Discount City Hardware</a></li>
+            <li><a href="https://www.boonestruckcenter.com/">Boone's Car Dealership</a></li>
+            <li><a href="https://www.facebook.com/SpoiledRottenHairSalon/">Spoiled Rotten Hair Salon</a></li>
+            <li><a href="https://worldpopulationreview.com/us-cities/havelock-nc-population">World Population</a></li>
+            <li><a href="https://www.havelocknc.us/about/population-growth/">Havelock Population Growth</a></li>
+            <li><a href="https://www.havelocknc.us/about/history/">Havelock History</a></li>
+            <li><a href="https://havelockchamber.org/membership">COC Membership</a></li>
+
+        </ul>
     </main>
 
     <footer>
         <div class="footercontainer">
             <p class="fpara">&copy; 2021 | Jennelie Hagerty | North&nbsp;Carolina</p>
-            <p class="byulink"><a href="https://www.byui.edu/online">BYUI&nbsp;Online&nbsp;Learning</a></p>
+
+            <a class="byulink" href="https://www.byui.edu/online" target="_blank">BYUI&nbsp;Online&nbsp;Learning</a>
+            <a class="cite" href="../html/citations.html">Citations</a>
+
             <p class="date"> Date: <span id="lastModDate"></span> </p>
+            <p class="social">
+                <a href="https://www.facebook.com/havelock.chamber" class="facebook" target="_blank"><img
+                        src="../images/fb.png" alt="facebook icon" width="50"></a>
+                <a href="https://twitter.com/HavelockChamber" class="twitter" target="_blank"><img
+                        src="../images/twitter.png" alt="twitter icon" width="50"></a>
+            </p>
         </div>
     </footer>
+
+    <script src="../js/hamburger.js"></script>
+    <script src="../js/date.js"></script>
 </body>
 
 </html>
