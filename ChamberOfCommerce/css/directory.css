@@ -1,0 +1,627 @@
+#entirePage {
+  background-color: #7dd8d9;
+}
+
+.headerDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: auto;
+}
+
+.headerSection {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.city {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  color: #0f2d66;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -15px;
+}
+
+.chamber {
+  color: #0f2d66;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -45px;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+  width: 20%;
+  margin-top: -30px;
+}
+
+.motto {
+  color: #f2482a;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.topNav {
+  background-color: #0f2d66;
+  border: black solid 2px;
+  border-radius: 25px;
+  width: 30%;
+  grid-column: 1 / 4;
+  grid-row: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navList {
+  list-style: none;
+}
+
+.navList li:first-child {
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.navList li {
+  display: none;
+  text-align: center;
+  margin-left: -65px;
+}
+
+.navList li a {
+  color: #f2482a;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.responsive li {
+  display: block;
+}
+
+/* unvisited link */
+a:link {
+  color: #ffff;
+}
+
+/* visited link */
+a:visited {
+  color: #f2482a;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: #9d8df1;
+  border-radius: 25px;
+}
+
+/* selected link */
+a:active {
+  background-color: #9d8df1;
+  border-radius: 25px;
+  text-decoration: underline;
+}
+
+#lawyer {
+  background-color: #9d8df1;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+#lawyer img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#navy {
+  background-color: #9d8df1;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+#navy img {
+  display: block;
+  width: 90%;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#pepsi {
+  background-color: #9d8df1;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+#pepsi img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#ccc1 {
+  background-color: #9d8df1;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+#ccc1 img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#ccc2 {
+  background-color: #9d8df1;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+#ccc2 img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#fisher {
+  background-color: #9d8df1;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+#fisher img {
+  display: block;
+  width: 90%;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#carolina {
+  background-color: #9d8df1;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+#carolina img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.name {
+  padding-top: 15px;
+}
+
+.busdiv {
+  margin-left: 20px;
+}
+
+.footercontainer {
+  background-color: #0f2d66;
+  color: #ffff;
+  border-radius: 25px;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fpara {
+  text-align: center;
+}
+
+.byulink {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.cite {
+  margin-left: 30px;
+}
+
+.date {
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+/* Facebook */
+.facebook {
+  background: #3b5998;
+  margin-right: 10px;
+}
+
+/* Twitter */
+.twitter {
+  background: #55acee;
+}
+
+/*****************************************************************************/
+@media only screen and (min-width: 640px) {
+  .city {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+  }
+
+  .chamber {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: -40px;
+  }
+
+  .logo {
+    width: 30%;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+  }
+
+  .motto {
+    font-size: 25px;
+    margin-top: -10px;
+  }
+
+  .topNav {
+    width: 90%;
+  }
+
+  a.ham {
+    display: none;
+  }
+
+  .navList {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .navList li {
+    display: block;
+    font-size: 25px;
+    margin-left: -5px;
+    margin-right: 10px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+  }
+
+  #lawyer {
+    grid-column: 1/4;
+    grid-row: 1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #lawyer img {
+    grid-column: 3/4;
+    grid-row: 1;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: -250px;
+    padding-bottom: 80px;
+  }
+
+  #navy {
+    grid-column: 1/4;
+    grid-row: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #navy img {
+    grid-column: 3/4;
+    grid-row: 2;
+    width: 20%;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: -260px;
+    padding-bottom: 80px;
+  }
+
+  #pepsi {
+    grid-column: 1/4;
+    grid-row: 3;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #pepsi img {
+    grid-column: 3/4;
+    grid-row: 3;
+    width: 35%;
+    margin-right: 20px;
+    margin-top: -260px;
+    padding-bottom: 95px;
+  }
+
+  #ccc1 {
+    grid-column: 1/4;
+    grid-row: 4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #ccc1 img {
+    grid-column: 3/4;
+    grid-row: 4;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: -210px;
+    padding-bottom: 95px;
+  }
+
+  #ccc2 {
+    grid-column: 1/4;
+    grid-row: 5;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #ccc2 img {
+    grid-column: 3/4;
+    grid-row: 5;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: -210px;
+    padding-bottom: 95px;
+  }
+
+  #fisher {
+    grid-column: 1/4;
+    grid-row: 6;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #fisher img {
+    grid-column: 3/4;
+    grid-row: 6;
+    width: 30%;
+    height: 170px;
+    margin-right: 60px;
+    margin-top: -50px;
+    padding-bottom: 10px;
+  }
+
+  #carolina {
+    grid-column: 1/4;
+    grid-row: 7;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #carolina img {
+    grid-column: 3/4;
+    grid-row: 7;
+    width: 30%;
+    margin-right: 25px;
+    margin-top: -50px;
+    padding-bottom: 10px;
+  }
+
+  .fpara {
+    font-size: 25px;
+  }
+
+  .byulink {
+    font-size: 25px;
+    margin-left: 130px;
+  }
+
+  .cite {
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 25px;
+  }
+}
+
+/*******************************************************************/
+@media only screen and (min-width: 1008px) {
+  .city {
+    font-size: 65px;
+  }
+
+  .chamber {
+    font-size: 50px;
+  }
+
+  .logo {
+    width: 20%;
+    margin-top: -150px;
+  }
+
+  .motto {
+    font-size: 45px;
+    margin-top: -50px;
+  }
+
+  nav {
+    margin-bottom: 50px;
+  }
+
+  .navList li {
+    font-size: 45px;
+    margin-left: 30px;
+  }
+
+  #lawyer {
+    grid-column: 1/3;
+    grid-row: 1;
+    font-size: 30px;
+    width: 70%;
+    margin-left: 20px;
+  }
+
+  #lawyer img {
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 30%;
+    padding-bottom: 50px;
+    margin-top: -320px;
+  }
+
+  #navy {
+    grid-column: 2/4;
+    grid-row: 1;
+    font-size: 30px;
+    width: 70%;
+    margin-left: 290px;
+  }
+
+  #navy img {
+    grid-column: 2/4;
+    grid-row: 1;
+    width: 30%;
+    padding-bottom: 10px;
+    margin-top: -90px;
+  }
+
+  #pepsi {
+    grid-column: 1/3;
+    grid-row: 2;
+    font-size: 30px;
+    width: 70%;
+    margin-left: 20px;
+  }
+
+  #pepsi img {
+    grid-column: 1/3;
+    grid-row: 2;
+    width: 30%;
+    padding-bottom: 150px;
+    margin-top: -270px;
+  }
+
+  #ccc1 {
+    grid-column: 2/4;
+    grid-row: 2;
+    font-size: 30px;
+    width: 70%;
+    margin-left: 290px;
+  }
+
+  #ccc1 img {
+    grid-column: 2/4;
+    grid-row: 2;
+    width: 30%;
+    padding-bottom: 150px;
+    margin-top: -250px;
+  }
+
+  #ccc2 {
+    grid-column: 1/3;
+    grid-row: 3;
+    font-size: 30px;
+    width: 70%;
+    margin-left: 20px;
+  }
+
+  #ccc2 img {
+    grid-column: 1/3;
+    grid-row: 3;
+    width: 30%;
+    padding-bottom: 150px;
+    margin-top: -250px;
+  }
+
+  #fisher {
+    grid-column: 2/4;
+    grid-row: 3;
+    font-size: 30px;
+    width: 70%;
+    margin-left: 290px;
+  }
+
+  #fisher img {
+    grid-column: 2/4;
+    grid-row: 3;
+    width: 30%;
+    padding-bottom: 10px;
+    margin-top: -90px;
+    margin-left: 450px;
+  }
+
+  #carolina {
+    grid-column: 1/4;
+    grid-row: 4;
+    font-size: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #carolina img {
+    grid-column: 1/4;
+    grid-row: 4;
+    width: 30%;
+    padding-bottom: 100px;
+    margin-top: -320px;
+  }
+
+  .fpara {
+    font-size: 40px;
+  }
+
+  .byulink {
+    font-size: 30px;
+    margin-left: 380px;
+  }
+
+  .cite {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 30px;
+  }
+}

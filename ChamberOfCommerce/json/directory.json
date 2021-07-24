@@ -1,24 +1,24 @@
 {
     "businesses": [
       {
-        "name": "Corwin Law Firm ",
+        "name": "Corwin Law Firm",
         "phone": "252.444.1888",
         "address": "803 E. Main Street Havelock, NC 28532",
         "logo": "",
-        "site": "www.corwinlegal.com "
+        "site": "www.corwinlegal.com"
       },
       
       {
         "name": "Navy Federal Credit Union",
-        "phone": "252.444.3035 ",
-        "address": "121 US Hwy 70 W. Havelock, NC 28532 ",
+        "phone": "252.444.3035",
+        "address": "121 US Hwy 70 W. Havelock, NC 28532",
         "logo": "",
-        "site": "www.navyfederal.org "
+        "site": "www.navyfederal.org"
       },
       
       {
         "name": "Minges Bottling Group",
-        "phone": "252.746.9706 ",
+        "phone": "252.746.9706",
         "address": "P.O. Box 520 Aden, NC 28513",
         "logo": "",
         "site": "www.pepsistore.com"
@@ -26,10 +26,10 @@
     
       {
         "name": "Craven Community College Havelock Campus",
-        "phone": "252.444.6005 ",
-        "address": "305 Cunningham Blvd. Havelock, NC 28532 ",
+        "phone": "252.444.6005",
+        "address": "305 Cunningham Blvd. Havelock, NC 28532",
         "logo": "",
-        "site": "www.cravencc.edu "
+        "site": "www.cravencc.edu"
       },
       
       {
@@ -37,21 +37,21 @@
         "phone": "252.447.638.7200",
         "address": "800 College Ct. New Bern, NC 28562",
         "logo": "",
-        "site": "www.cravencc.edu "
+        "site": "www.cravencc.edu"
       },
 
       {
-        "name": "Fisher Stores Inc. / Fuel Market ",
-        "phone": "252.633.6300 ",
-        "address": "110 Riverdale Road New Bern, NC 28562 ",
+        "name": "Fisher Stores Inc. / Fuel Market",
+        "phone": "252.633.6300",
+        "address": "110 Riverdale Road New Bern, NC 28562",
         "logo": "",
-        "site": "www.fisherstores.com "
+        "site": "www.fisherstores.com"
       },
       
       {
         "name": "CarolinaEast Health System",
-        "phone": "252.633.8154 ",
-        "address": "2000 Neuse Blvd. New Bern, NC 28562 ",
+        "phone": "252.633.8154",
+        "address": "2000 Neuse Blvd. New Bern, NC 28562",
         "logo": "",
         "site": "www.carolinaeasthealth.com"
       }

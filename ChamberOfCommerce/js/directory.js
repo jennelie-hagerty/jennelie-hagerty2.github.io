@@ -1,70 +1,96 @@
-const requestURL =
-  "https://byui-cit230.github.io/weather/data/towndata.json";
+const file = "../json/directory.json"
 
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    // console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const towns = jsonObject["towns"];
 
-    for (let i = 0; i < towns.length; i++) {
-      if (i == 0 || i == 2 || i == 6) {
-        let card = document.createElement("section");
+fetch(file)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        // console.table(jsonObject);  // temporary checking for valid response and data parsing
+        const businesses = jsonObject["businesses"];
 
-        let towndiv = document.createElement('div');
-        towndiv.classList.add("towndiv");
-        card.appendChild(towndiv)
+        for (let i = 0; i < businesses.length; i++) {
+            if (i >= 0) {
+                let card = document.createElement("section");
 
-        let h2 = document.createElement("h2");
-        h2.innerHTML = `${towns[i].name}`;
-        towndiv.appendChild(h2);
+                let busdiv = document.createElement('div');
+                busdiv.classList.add("busdiv");
+                card.appendChild(busdiv)
 
-        let townmotto = document.createElement('p');
-        townmotto.innerHTML = `${towns[i].motto}`;
-        townmotto.classList.add("townmotto");
-        towndiv.appendChild(townmotto);
+                let name = document.createElement("h2");
+                name.innerHTML = `${businesses[i].name}`;
+                name.classList.add("name");
+                busdiv.appendChild(name);
 
-        let yearfounded = document.createElement('p');
-        yearfounded.innerHTML = `Year founded: ${towns[i].yearFounded}`;
-        yearfounded.classList.add("yearfounded");
-        towndiv.appendChild(yearfounded);
+                let busphone = document.createElement('p');
+                busphone.innerHTML = `Phone Number: ${businesses[i].phone}`;
+                busphone.classList.add("busphone");
+                busdiv.appendChild(busphone);
 
-        let population = document.createElement('p');
-        population.innerHTML = `Population: ${towns[i].currentPopulation}`;
-        population.classList.add("population");
-        towndiv.appendChild(population);
+                let busaddress = document.createElement('p');
+                busaddress.innerHTML = `Address: ${businesses[i].address}`;
+                busaddress.classList.add("busaddress");
+                busdiv.appendChild(busaddress);
 
-        let rainfall = document.createElement('p');
-        rainfall.innerHTML = `Annual Rain Fall: ${towns[i].averageRainfall}`;
-        rainfall.classList.add("rainfall");
-        towndiv.appendChild(rainfall);
+                let bussite = document.createElement('p');
+                bussite.innerHTML = `Website: ${businesses[i].site}`;
+                bussite.classList.add("bussite");
+                busdiv.appendChild(bussite);
 
-        let townimage = document.createElement('img');
-        
-          if (i == 0) {
-            townimage.setAttribute('src', 'images/sodasprings.jpg')
-            townimage.setAttribute('alt', 'Image of ' + towns[i].name)
-            card.setAttribute('id', 'sodasprings')
-            card.appendChild(townimage);
-          } 
 
-          if (i == 2) {
-            townimage.setAttribute('src', 'images/fishhaven.jpg')
-            townimage.setAttribute('alt', 'Image of ' + towns[i].name)
-            card.setAttribute('id', 'fishhaven')
-            card.appendChild(townimage);
-          } 
 
-          if (i == 6) {
-            townimage.setAttribute('src', 'images/preston.jpg')
-            townimage.setAttribute('alt', 'Image of ' + towns[i].name)
-            card.setAttribute('id', 'preston')
-            card.appendChild(townimage);
-          } 
+                let busimage = document.createElement('img');
 
-        document.querySelector("div.cards").appendChild(card);
-      }
-    }
-  });
+                if (i == 0) {
+                    busimage.setAttribute('src', '../images/lawyer.jpg')
+                    busimage.setAttribute('alt', 'Image of ' + businesses[i].name)
+                    card.setAttribute('id', 'lawyer')
+                    card.appendChild(busimage);
+                }
+
+                if (i == 1) {
+                    busimage.setAttribute('src', '../images/nf.jpg')
+                    busimage.setAttribute('alt', 'Image of ' + businesses[i].name)
+                    card.setAttribute('id', 'navy')
+                    card.appendChild(busimage);
+                }
+
+                if (i == 2) {
+                    busimage.setAttribute('src', '../images/pepsi.jpg')
+                    busimage.setAttribute('alt', 'Image of ' + businesses[i].name)
+                    card.setAttribute('id', 'pepsi')
+                    card.appendChild(busimage);
+                }
+
+                if (i == 3) {
+                    busimage.setAttribute('src', '../images/craven.png')
+                    busimage.setAttribute('alt', 'Image of ' + businesses[i].name)
+                    card.setAttribute('id', 'ccc1')
+                    card.appendChild(busimage);
+                }
+
+                if (i == 4) {
+                    busimage.setAttribute('src', '../images/craven.png')
+                    busimage.setAttribute('alt', 'Image of ' + businesses[i].name)
+                    card.setAttribute('id', 'ccc2')
+                    card.appendChild(busimage);
+                }
+
+                if (i == 5) {
+                    busimage.setAttribute('src', '../images/fisher.jpg')
+                    busimage.setAttribute('alt', 'Image of ' + businesses[i].name)
+                    card.setAttribute('id', 'fisher')
+                    card.appendChild(busimage);
+                }
+
+                if (i == 6) {
+                    busimage.setAttribute('src', '../images/hospitable.png')
+                    busimage.setAttribute('alt', 'Image of ' + businesses[i].name)
+                    card.setAttribute('id', 'carolina')
+                    card.appendChild(busimage);
+                }
+
+                document.querySelector("div.cards").appendChild(card);
+            }
+        }
+    });
